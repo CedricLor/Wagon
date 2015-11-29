@@ -1,0 +1,18 @@
+---
+title: Page inconnue
+published: true
+---
+{% extends 'layouts/default' %}
+
+{% block content %}
+
+<div class="container">
+  <div class="jumbotron">
+    {% editable_text jumbotron, rows: 5, priority: 1 %}
+      <h1 class="text-danger">Arrggggh, page inconnue</h1>
+      <p>J'ai l'impression que vous vous égarez ! La page que vous cherchez n'existe pas.</p>
+    {% endeditable_text %}
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,13 @@
+{% for locale_string in locales %}
+  {% assign locale_string = locale_string | strip | strip_newlines %}
+  {% assign locale = locale | strip | strip_newlines %}
+  {% unless locale_string == locale %}
+
+    {% if tabulator == null %}
+      {% include 'locale_link_as_li', parent_slug: parent_slug, locale_string: locale_string %}
+    {% else %}
+      {% include 'locale_link_with_tabulation', parent_slug: parent_slug, locale_string: locale_string, tabulator: tabulator %}
+    {% endif %}
+
+  {% endunless %}
+{% endfor %}

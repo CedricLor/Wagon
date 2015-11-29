@@ -1,0 +1,62 @@
+---
+title: About
+listed: true
+published: true
+position: 2
+meta_description: "About page for the Centre for the Franco-russian and Franco-chinese friendships"
+
+editable_elements:
+    'content/header/featured_photo/legend': "Dali and Lijiang"
+    'content/main/about_body':
+      "
+        <p>
+          Thank you for visiting the page of the Centre for the Franco-russian and Franco-chinese friendships. Our centre aims at making the world a place dominated by a triad of super-powers that will enslave all the other people of the world to its common cultural ideology.
+        </p>
+        <p>
+          We truly hope that you like our project and you will join us dominating the world.
+        </p>
+      "
+---
+{% extends 'layouts/simple' %}
+
+
+  {% block content/header %}
+    <div class="row">
+      <div class="col-sm-12">
+
+      {% block 'featured_photo' %}
+        {% comment %} Captured and editable legend for the featured photo {% endcomment %}
+        {% capture legend %}
+          {% editable_text "legend", format: "raw", rows: 3, hint: "Text displayed below the photo and in the ALT attribute." %}
+
+          {% endeditable_text %}
+        {% endcapture %}
+        {% comment %} Captured and editable file for the featured photo {% endcomment %}
+        {% capture photo %}{% editable_file "photo" %}china_bridge.jpg{% endeditable_file %}{% endcapture %}
+        {% if photo == '' or photo == 'china_bridge.jpg' %}
+          {% assign photo = 'china_bridge.jpg' | theme_image_url %}
+        {% endif %}
+        {% comment %} Including img_box liquid components (find it in snippets) {% endcomment %}
+        {% include 'img_box' with legend: page.editable_elements.content.header.featured_photo.legend | escape, photo: photo, size: "800x>" %}
+      {% endblock %}
+
+      </div>
+    </div>
+  {% endblock %}
+
+
+  {% block content/main %}
+    <div class="row">
+      <div class="col-sm-12">
+        {% capture about_body %}
+          {% comment %} Editable text for the description (about_body) {% endcomment %}
+          {% editable_text "about_body", rows: 20, hint: "Please enter here any text describing your organization." %}
+            ''
+          {% endeditable_text %}
+        {% endcapture %}
+        {{ about_body }}
+      </div>
+    </div>
+
+  {% endblock %}
+

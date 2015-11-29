@@ -1,7 +1,98 @@
-body {
-  padding-top: 70px;
+@import "viewport-units-ios";
+
+* {
+  box-sizing: border-box;
 }
 
-footer {
-  margin-top: 70px;
+body {
+  padding-top: 70px;
+  /* home page */
+  &.page-index {
+    section.header-section {
+      height: 90vh;
+      .jumbotron {
+        color: #fff;
+        background-image: url('../images/chinese_great_wall.jpg');
+        background-position: center;
+        padding-top: 10px;
+        padding-bottom: 25%;
+        h1, h2 {
+          text-align: left;
+        }
+      }
+    }
+  }
+  /* news.liquid */
+  &.page-news div.news-listing {
+    margin-bottom: 20px;
+    .outer-wrapper-news-div {
+      padding: 10px;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  /* news/content_type_template.liquid */
+  article.news {
+    p.tags span {
+      margin-left: 10px;
+    }
+    h3.posted-at {
+      font-size: 20px;
+      margin-top: 0px;
+      color: #999;
+    }
+  }
 }
+
+
+/* Image box on about page */
+/* phones */
+.img-box {
+  width: 100%;
+  margin: 0px auto auto auto;
+  .img-resizable {
+    width: 800px;
+    cursor: pointer;
+  }
+  .img-belittled {
+    height: 300px;
+  }
+}
+.lightbox {
+  position: fixed;
+  top: 0px; left: 0px;
+  bottom: 0px; right: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: rgba(27, 26, 26, 0.43);
+  z-index: 1050;
+  cursor: pointer;
+  .img-enlarged {
+     width: 800px;
+  }
+  p {
+    color: white;
+    font-weight: bold;
+  }
+}
+
+/* the footer */
+.footer {
+  margin-top: 70px;
+  background-color: #333;
+  color: #fff;
+  p {
+    padding: 10px;
+    text-align: center;
+  }
+  a, a:visited {
+    color: #fff;
+  }
+}
+

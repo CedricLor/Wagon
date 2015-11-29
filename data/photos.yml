@@ -1,0 +1,435 @@
+- Fry and the Slurm Factory:
+    file: samples/placeholders/450x338.png
+    news: afternoon-delight
+- Jurassic Bark:
+    file: samples/placeholders/450x338.jpeg
+    news: afternoon-delight
+- My Three Suns:
+    file: samples/placeholders/800x450.jpeg
+    news: afternoon-delight
+- A Head in the Polls:
+    file: samples/placeholders/1280x960.jpeg
+    news: afternoon-delight
+- The Late Philip J. Fry:
+    file: samples/placeholders/1280x960.png
+    news: afternoon-delight
+- Teenage Mutant Leela's Hurdles:
+    file: samples/placeholders/800x600.jpeg
+    news: afternoon-delight
+- When Aliens Attack:
+    file: samples/placeholders/724x456.png
+    news: afternoon-delight
+- Future Stock:
+    file: samples/placeholders/800x450.jpeg
+    news: afternoon-delight
+- A Flight to Remember:
+    file: samples/placeholders/724x456.gif
+    news: afternoon-delight
+- Lesser of Two Evils:
+    file: samples/placeholders/1536x1180.jpeg
+    news: afternoon-delight
+- Spanish Fry:
+    file: samples/placeholders/1536x1180.jpeg
+    news: mr-f
+- My Three Suns:
+    file: samples/placeholders/640x480.jpg
+    news: mr-f
+- Kif Gets Knocked Up A Notch:
+    file: samples/placeholders/450x338.jpg
+    news: mr-f
+- Rebirth:
+    file: samples/placeholders/1280x960.jpg
+    news: mr-f
+- How Hermes Requisitioned His Groove Back:
+    file: samples/placeholders/450x338.jpg
+    news: mr-f
+- Mars University:
+    file: samples/placeholders/640x480.gif
+    news: mr-f
+- The Route of All Evil:
+    file: samples/placeholders/1024x768.gif
+    news: mr-f
+- Where No Fan Has Gone Before:
+    file: samples/placeholders/450x338.gif
+    news: mr-f
+- A Big Piece of Garbage:
+    file: samples/placeholders/800x600.png
+    news: mr-f
+- The Sith Lords:
+    file: samples/placeholders/1024x768.jpeg
+    news: afternoon-delight
+- The Phantom Menace:
+    file: samples/placeholders/1536x1180.jpeg
+    news: afternoon-delight
+- Attack of the Clones:
+    file: samples/placeholders/724x456.png
+    news: afternoon-delight
+- A New Hope:
+    file: samples/placeholders/1024x768.gif
+    news: afternoon-delight
+- The Phantom Menace:
+    file: samples/placeholders/1280x960.png
+    news: afternoon-delight
+- The Rebel Force:
+    file: samples/placeholders/1280x960.jpg
+    news: afternoon-delight
+- Xmas Story:
+    file: samples/placeholders/800x600.jpeg
+    news: doomsday
+- Bender Should Not Be Allowed on TV:
+    file: samples/placeholders/724x456.jpg
+    news: doomsday
+- The Problem With Popplers:
+    file: samples/placeholders/640x480.jpg
+    news: doomsday
+- The Duh-Vinci Code:
+    file: samples/placeholders/640x480.gif
+    news: doomsday
+- I Second That Emotion:
+    file: samples/placeholders/800x450.gif
+    news: doomsday
+- Insane in the Mainframe:
+    file: samples/placeholders/800x450.jpg
+    news: doomsday
+- I Second That Emotion:
+    file: samples/placeholders/450x338.png
+    news: doomsday
+- Teenage Mutant Leela's Hurdles:
+    file: samples/placeholders/1280x960.gif
+    news: doomsday
+- Lesser of Two Evils:
+    file: samples/placeholders/800x600.png
+    news: doomsday
+- Anthology of Interest II:
+    file: samples/placeholders/450x338.png
+    news: doomsday
+- A Clockwork Origin:
+    file: samples/placeholders/724x456.gif
+    news: doomsday
+- Porro Quisquam:
+    file: samples/placeholders/640x480.jpg
+    news: the-sontaran-stratagem
+- Ut Enim:
+    file: samples/placeholders/1536x1180.png
+    news: the-sontaran-stratagem
+- Ut Enim:
+    file: samples/placeholders/724x456.jpg
+    news: the-sontaran-stratagem
+- At Vero:
+    file: samples/placeholders/1280x960.jpeg
+    news: the-sontaran-stratagem
+- Excepteur Sint:
+    file: samples/placeholders/1024x768.gif
+    news: the-sontaran-stratagem
+- The Rebel Force:
+    file: samples/placeholders/1024x768.png
+    news: planet-of-the-dead
+- Attack of the Clones:
+    file: samples/placeholders/1024x768.gif
+    news: planet-of-the-dead
+- Revenge of the Sith:
+    file: samples/placeholders/800x600.gif
+    news: planet-of-the-dead
+- Revenge of the Sith:
+    file: samples/placeholders/1280x960.png
+    news: planet-of-the-dead
+- Jedi Academy:
+    file: samples/placeholders/1280x960.jpg
+    news: planet-of-the-dead
+- Attack of the Clones:
+    file: samples/placeholders/724x456.jpeg
+    news: planet-of-the-dead
+- The Rebel Force:
+    file: samples/placeholders/1024x768.jpg
+    news: planet-of-the-dead
+- Knights of the Old Republic:
+    file: samples/placeholders/1280x960.jpg
+    news: planet-of-the-dead
+- Revenge of the Sith:
+    file: samples/placeholders/640x480.png
+    news: planet-of-the-dead
+- The Sound of Drums:
+    file: samples/placeholders/450x338.jpeg
+    news: circle-us
+- Turn Left:
+    file: samples/placeholders/1280x960.gif
+    news: circle-us
+- The Runaway Bride:
+    file: samples/placeholders/640x480.jpg
+    news: circle-us
+- A Good Man Goes to War:
+    file: samples/placeholders/1024x768.png
+    news: circle-us
+- The Pandorica Opens:
+    file: samples/placeholders/800x600.jpeg
+    news: circle-us
+- The Big Bang:
+    file: samples/placeholders/1024x768.png
+    news: circle-us
+- Fear Her:
+    file: samples/placeholders/1024x768.png
+    news: circle-us
+- The Impossible Astronaut:
+    file: samples/placeholders/800x600.jpg
+    news: circle-us
+- Aliens of London:
+    file: samples/placeholders/450x338.png
+    news: teenage-wasteland
+- Vincent and the Doctor:
+    file: samples/placeholders/1024x768.jpg
+    news: teenage-wasteland
+- Boom Town:
+    file: samples/placeholders/800x600.jpeg
+    news: teenage-wasteland
+- Father's Day:
+    file: samples/placeholders/800x600.jpeg
+    news: teenage-wasteland
+- Turn Left:
+    file: samples/placeholders/1280x960.jpg
+    news: teenage-wasteland
+- The Rebel Flesh:
+    file: samples/placeholders/1280x960.png
+    news: teenage-wasteland
+- Boom Town:
+    file: samples/placeholders/724x456.jpg
+    news: teenage-wasteland
+- Evolution of the Daleks:
+    file: samples/placeholders/450x338.gif
+    news: teenage-wasteland
+- The Idiot's Lantern:
+    file: samples/placeholders/1024x768.jpeg
+    news: teenage-wasteland
+- The Pandorica Opens:
+    file: samples/placeholders/640x480.gif
+    news: teenage-wasteland
+- The Impossible Astronaut:
+    file: samples/placeholders/1280x960.jpeg
+    news: teenage-wasteland
+- Practically Perfect:
+    file: samples/placeholders/450x338.jpeg
+    news: shrink-wrap
+- Love American Style:
+    file: samples/placeholders/450x338.png
+    news: shrink-wrap
+- Living the Dream:
+    file: samples/placeholders/1280x960.gif
+    news: shrink-wrap
+- Waiting to Exhale:
+    file: samples/placeholders/800x450.gif
+    news: shrink-wrap
+- Road Kill:
+    file: samples/placeholders/640x480.png
+    news: a-leela-of-her-own
+- Anthology of Interest II:
+    file: samples/placeholders/800x450.jpeg
+    news: godfellas
+- Brannigan, Begin Again:
+    file: samples/placeholders/1280x960.jpg
+    news: godfellas
+- Ut Enim:
+    file: samples/placeholders/1536x1180.png
+    news: in-a-gadda-da-leela
+- Duis Aute Irure Dolor:
+    file: samples/placeholders/800x600.gif
+    news: in-a-gadda-da-leela
+- Et Harum Qidem Rerum:
+    file: samples/placeholders/724x456.jpg
+    news: in-a-gadda-da-leela
+- At Vero:
+    file: samples/placeholders/1536x1180.gif
+    news: in-a-gadda-da-leela
+- Et Harum Qidem Rerum:
+    file: samples/placeholders/1536x1180.jpeg
+    news: in-a-gadda-da-leela
+- Excepteur Sint:
+    file: samples/placeholders/1024x768.jpg
+    news: in-a-gadda-da-leela
+- Temporibus Autem Quibusdam:
+    file: samples/placeholders/724x456.png
+    news: in-a-gadda-da-leela
+- Temporibus Autem Quibusdam:
+    file: samples/placeholders/1280x960.png
+    news: in-a-gadda-da-leela
+- Itaque Earum Rerum:
+    file: samples/placeholders/800x450.jpg
+    news: in-a-gadda-da-leela
+- Et Harum Qidem Rerum:
+    file: samples/placeholders/800x450.jpg
+    news: in-a-gadda-da-leela
+- How do you know she is a witch?:
+    file: samples/placeholders/724x456.png
+    news: how-do-you-know-she-is-a-witch
+- What is your quest?:
+    file: samples/placeholders/724x456.jpg
+    news: how-do-you-know-she-is-a-witch
+- Exit Strategy:
+    file: samples/placeholders/640x480.jpeg
+    news: we-want-a-shrubbery
+- Forget-Me-Now:
+    file: samples/placeholders/724x456.jpg
+    news: we-want-a-shrubbery
+- Let 'Em Eat Cake:
+    file: samples/placeholders/800x450.gif
+    news: we-want-a-shrubbery
+- Top Banana:
+    file: samples/placeholders/800x600.gif
+    news: we-want-a-shrubbery
+- Good Grief!:
+    file: samples/placeholders/1536x1180.jpg
+    news: we-want-a-shrubbery
+- Mr. F:
+    file: samples/placeholders/1536x1180.gif
+    news: we-want-a-shrubbery
+- Amigos:
+    file: samples/placeholders/1024x768.gif
+    news: we-want-a-shrubbery
+- Pier Pressure:
+    file: samples/placeholders/800x450.gif
+    news: we-want-a-shrubbery
+- Afternoon delight:
+    file: samples/placeholders/1280x960.png
+    news: we-want-a-shrubbery
+- Forget-Me-Now:
+    file: samples/placeholders/1024x768.jpg
+    news: we-want-a-shrubbery
+- Mr. F:
+    file: samples/placeholders/1024x768.jpeg
+    news: we-want-a-shrubbery
+- Revenge of the Sith:
+    file: samples/placeholders/1024x768.jpeg
+    news: sir-lancelot
+- Knights of the Old Republic:
+    file: samples/placeholders/1536x1180.png
+    news: sir-lancelot
+- Knights of the Old Republic:
+    file: samples/placeholders/1280x960.jpg
+    news: sir-lancelot
+- Knights of the Old Republic:
+    file: samples/placeholders/450x338.png
+    news: sir-lancelot
+- The Rebel Force:
+    file: samples/placeholders/800x600.jpg
+    news: sir-lancelot
+- Imperial Star Destroyer:
+    file: samples/placeholders/800x600.png
+    news: sir-lancelot
+- Living the Dream:
+    file: samples/placeholders/1280x960.gif
+    news: a-streetcar-named-marge
+- Blinded by the Light:
+    file: samples/placeholders/640x480.gif
+    news: a-streetcar-named-marge
+- Hello Bandit:
+    file: samples/placeholders/800x600.gif
+    news: a-streetcar-named-marge
+- About Last Night:
+    file: samples/placeholders/1280x960.png
+    news: a-fish-called-selma
+- Slack Tide:
+    file: samples/placeholders/1536x1180.jpg
+    news: a-fish-called-selma
+- There's Something About Harry:
+    file: samples/placeholders/640x480.jpg
+    news: a-fish-called-selma
+- Road Kill:
+    file: samples/placeholders/450x338.png
+    news: a-fish-called-selma
+- Hungry Man:
+    file: samples/placeholders/640x480.jpg
+    news: a-fish-called-selma
+- Slack Tide:
+    file: samples/placeholders/724x456.png
+    news: a-fish-called-selma
+- Circle of Friends:
+    file: samples/placeholders/800x600.png
+    news: a-fish-called-selma
+- Left Turn Ahead:
+    file: samples/placeholders/1280x960.jpeg
+    news: a-fish-called-selma
+- Hello, Morgan:
+    file: samples/placeholders/450x338.png
+    news: a-fish-called-selma
+- Our Father:
+    file: samples/placeholders/1024x768.jpg
+    news: a-fish-called-selma
+- Road Kill:
+    file: samples/placeholders/1536x1180.jpg
+    news: a-fish-called-selma
+- If I Had a Hammer:
+    file: samples/placeholders/640x480.jpg
+    news: rebel-mission-to-ord-mantell
+- Circle of Friends:
+    file: samples/placeholders/450x338.jpeg
+    news: rebel-mission-to-ord-mantell
+- There's Something About Harry:
+    file: samples/placeholders/800x600.png
+    news: rebel-mission-to-ord-mantell
+- Mr. F:
+    file: samples/placeholders/1280x960.jpg
+    news: revenge-of-the-sith
+- Let 'Em Eat Cake:
+    file: samples/placeholders/1280x960.jpg
+    news: revenge-of-the-sith
+- Let 'Em Eat Cake:
+    file: samples/placeholders/800x600.jpeg
+    news: revenge-of-the-sith
+- Afternoon delight:
+    file: samples/placeholders/1536x1180.jpg
+    news: revenge-of-the-sith
+- Ready, Aim, Marry Me:
+    file: samples/placeholders/724x456.gif
+    news: revenge-of-the-sith
+- Top Banana:
+    file: samples/placeholders/800x600.gif
+    news: revenge-of-the-sith
+- Meat the Veals:
+    file: samples/placeholders/1024x768.jpeg
+    news: revenge-of-the-sith
+- Afternoon delight:
+    file: samples/placeholders/724x456.png
+    news: revenge-of-the-sith
+- Let 'Em Eat Cake:
+    file: samples/placeholders/1536x1180.jpeg
+    news: revenge-of-the-sith
+- Top Banana:
+    file: samples/placeholders/724x456.jpeg
+    news: revenge-of-the-sith
+- Partners in Crime:
+    file: samples/placeholders/1024x768.gif
+    news: temporibus-autem-quibusdam
+- Fear Her:
+    file: samples/placeholders/640x480.png
+    news: temporibus-autem-quibusdam
+- The Satan Pit:
+    file: samples/placeholders/724x456.gif
+    news: temporibus-autem-quibusdam
+- The Sontaran Stratagem:
+    file: samples/placeholders/640x480.jpg
+    news: temporibus-autem-quibusdam
+- Partners in Crime:
+    file: samples/placeholders/800x600.png
+    news: temporibus-autem-quibusdam
+- Remains to Be Seen:
+    file: samples/placeholders/1280x960.gif
+    news: duis-aute-irure-dolor
+- Finding Freebo:
+    file: samples/placeholders/800x600.jpg
+    news: quis-nostrum
+- Left Turn Ahead:
+    file: samples/placeholders/1280x960.jpeg
+    news: quis-nostrum
+- Turning Biminese:
+    file: samples/placeholders/800x600.jpg
+    news: quis-nostrum
+- Finding Freebo:
+    file: samples/placeholders/1024x768.png
+    news: quis-nostrum
+- The Damage a Man Can Do:
+    file: samples/placeholders/1280x960.png
+    news: quis-nostrum
+- Circle of Friends:
+    file: samples/placeholders/1536x1180.png
+    news: quis-nostrum
+- Turning Biminese:
+    file: samples/placeholders/450x338.gif
+    news: quis-nostrum

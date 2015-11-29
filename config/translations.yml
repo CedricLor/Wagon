@@ -6,3 +6,83 @@
 # hello_world:
 #   en: Hello world !
 #   fr: Bonjour le monde !
+
+home_page:
+  en: "Home"
+  fr: "Accueil"
+  ru: "добро пожаловать"
+  zh-CN: 家
+
+read_more:
+  en: "Read more..."
+  fr: "Lire la suite..."
+  ru: "подробнее..."
+  zh-CN: "了解更多"
+
+en:
+  fr: "English"
+  en: "English"
+  ru: "English"
+  zh-CN: "English"
+
+fr:
+  en: "Français"
+  fr: "Français"
+  ru: "Français"
+  zh-CN: "Français"
+
+ru:
+  en: "Русе"
+  fr: "Русе"
+  ru: "Русе"
+  zh-CN: "Русе"
+
+zh-CN:
+  en: "中文"
+  fr: "中文"
+  ru: "中文"
+  zu-CN: "中文"
+
+languages:
+  en: "Languages"
+  fr: "Langues"
+  ru: "Языки"
+  zh-CN: "语言"
+
+site_published_title:
+  en: "Centre for the Franco-Russian and Franco-Chinese Friendships"
+  fr: "Centre pour l'amitié franco-russe et franco-chinoise"
+  ru: "Центр Франко-русский и франко-китайские дружеские"
+  zh-CN: "中心法俄和法 - 中国友谊"
+
+posted_at_format:
+  en: 'Posted at %-I:%M %p on %B, %-d %Y'
+  fr: 'Publié à %-I:%M %p le %-d %B %Y'
+
+locale:
+  en: 'English'
+  fr: 'Français'
+  ru: 'Русе'
+  zh-CN: '中文'
+
+the_following_errors _occured:
+  en: "The following errors occured"
+  fr: "Les erreurs suivantes sont intervenues :"
+
+email:
+  en: 'Email'
+  fr: "Email"
+  ru: "Эл. адрес"
+  zh-CN: "电子邮件"
+
+user_message:
+  en: "Message"
+  fr: "Message"
+  ru: "Сообщение"
+  zCH: "信息"
+
+Submit:
+  en: "Submit"
+  fr: "Envoyer"
+  ru:  "Отправить"
+  zCH: "提交"

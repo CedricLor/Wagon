@@ -1,0 +1,10 @@
+
+<a href="/{{ locale_string }}/{{ parent_slug }}{{ page.slug }}">
+  {{ locale_string | translate }}
+</a>
+
+{% unless locale == locales.last and forloop.index == forloop.length - 1 %}
+  {% if locale_string != locales.last %}
+    {{ tabulator }}
+  {% endif %}
+{% endunless %}

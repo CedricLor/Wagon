@@ -1,0 +1,18 @@
+---
+title: Страница не найдена
+published: true
+---
+{% extends 'layouts/default' %}
+
+{% block content %}
+
+<div class="container">
+  <div class="jumbotron">
+    {% editable_text jumbotron, rows: 5, priority: 1 %}
+      <h1 class="text-danger">Arrggggh , страница не найдена</h1>
+      <p>Похоже, что вы блуждали слишком далеко ! Страница, которую вы ищете , не существует.</p>
+    {% endeditable_text %}
+  </div>
+</div>
+
+{% endblock %}

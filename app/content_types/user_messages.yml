@@ -1,0 +1,28 @@
+name: User messages
+slug: user_messages
+description: Messages submitted via the website
+label_field_name: email
+order_by: created_at
+order_direction: asc
+# Specify a field slug to group entries by that field in the back-office.
+# group_by: <your field>
+public_submission_enabled: true
+# Control the display of the content type in the back-office.
+# display_settings:
+#   seo: false              # display the SEO tab for the content entries
+#   advanced: false         # display the Advanced tab for the content entries
+#   position: 1             # position in the sidebar menu
+#   hidden: false           # hidden for authors?
+
+# By default, the back-office displays the _label property (see label_field_name) of the content entry. This can be modified by writing your own Liquid template below:
+# entry_template: '<a href="{{ link }}">{{ entry._label }}</a>' # The default template
+
+fields:
+- email:
+    label: Email
+    type: string
+    required: false
+- message:
+    label: Message
+    type: text
+    required: false

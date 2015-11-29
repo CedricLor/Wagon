@@ -1,0 +1,61 @@
+name: News
+slug: news
+description: News of the Centre for the Franco-Russian and Franco-Chinese friendships
+label_field_name: title
+order_by: posted_at
+order_direction: desc
+display_settings:
+  seo: false
+  advanced: false
+
+# A list describing each field
+fields:
+- title: # The lowercase, underscored name of the field
+    label: Title # Human readable name of the field
+    type: string
+    required: true
+    localized: true
+
+- posted_at: # The lowercase, underscored name of the field
+    label: Posted at # Human readable name of the field
+    type: date_time
+    required: true
+    localized: false
+
+- tags: # The lowercase, underscored name of the field
+    label: Tags # Human readable name of the field
+    type: tags
+    required: false
+    localized: false
+
+- teaser: # The lowercase, underscored name of the field
+    label: Teaser # Human readable name of the field
+    type: text
+    required: false
+    hint: "A short lead-in to the news, displayed when listing posts"
+    localized: true
+    text_formatting: html # html (uses rich text editor), markdown or text (uses plain text editor)
+
+- featured_image: # The lowercase, underscored name of the field
+    label: Featured image # Human readable name of the field
+    type: file
+    required: false
+    hint: An image displayed next to the teaser when listing posts
+    localized: false
+
+- body: # The lowercase, underscored name of the field
+    label: Body # Human readable name of the field
+    type: text
+    required: true
+    hint: The full news text
+    localized: true
+    text_formatting: html # html (uses rich text editor), markdown or text (uses plain text editor)
+
+- photos:
+    label: Photos
+    type: has_many
+    required: false
+    localized: false
+    class_name: photos # Define the slug of the target content type (eg. comments)
+    inverse_of: news  # Define the name of the field referring to news in the target content type
+    ui_enabled: true # If you want to manage the entries of the relationship directly from the source entry

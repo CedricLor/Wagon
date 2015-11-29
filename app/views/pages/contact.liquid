@@ -1,0 +1,51 @@
+---
+title: Contact
+published: true
+listed: true
+handle: home
+meta_description:
+  en: "Contact Page of the Website of the Centre for the Franco-Russian and Franco-Chinese Friendships"
+  fr: "Page de contact du site internet du Centre pour l\'amitié franco-russe et franco-chinoise"
+  ru: "ССвязаться страница сайта Центра франко-российских и франко-китайских Дружеские"
+  zh-CN: "该中心的法俄和法 - 中国友谊网站的联系页面"
+seo_title:
+  en: "Contact Page of the Website of the Centre for the Franco-Russian and Franco-Chinese Friendships"
+  fr: "Page de contact du site internet du Centre pour l\'amitié franco-russe et franco-chinoise"
+  ru: "ССвязаться страница сайта Центра франко-российских и франко-китайских Дружеские"
+  zh-CN: "该中心的法俄和法 - 中国友谊网站的联系页面"
+position: 3
+---
+{% extends 'layouts/simple' %}
+
+{% block content/header %}
+
+{% endblock %}
+
+{% block content/main %}
+
+    {% model_form 'user_messages', success: '/', error: '/contact', class: "form" %}
+
+      {% if user_message.errors %}
+        <p>{{ the_following_errors_occured | translate }}</p>
+        <ul>
+        {% for error in user_message.errors %}
+          <li>{{error[0] | capitalize}} -  {{error[1]}}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+
+      <div class="form-group">
+        <label for="inputEmail" class="control-label">{{ 'email' | translate }}</label>
+        <input name="content[email]" type="email" class="form-control" id="inputEmail" placeholder="{{ 'email' | translate }}" value="{{user_message.email}}">
+      </div>
+      <div class="form-group">
+        <label for="inputPassword3" class="control-label">{{ 'user_message': | translate }}</label>
+        <textarea name="content[message]" class="form-control" id="message" placeholder="{{ 'user_message' | translate }}" rows="3">{{user_message.message}}</textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-default">{{ "Submit" | translate }}</button>
+      </div>
+
+    {% endmodel_form %}
+
+{% endblock %}

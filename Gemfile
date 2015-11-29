@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'locomotivecms_steam', github: 'locomotivecms/steam', branch: 'master', ref: 'f005060', require: false
 gem 'locomotivecms_wagon', '~> 2.0.0.rc4'
 
 # gem 'guard-livereload', '~> 2.5.1'

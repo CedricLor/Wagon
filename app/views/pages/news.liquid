@@ -1,0 +1,85 @@
+---
+title: News
+listed: true
+published: true
+position: 1
+handle: news_index
+slug: news
+meta_description: "News page of the website of the Centre for the Franco-russian and Franco-chinese friendships"
+---
+{% extends 'layouts/simple' %}
+
+  {% block 'content/header' %}
+
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="text-left">{{ page.title | escape }}</h2>
+      </div>
+    </div>
+
+  {% endblock %}
+
+  {% block content/main %}
+    {% editable_model news, hint: 'some text' %}
+      <div class="row news">
+        {% for news in contents.news %}
+          <div class="news-listing col-sm-6 col-md-4">
+            <div class="thumbnail outer-wrapper-news-div">
+              <div class="inner-wrapper-news-div">
+                <!--div class="news-sizing-wrapper">-->
+                  {% if news.featured_image.url %}
+                    <img src="{{ news.featured_image.url | resize: '400x200#' }}" alt="{{ news.title | escape }}">
+                  {% endif %}
+                  <div class="legend">
+                    <h3>{{ news.title | escape }}</h3>
+                    <div class="teaser">{{ news.teaser }}</div>
+                  </div>
+                <!--</div>-->
+              </div>
+              <p class="btn-container">
+                <!--<a href="/news/{{ news._slug }}"  class="btn btn-primary">-->
+                <a href="{% path_to news %}" class="btn btn-primary">
+                  {{ 'read_more' | translate }}
+                </a>
+              </p>
+            </div>
+          </div>
+          {% cycle  '', '<div class="clearfix visible-sm">&nbsp;</div>' %}
+          {% cycle '', '', '<div class="clearfix hidden-sm hidden-xs">&nbsp;</div>'  %}
+        {% endfor %}
+      </div>
+    {% endeditable_model %}
+
+    {% assign data = '[{' %}
+    {% for news in contents.news %}
+
+      {% assign data = data | concat: "imageSrc:'" %}
+      {% if news.featured_image.url %}
+        {% assign resized_picture_url = news.featured_image.url | resize: '400x200#' | json %}
+        {% assign data = data | concat: resized_picture_url %}
+      {% assign data = data | concat: "," %}
+      {% endif %}
+
+      {% assign news_title = news.title | escape | strip | json %}
+      {% assign data = data | concat: "newsTitle:" %}
+      {% assign data = data | concat: news_title | concat: "," %}
+
+      {% assign newsTeaser = news.teaser | json %}
+      {% assign data = data | concat: "newsTeaser:" | concat: newsTeaser | concat: "," %}
+
+      {% assign readMoreLocalized = 'read_more' | translate | json %}
+      {% assign data = data | concat: "readMoreMessage:" | concat: readMoreLocalized | concat: "," %}
+
+      {% assign pathToNews = path_to news | json %}
+      {% assign data = data | concat: "pathToNews:" | concat: pathToNews %}
+      {% unless news.last %}
+        {% assign data = data | concat: "},{" %}
+      {% endunless %}
+    {% endfor %}
+    {% assign data = data | concat "}]" %}
+
+    <div data-for-react="{{ data }}">
+
+    </div>
+
+  {% endblock %}

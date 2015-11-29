@@ -1,0 +1,18 @@
+---
+title: 未知页
+published: true
+---
+{% extends 'layouts/default' %}
+
+{% block content %}
+
+<div class="container">
+  <div class="jumbotron">
+    {% editable_text jumbotron, rows: 5, priority: 1 %}
+      <h1 class="text-danger">Arrggggh, 未知页</h1>
+      <p>它看起来像你逛到有点太过分了！您正在查找的页面不存在。</p>
+    {% endeditable_text %}
+  </div>
+</div>
+
+{% endblock %}

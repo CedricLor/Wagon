@@ -1,0 +1,51 @@
+---
+title: News template
+
+listed: false
+published: true
+
+content_type: news
+---
+{% extends parent %}
+
+  {% block content/main %}
+
+    <article class="news">
+      <h3 class="posted-at">
+        {% assign posted_at_format = 'posted_at_format' | translate %}
+        {{ news.posted_at | localized_date: posted_at_format }}
+      </h3>
+
+      {% if news.tags %}
+        <p class="tags">
+          <i class="glyphicon glyphicon-tags"></i>
+          {% for tag in news.tags %}
+            <span class="label label-primary">{{ tag | escape }}</span>
+          {% endfor %}
+        </p>
+      {% endif %}
+
+      <div class="news-body">
+        {{ news.body }}
+      </div>
+
+      {% if news.photos.size > 0 %}
+        <h3>Photos</h3>
+          <div class="photos row">
+            {% for photo in news.photos %}
+              <div class="photo col-xs-6 col-sm-4 col-md-3">
+                {% assign legend = photo.legend %}
+                {% assign size = '350x300#' %}
+                {% include 'img_box' with photo: photo.file, legend, size  %}
+              </div>
+              {% cycle  '', '<div class="clearfix visible-xs">&nbsp;</div>' %}
+              {% cycle '', '', '<div class="clearfix visible-sm ">&nbsp;</div>' %}
+              {% cycle '', '', '', '<div class="clearfix hidden-sm hidden-xs">&nbsp;</div>' %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+
+    </article>
+
+  {% endblock %}
