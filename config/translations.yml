@@ -63,7 +63,7 @@ locale:
   en: 'English'
   fr: 'Français'
   ru: 'Русе'
-  zh-CN: '中文'
+  zh_CN: '中文'
 
 the_following_errors_occured:
   en: "The following errors occured"

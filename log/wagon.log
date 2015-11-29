@@ -2342,3 +2342,228 @@ service=listen action=reload resource=pages timestamp=2015-11-29 16:24:28 +0100
 service=listen action=reload resource=snippets timestamp=2015-11-29 16:24:28 +0100
 service=listen action=reload resource=content_entries timestamp=2015-11-29 16:24:28 +0100
 service=listen action=reload resource=translations timestamp=2015-11-29 16:24:28 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/" at 2015-11-29 17:15:23 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/" at 2015-11-29 17:15:23 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+[index] missing editable_file "photo" (content/main/featured_photo)
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[index] missing editable_file "photo" (content/main/featured_photo)
+  [0;32;49mCompleted 200 OK in 92.5ms
+
+[0m
+  [0;32;49mCompleted 200 OK in 616.4ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-11-29 17:17:26 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 17:17:26 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/" at 2015-11-29 17:17:34 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[index] missing editable_file "photo" (content/main/featured_photo)
+  [0;32;49mCompleted 200 OK in 66.2ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/contact" at 2015-11-29 17:18:54 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Contact" [contact]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[contact] missing editable_text "css_injection" (css_injection)
+  [0;32;49mCompleted 200 OK in 26.0ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-11-29 17:23:44 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 17:23:44 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/" at 2015-11-29 17:23:48 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[index] missing editable_file "photo" (content/main/featured_photo)
+  [0;32;49mCompleted 200 OK in 67.6ms
+
+[0m
+service=listen action=reload resource=site timestamp=2015-11-29 17:25:24 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 17:25:24 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 17:25:24 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 17:25:24 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 17:25:24 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 17:25:24 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/" at 2015-11-29 17:25:28 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[index] missing editable_file "photo" (content/main/featured_photo)
+  [0;32;49mCompleted 200 OK in 68.1ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/" at 2015-11-29 17:25:35 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[index] missing editable_file "photo" (content/main/featured_photo)
+  [0;32;49mCompleted 200 OK in 38.2ms
+
+[0m
+service=listen action=reload resource=site timestamp=2015-11-29 17:26:02 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 17:26:02 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 17:26:02 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 17:26:02 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 17:26:02 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 17:26:02 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/" at 2015-11-29 17:26:05 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[index] missing editable_file "photo" (content/main/featured_photo)
+  [0;32;49mCompleted 200 OK in 69.7ms
+
+[0m
+service=listen action=reload resource=site timestamp=2015-11-29 17:27:52 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 17:27:52 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 17:27:52 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 17:27:52 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 17:27:52 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 17:27:52 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 17:28:02 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 17:28:02 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 17:28:02 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 17:28:02 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 17:28:02 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 17:28:02 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 17:28:11 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 17:28:11 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 17:28:11 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 17:28:11 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 17:28:11 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 17:28:11 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 17:28:19 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 17:28:19 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 17:28:19 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 17:28:19 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 17:28:19 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 17:28:19 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/" at 2015-11-29 17:28:22 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[index] missing editable_file "photo" (content/main/featured_photo)
+  [0;32;49mCompleted 200 OK in 65.5ms
+
+[0m
+service=listen action=reload resource=site timestamp=2015-11-29 17:28:33 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 17:28:33 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 17:28:33 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 17:28:33 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 17:28:33 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 17:28:33 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/" at 2015-11-29 17:28:35 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[index] missing editable_file "photo" (content/main/featured_photo)
+  [0;32;49mCompleted 200 OK in 72.4ms
+
+[0m
+service=listen action=reload resource=site timestamp=2015-11-29 17:28:41 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 17:28:41 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 17:28:41 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 17:28:41 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 17:28:41 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 17:28:41 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 17:31:47 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 17:31:47 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 17:31:47 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 17:31:47 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 17:31:47 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 17:31:47 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/" at 2015-11-29 17:31:50 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh_CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/main/featured_photo)
+[0;33;49mMissing translation 'zh_CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 254.6ms
+
+[0m
+service=listen action=reload resource=site timestamp=2015-11-29 17:31:58 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 17:31:58 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 17:31:58 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 17:31:58 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 17:31:58 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 17:31:58 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/" at 2015-11-29 17:31:59 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/main/featured_photo)
+[0;33;49mMissing translation 'zh' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 61.0ms
+
+[0m
+service=listen action=reload resource=site timestamp=2015-11-29 17:32:04 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 17:32:04 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 17:32:04 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 17:32:04 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 17:32:04 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 17:32:04 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 17:32:08 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 17:32:08 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 17:32:08 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 17:32:08 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 17:32:08 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 17:32:08 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 17:32:58 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 17:32:58 +0100
