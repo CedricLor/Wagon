@@ -2036,3 +2036,290 @@ service=listen action=reload resource=pages timestamp=2015-11-29 14:29:03 +0100
 service=listen action=reload resource=snippets timestamp=2015-11-29 14:29:03 +0100
 service=listen action=reload resource=pages timestamp=2015-11-29 14:29:09 +0100
 service=listen action=reload resource=snippets timestamp=2015-11-29 14:29:09 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/fr/news/my-english-news-post" at 2015-11-29 14:40:57 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Modèle pour les actualités" [news/content_type_template]
+  Found content entry: Mon actualité en anglais (traduite en français)
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[0;33;49mMissing translation 'Centre pour l&#39;amitié franco-russe et franco-chinoise' for the 'fr' locale[0m
+[news/content_type_template] missing editable_text "css_injection" (css_injection)
+  [0;32;49mCompleted 200 OK in 1044.6ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/en/news/my-english-news-post" at 2015-11-29 14:41:06 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  [0;34;49mRedirected to /news/my-english-news-post[0m
+  [0;32;49mCompleted 301 Found in 0.8ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news/my-english-news-post" at 2015-11-29 14:41:06 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News template" [news/content_type_template]
+  Found content entry: My English News Post
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[0;33;49mMissing translation 'Centre for the Franco-Russian and Franco-Chinese friendships' for the 'en' locale[0m
+[news/content_type_template] missing editable_text "css_injection" (css_injection)
+  [0;32;49mCompleted 200 OK in 49.0ms
+
+[0m
+service=listen action=reload resource=site timestamp=2015-11-29 14:43:02 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 14:43:02 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 14:43:02 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 14:43:02 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 14:43:02 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 14:43:02 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 14:52:44 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 14:52:44 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 14:52:49 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 14:52:49 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 14:52:54 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 14:52:54 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 14:52:59 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 14:52:59 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 14:53:11 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 14:53:11 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 14:53:11 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 14:53:11 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 14:53:11 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 14:53:11 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 14:54:53 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 14:54:53 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 14:54:53 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 14:54:53 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 14:54:53 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 14:54:53 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:00:35 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:00:35 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:00:35 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:00:35 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:00:35 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:00:35 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:00:44 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:00:44 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:00:44 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:00:44 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:00:44 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:00:44 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:00:49 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:00:49 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:00:49 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:00:49 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:00:49 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:00:49 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:00:58 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:00:58 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:00:58 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:00:58 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:00:58 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:00:58 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:01:10 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:01:10 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:01:15 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:01:15 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:03:58 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:03:58 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:03:58 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:03:58 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:03:58 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:03:58 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:04:01 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:04:01 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:04:01 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:04:01 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:04:01 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:04:01 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:06:15 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:06:15 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:08:36 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:08:36 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:08:36 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:08:36 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:08:36 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:08:36 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:08:47 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:08:47 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:08:47 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:08:47 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:08:47 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:08:47 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:08:51 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:08:51 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:08:51 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:08:51 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:08:51 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:08:51 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:10:19 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:10:19 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:10:19 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:10:19 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:10:19 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:10:19 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:13:19 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:13:19 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:13:19 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:13:19 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:13:19 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:13:19 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:14:23 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:14:23 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:14:23 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:14:23 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:14:23 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:14:23 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:18:46 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:18:46 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:18:46 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:18:46 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:18:46 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:18:46 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:18:50 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:18:50 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:18:50 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:18:50 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:18:50 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:18:50 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:18:57 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:18:57 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:18:57 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:18:57 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:18:57 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:18:57 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:22:39 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:22:39 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:22:51 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:22:51 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:22:57 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:22:57 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:23:04 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:23:04 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:23:25 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:23:25 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:23:43 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:23:43 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:23:49 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:23:49 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:23:55 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:23:55 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:24:46 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:24:55 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:25:35 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:25:35 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:25:35 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:25:35 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:25:35 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:25:35 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:28:30 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:28:30 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:28:30 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:28:30 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:28:30 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:28:30 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:30:24 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:30:24 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:30:24 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:30:24 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:30:24 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:30:24 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:30:31 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:30:31 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:30:31 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:30:31 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:30:31 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:30:31 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:30:52 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:30:52 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:30:52 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:30:52 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:30:52 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:30:52 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:31:00 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:31:00 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:31:00 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:31:00 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:31:00 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:31:00 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:33:26 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:33:27 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/" at 2015-11-29 15:33:53 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[index] missing editable_file "photo" (content/main/featured_photo)
+  [0;32;49mCompleted 200 OK in 528.4ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/fr/index" at 2015-11-29 15:34:01 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[index] missing editable_file "photo" (content/main/featured_photo)
+  [0;32;49mCompleted 200 OK in 55.2ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-11-29 15:35:59 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:35:59 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/fr/index" at 2015-11-29 15:36:03 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[index] missing editable_file "photo" (content/main/featured_photo)
+  [0;32;49mCompleted 200 OK in 116.3ms
+
+[0m
+service=listen action=reload resource=site timestamp=2015-11-29 15:39:11 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:39:11 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:39:11 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:39:11 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:39:11 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:39:11 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 15:46:31 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 15:46:31 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 15:46:31 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 15:46:31 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 15:46:31 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 15:46:31 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/fr/index" at 2015-11-29 15:46:33 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[index] missing editable_file "photo" (content/main/featured_photo)
+  [0;32;49mCompleted 200 OK in 98.5ms
+
+[0m
+service=listen action=reload resource=site timestamp=2015-11-29 16:01:49 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 16:01:49 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 16:01:49 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 16:01:49 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 16:01:49 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 16:01:49 +0100
+service=listen action=reload resource=site timestamp=2015-11-29 16:05:57 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 16:05:57 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 16:05:57 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 16:05:57 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 16:05:57 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 16:05:57 +0100

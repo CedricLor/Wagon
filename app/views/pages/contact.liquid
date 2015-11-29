@@ -2,17 +2,10 @@
 title: Contact
 published: true
 listed: true
-handle: home
+handle: contact
 meta_description:
-  en: "Contact Page of the Website of the Centre for the Franco-Russian and Franco-Chinese Friendships"
-  fr: "Page de contact du site internet du Centre pour l\'amitié franco-russe et franco-chinoise"
-  ru: "ССвязаться страница сайта Центра франко-российских и франко-китайских Дружеские"
-  zh-CN: "该中心的法俄和法 - 中国友谊网站的联系页面"
-seo_title:
-  en: "Contact Page of the Website of the Centre for the Franco-Russian and Franco-Chinese Friendships"
-  fr: "Page de contact du site internet du Centre pour l\'amitié franco-russe et franco-chinoise"
-  ru: "ССвязаться страница сайта Центра франко-российских и франко-китайских Дружеские"
-  zh-CN: "该中心的法俄和法 - 中国友谊网站的联系页面"
+meta_description: "Contact Page of the Website of the Centre for the Franco-Russian and Franco-Chinese Friendships"
+seo_title: "Contact Page of the Website of the Centre for the Franco-Russian and Franco-Chinese Friendships"
 position: 3
 ---
 {% extends 'layouts/simple' %}
@@ -35,8 +28,8 @@ position: 3
       {% endif %}
 
       <div class="form-group">
-        <label for="inputEmail" class="control-label">{{ 'email' | translate }}</label>
-        <input name="content[email]" type="email" class="form-control" id="inputEmail" placeholder="{{ 'email' | translate }}" value="{{user_message.email}}">
+        <label for="inputEmail" class="control-label">{{ 'email_for_form' | translate }}</label>
+        <input name="content[email]" type="email" class="form-control" id="inputEmail" placeholder="{{ 'email_for_form' | translate }}" value="{{user_message.email}}">
       </div>
       <div class="form-group">
         <label for="inputPassword3" class="control-label">{{ 'user_message': | translate }}</label>

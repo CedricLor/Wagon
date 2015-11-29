@@ -21,7 +21,7 @@ is_layout: true
       {% if page.seo_title %}
         {{ page.seo_title | escape }}
       {% else %}
-        {{ site.seo_title | escape | translate }}
+        {{ site.seo_title | escape }}
       {% endif %}
     </title>
 
@@ -46,6 +46,10 @@ is_layout: true
     <![endif]-->
   </head>
   <body class="page-{{ page.slug }}">
+    <div>Site SEO Title</div>
+    <div>{{ site.seo_title }}</div>
+    <div>Page SEO Title</div>
+    <div>{{ page.seo_title }}</div>
 
     {% comment %} helper for the language switcher {% endcomment %}
     {% if page.depth > 1 %}

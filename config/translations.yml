@@ -11,7 +11,7 @@ home_page:
   en: "Home"
   fr: "Accueil"
   ru: "добро пожаловать"
-  zh-CN: 家
+  zh-CN: "家"
 
 read_more:
   en: "Read more..."
@@ -41,9 +41,9 @@ zh-CN:
   en: "中文"
   fr: "中文"
   ru: "中文"
-  zu-CN: "中文"
+  zh-CN: "中文"
 
-languages:
+languages_for_switcher:
   en: "Languages"
   fr: "Langues"
   ru: "Языки"
@@ -65,11 +65,11 @@ locale:
   ru: 'Русе'
   zh-CN: '中文'
 
-the_following_errors _occured:
+the_following_errors_occured:
   en: "The following errors occured"
   fr: "Les erreurs suivantes sont intervenues :"
 
-email:
+email_for_form:
   en: 'Email'
   fr: "Email"
   ru: "Эл. адрес"
@@ -79,10 +79,10 @@ user_message:
   en: "Message"
   fr: "Message"
   ru: "Сообщение"
-  zCH: "信息"
+  zh-CH: "信息"
 
 Submit:
   en: "Submit"
   fr: "Envoyer"
   ru:  "Отправить"
-  zCH: "提交"
+  zh-CN: "提交"

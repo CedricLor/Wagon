@@ -3,7 +3,7 @@
     title:
       fr: Mon actualité en anglais (traduite en français)
       ru: Мои новости пост на английском языке (перевод на русском)
-      zh-CN: 我的英语新闻发布（翻译成中国）
+      zh-CN: "我的英语新闻发布（翻译成中国）"
     posted_at: '2015-11-11 18:00:00 +0100'
     tags: [Languages, Internationalization, English, French]
     featured_image: samples/placeholders/640x480.png
@@ -11,12 +11,12 @@
       en: <p>I am a news post in English. But you can also see me translated in French by switching language.</p>
       fr: <p>Je suis une actualité en anglais. Mais vous pouvez aussi me voir traduit en français en changeant la langue.</p>
       ru: <p>Я весточки на английском языке. Но вы также можете видеть меня переведены на русский язык с помощью переключения .</p>
-      zh-CN: <p>我的英语新闻岗位。但你也可以看到我通过切换语言翻译的中国人。</p>
+      zh-CN: "<p>我的英语新闻岗位。但你也可以看到我通过切换语言翻译的中国人。</p>"
     body:
-      en: <p>Yes, that's what we do nowadays. We write posts in English and even the content of the posts can be translated.</p><br><h3>ISN'T THAT AWESOME?!?</h3>
-      fr: <p>Oui, c'est ce qu'on fait de nos jours. On écrit des actualités en anglais, et même le contenu des actualités peut être traduit.</p><br><h3>N'EST-CE PAS FORMIDABLE ?!?</h3>
-      ru: <p>Да, это то, что мы делаем в настоящее время. Мы пишем сообщения на английском языке , и даже содержание сообщений могут быть переведены.</p><h3>Не то, что удивительным?!?</h3>
-      zh-CN: <p>是的，这就是我们做的现在。我们用英文写的帖子，甚至在帖子的内容可以被翻译。</p><h3>是不是真棒</h3>
+      en: "<p>Yes, that's what we do nowadays. We write posts in English and even the content of the posts can be translated.</p><br><h3>ISN'T THAT AWESOME?!?</h3>"
+      fr: "<p>Oui, c'est ce qu'on fait de nos jours. On écrit des actualités en anglais, et même le contenu des actualités peut être traduit.</p><br><h3>N'EST-CE PAS FORMIDABLE ?!?</h3>"
+      ru: "<p>Да, это то, что мы делаем в настоящее время. Мы пишем сообщения на английском языке , и даже содержание сообщений могут быть переведены.</p><h3>Не то, что удивительным?!?</h3>"
+      zh-CN: "<p>是的，这就是我们做的现在。我们用英文写的帖子，甚至在帖子的内容可以被翻译。</p><h3>是不是真棒</h3>"
 - Mr. F:
     posted_at: '2015-08-04 15:00:00 +0100'
     tags: [Camping, South America, Outdoor, Urban, Expensive]

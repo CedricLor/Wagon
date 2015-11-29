@@ -73,10 +73,11 @@ CardContainer = React.createClass
     @passToEqualizer(naturalHeight_of_card_number)
 
   passToEqualizer: (naturalHeight_of_card_number) ->
-    var maxHeight = 0;
-    items.each(function() {
-      if ($(this).height() > maxHeight) { maxHeight = $(this).height(); }
-    });
+    maxHeight = 0;
+    items.each ->
+      if $(this).height() > maxHeight
+        maxHeight = $(this).height()
+      return
 
 
   createCards: ->
