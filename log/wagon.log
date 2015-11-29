@@ -1,0 +1,31 @@
+# Logfile created on 2015-11-29 13:26:33 +0100 by logger.rb/47272
+[0;97;44m.[0m
+[0;97;49mStarted GET "/" at 2015-11-29 13:26:45 +0100[0m
+  Params: {}
+  Timezone: UTC
+  Detecting locale EN
+  Found page "Home page" [index]
+[index] missing editable_text "jumbotron" (content/header)
+[index] missing editable_text "first_column" (content/main)
+[index] missing editable_text "second_column" (content/main)
+[index] missing editable_text "third_column" (content/main)
+  [0;32;49mCompleted 200 OK in 130.0ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-11-29 13:27:37 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 13:27:37 +0100
+[0;97;44m.[0m
+[0;97;49mStarted GET "/" at 2015-11-29 13:27:39 +0100[0m
+  Params: {}
+  Timezone: UTC
+  Detecting locale EN
+  Found page "Home page" [index]
+[index] missing editable_text "jumbotron" (content/header)
+[index] missing editable_text "first_column" (content/main)
+[index] missing editable_text "second_column" (content/main)
+[index] missing editable_text "third_column" (content/main)
+  [0;32;49mCompleted 200 OK in 21.6ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-11-29 13:27:49 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 13:27:49 +0100
