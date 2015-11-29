@@ -2323,3 +2323,22 @@ service=listen action=reload resource=pages timestamp=2015-11-29 16:05:57 +0100
 service=listen action=reload resource=snippets timestamp=2015-11-29 16:05:57 +0100
 service=listen action=reload resource=content_entries timestamp=2015-11-29 16:05:57 +0100
 service=listen action=reload resource=translations timestamp=2015-11-29 16:05:57 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/zh-CN/news/my-english-news-post" at 2015-11-29 16:20:19 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale ZH-CN
+  Found page "模板新闻" [news/content_type_template]
+  Found content entry: 我的英语新闻发布（翻译成中国）
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'zh-CN' locale[0m
+[news/content_type_template] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'posted_at_format' for the 'zh-CN' locale[0m
+  [0;32;49mCompleted 200 OK in 270.6ms
+
+[0m
+service=listen action=reload resource=site timestamp=2015-11-29 16:24:28 +0100
+service=listen action=reload resource=content_types timestamp=2015-11-29 16:24:28 +0100
+service=listen action=reload resource=pages timestamp=2015-11-29 16:24:28 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-29 16:24:28 +0100
+service=listen action=reload resource=content_entries timestamp=2015-11-29 16:24:28 +0100
+service=listen action=reload resource=translations timestamp=2015-11-29 16:24:28 +0100
