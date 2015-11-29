@@ -1,6 +1,6 @@
 ---
 title: Default layout
-is_layout: false
+is_layout: true
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -9,23 +9,64 @@ is_layout: false
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ site.name }}</title>
+    <meta name="keywords" content="{{ site.meta_keywords | escape | translate }} {{ page.meta_keywords | escape }}">
+    {% if page.meta_description %}
+      <meta name="description" content="{{ page.meta_description | escape }}">
+    {% else %}
+      <meta name="description" content="{{ site.meta_description | escape }}">
+    {% endif %}
+
+    <title>
+      {{ page.title | escape }} |
+      {% if page.seo_title %}
+        {{ page.seo_title | escape }}
+      {% else %}
+        {{ site.seo_title | escape | translate }}
+      {% endif %}
+    </title>
 
     <link rel="shortcut icon" href="{{ 'favicon.png' | theme_image_url }}">
 
     {{ 'bootstrap.css' | stylesheet_tag }}
     {{ 'application.css' | stylesheet_tag }}
+    {{ 'font.css' | stylesheet_tag }}
+
+    {% block 'css_injection' %}
+      {% capture css_injection %}
+        {% editable_text "css_injection", format: "raw", rows: 20, priority: 5 %}
+        {% endeditable_text %}
+      {% endcapture %}
+    {% endblock %}
+    <style type="text/css">
+      {{ css_injection }}
+    </style>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
-  <body>
-    {% include 'nav' %}
+  <body class="page-{{ page.slug }}">
+
+    {% comment %} helper for the language switcher {% endcomment %}
+    {% if page.depth > 1 %}
+      {% assign parent_page = page.parent %}
+      {% for depth in (page.depth..2) %}
+        {% assign parent_slug = parent_page.slug | append: "/" %}
+        {% assign parent_page = parent_page.parent %}
+      {% endfor %}
+    {% else %}
+      {% assign parent_slug = "" %}
+    {% endif %}
+
+
+    {% include 'nav', parent_slug: parent_slug %}
 
     {% block content %}
     {% endblock %}
 
-    {% include 'footer' %}
+    {% include 'footer', parent_slug: parent_slug %}
 
-    {{ 'jquery.min.js' | javascript_tag }}
-    {{ 'bootstrap.min.js' | javascript_tag }}
-    {{ 'application.js' | javascript_tag }}
+    {% include 'js_footer' %}
+
   </body>
 </html>

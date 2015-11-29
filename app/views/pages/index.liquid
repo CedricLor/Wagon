@@ -1,31 +1,131 @@
 ---
-title: Home page
+title: Home
 published: true
+listed: true
 handle: home
+meta_description:
+  en: "Home page of the website of the Centre for the Franco-russian and Franco-chinese friendships"
+  fr: "Page d\'accueil du site internet du Centre pour l\'amitié franco-russe et franco-chinoise"
+  ru: "Сайт домашнюю Центра для дружбы Франко - русской и Франко - китайский"
+  zh-CN: "该中心的网站主页，法俄友谊和法国 - 中国"
+seo_title:
+  en: "Home page of the website of the Centre for the Franco-russian and Franco-chinese friendships"
+  fr: "Page d\'accueil du site internet du Centre pour l\'amitié franco-russe et franco-chinoise"
+  ru: "Сайт домашнюю Центра для дружбы Франко - русской и Франко - китайский"
+  zh-CN: "该中心的网站主页，法俄友谊和法国 - 中国"
+position: 0
+editable_elements:
+  'content/header/jumbotron_title': "Enforce peace by friendship"
+  'content/header/jumbotron_sub_title': "Discover what we do for transcontinental friendship."
+  'content/header/btn_text': "Browse our news"
+  'content/header/first_column':
+      "
+      <h2>China</h2>
+      <p>A multibillion people with multithousand years old history and a diverse and rich culinary culture, China has become in the recent years one of the major players in the world economy. And his military is catching up to overcome the Eastern empire.</p>
+      "
+  'content/header/second_column':
+      "
+      <h2>France</h2>
+      <p>A small once-big country, that keeps a large scope of influence over African and European matters, French people love wine and sausages as well as the legendary café culture.</p>
+      "
+  'content/header/third_column':
+      "
+      <h2>Russia</h2>
+      <p>Deeply rooted in the cold lands, Russia is famous for its revolutionaries, its vodka, its women, its chessplayers and its weaponry which is easily available in any part of the world for affordable prices.</p>
+      "
+  'content/main/featured_photo/legend': "Hermitage Museum, Saint Petersburg"
 ---
 {% extends 'layouts/simple' %}
 
-{% block content/main %}
+{% block content/header %}
 
-<div class="row">
-  <div class="col-lg-4">
-    {% editable_text first_column %}
-      <h2>Heading #1</h2>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+  {% capture jumbotron_title %}
+    {% editable_text "jumbotron_title", format: "raw", rows: 1, priority: 1 %}
     {% endeditable_text %}
+  {% endcapture %}
+  {% capture jumbotron_sub_title %}
+    {% editable_text "jumbotron_sub_title", format: "raw", rows: 2, priority: 2 %}
+    {% endeditable_text %}
+  {% endcapture %}
+  {% capture btn_text %}
+    {% editable_text "btn_text", format: "raw", rows: 1, priority: 3 %}
+    {% endeditable_text %}
+  {% endcapture %}
+
+
+  <div class="row">
+    <div class="xs-12">
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="xs-12">
+              <h1>{{ page.editable_elements.content.header.jumbotron_title | escape }}</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="xs-12">
+              <h2>{{ page.editable_elements.content.header.jumbotron_sub_title | escape }}</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="xs-12">
+              <a href="{% path_to news_index %}" class="btn btn-primary btn-lg">
+                {{ page.editable_elements.content.header.btn_text | escape }}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="col-lg-4">
-    {% editable_text second_column %}
-      <h2>Heading #2</h2>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+  {% capture first_column %}
+    {% editable_text "first_column" %}
     {% endeditable_text %}
- </div>
-  <div class="col-lg-4">
-    {% editable_text third_column %}
-      <h2>Heading #3</h2>
-      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+  {% endcapture %}
+  {% capture second_column %}
+    {% editable_text "second_column" %}
     {% endeditable_text %}
+  {% endcapture %}
+  {% capture third_column %}
+    {% editable_text "third_column" %}
+    {% endeditable_text %}
+  {% endcapture %}
+
+  <div class="row">
+    <div class="col-lg-4">
+      {{ page.editable_elements.content.header.first_column }}
+    </div>
+    <div class="col-lg-4">
+      {{ page.editable_elements.content.header.second_column }}
+    </div>
+    <div class="col-lg-4">
+      {{ page.editable_elements.content.header.third_column }}
+    </div>
   </div>
-</div>
+
+{% endblock %}
+
+{% block content/main %}
+  <div class="row">
+    <div class="col-xs-12">
+
+      {% block 'featured_photo' %}
+        {% comment %} Captured and editable legend for the featured photo {% endcomment %}
+        {% capture legend %}
+          {% editable_text "legend", format: "raw", rows: 3, hint: "Text displayed below the photo and in the ALT attribute." %}
+          {% endeditable_text %}
+        {% endcapture %}
+        {% comment %} Captured and editable file for the featured photo {% endcomment %}
+        {% capture photo %}{% editable_file "photo" %}saint_petersburgh_ermitage.jpg{% endeditable_file %}{% endcapture %}
+        {% if photo == '' or photo == 'saint_petersburgh_ermitage.jpg' %}
+          {% assign photo = 'saint_petersburgh_ermitage.jpg' | theme_image_url %}
+        {% endif %}
+        {% comment %} Including img_box liquid components (find it in snippets) {% endcomment %}
+        {% include 'img_box' with legend: page.editable_elements.content.main.featured_photo.legend, photo: photo, size: "800x>" %}
+      {% endblock %}
+
+    </div>
+  </div>
 
 {% endblock %}
