@@ -25,7 +25,7 @@ function formatPostListings() {
 
 $(document).ready(function() {
 
-  $(window).on('load', formatPostListings);
-  $(window).on('resize', formatPostListings);
+  // $(window).on('load', formatPostListings);
+  // $(window).on('resize', formatPostListings);
 
 });

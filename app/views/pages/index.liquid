@@ -7,9 +7,9 @@ meta_description: "Home page of the website of the Centre for the Franco-russian
 seo_title: "Home page of the website of the Centre for the Franco-russian and Franco-chinese friendships"
 position: 0
 editable_elements:
-  'content/header/jumbotron_title': "Enforce peace by friendship"
-  'content/header/jumbotron_sub_title': "Discover what we do for transcontinental friendship."
-  'content/header/btn_text': "Browse our news"
+  'content/header/Jumbotron title': "Enforce peace by friendship"
+  'content/header/Jumbotron subtitle': "Discover what we do for transcontinental friendship."
+  'content/header/Call to action button': "Browse our news"
   'content/header/first_column':
       "
       <h2>China</h2>
@@ -26,23 +26,23 @@ editable_elements:
       <p>Deeply rooted in the cold lands, Russia is famous for its revolutionaries, its vodka, its women, its chessplayers and its weaponry which is easily available in any part of the world for affordable prices.</p>
       "
   'content/main/featured_photo/legend': "Hermitage Museum, Saint Petersburg"
+# FIXME:
+# Remove all the captures, no longer needed
+# Update the editable_elements keys in the liquid part to display user friendly text
+# Update the editablle_elements keys in the header parts of the other languages files
 ---
 {% extends 'layouts/simple' %}
 
 {% block content/header %}
 
-  {% capture jumbotron_title %}
-    {% editable_text "jumbotron_title", format: "raw", rows: 1, priority: 1 %}
-    {% endeditable_text %}
-  {% endcapture %}
-  {% capture jumbotron_sub_title %}
-    {% editable_text "jumbotron_sub_title", format: "raw", rows: 2, priority: 2 %}
-    {% endeditable_text %}
-  {% endcapture %}
-  {% capture btn_text %}
-    {% editable_text "btn_text", format: "raw", rows: 1, priority: 3 %}
-    {% endeditable_text %}
-  {% endcapture %}
+  {% editable_text 'Jumbotron title', format: "raw", rows: 1, priority: 3 %}
+  {% endeditable_text %}
+
+  {% editable_text 'Jumbotron subtitle', format: "raw", rows: 2, priority: 2 %}
+  {% endeditable_text %}
+
+  {% editable_text 'Call to action button', format: "raw", rows: 1, priority: 1 %}
+  {% endeditable_text %}
 
 
   <div class="row">
@@ -56,13 +56,13 @@ editable_elements:
           </div>
           <div class="row">
             <div class="xs-12">
-              <h2>{{ page.editable_elements.content.header.jumbotron_sub_title | escape }}</h2>
+              <h2>{{ page.editable_elements.content.header.jumbotron_subtitle | escape }}</h2>
             </div>
           </div>
           <div class="row">
             <div class="xs-12">
               <a href="{% path_to news_index %}" class="btn btn-primary btn-lg">
-                {{ page.editable_elements.content.header.btn_text | escape }}
+                {{ page.editable_elements.content.header.call_to_action_button | escape }}
               </a>
             </div>
           </div>

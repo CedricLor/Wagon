@@ -20,3 +20,39 @@
 #   email: cedric.lor@gmail.com
 #   api_key: 972f6be1945ebb3bbded02d7b96b3764503d7521
 
+# production:
+#   host: localhost:3000
+#   handle: dry-reserve-4643
+#   email: cedric.lor@gmail.com
+#   api_key: ba3c8aedfdd25c25963b34788531f25ed12e98bd
+
+
+# development:
+#   host: localhost:3000
+#   handle: teal-galaxy-4424
+#   email: cedric.lor@gmail.com
+#   api_key: 07ba764472caae0d4a00abecfe73b124edd2878a
+
+# development:
+#   host: localhost:3000
+#   handle: teal-peak-328
+#   email: cedric.lor@gmail.com
+#   api_key: 07ba764472caae0d4a00abecfe73b124edd2878a
+
+# development:
+#   host: localhost:3000
+#   handle: icy-smokescreen-2955
+#   email: cedric.lor@gmail.com
+#   api_key: 07ba764472caae0d4a00abecfe73b124edd2878a
+
+# development:
+#   host: localhost:3000
+#   handle: talented-snowflake-7522
+#   email: cedric.lor@gmail.com
+#   api_key: 07ba764472caae0d4a00abecfe73b124edd2878a
+
+development:
+  host: localhost:3000
+  handle: placid-chasm-1296
+  email: cedric.lor@gmail.com
+  api_key: 07ba764472caae0d4a00abecfe73b124edd2878a

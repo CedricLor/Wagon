@@ -31,12 +31,13 @@ position: 3
         <label for="inputEmail" class="control-label">{{ 'email_for_form' | translate }}</label>
         <input name="content[email]" type="email" class="form-control" id="inputEmail" placeholder="{{ 'email_for_form' | translate }}" value="{{user_message.email}}">
       </div>
+
       <div class="form-group">
-        <label for="inputPassword3" class="control-label">{{ 'user_message': | translate }}</label>
+        <label for="inputPassword3" class="control-label">{{ 'user_message' | translate }}</label>
         <textarea name="content[message]" class="form-control" id="message" placeholder="{{ 'user_message' | translate }}" rows="3">{{user_message.message}}</textarea>
       </div>
       <div class="form-group">
-        <button type="submit" class="btn btn-default">{{ "Submit" | translate }}</button>
+        <button type="submit" class="btn btn-default">{{ "Submit_btn_txt" | translate }}</button>
       </div>
 
     {% endmodel_form %}

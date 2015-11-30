@@ -37,7 +37,7 @@ ru:
   ru: "Русе"
   zh-CN: "Русе"
 
-zh-CN:
+"zh-CN":
   en: "中文"
   fr: "中文"
   ru: "中文"
@@ -81,7 +81,7 @@ user_message:
   ru: "Сообщение"
   zh-CH: "信息"
 
-Submit:
+Submit_btn_text:
   en: "Submit"
   fr: "Envoyer"
   ru:  "Отправить"

@@ -50,36 +50,14 @@ meta_description: "News page of the website of the Centre for the Franco-russian
       </div>
     {% endeditable_model %}
 
-    {% assign data = '[{' %}
-    {% for news in contents.news %}
-
-      {% assign data = data | concat: "imageSrc:'" %}
-      {% if news.featured_image.url %}
-        {% assign resized_picture_url = news.featured_image.url | resize: '400x200#' | json %}
-        {% assign data = data | concat: resized_picture_url %}
-      {% assign data = data | concat: "," %}
-      {% endif %}
-
-      {% assign news_title = news.title | escape | strip | json %}
-      {% assign data = data | concat: "newsTitle:" %}
-      {% assign data = data | concat: news_title | concat: "," %}
-
-      {% assign newsTeaser = news.teaser | json %}
-      {% assign data = data | concat: "newsTeaser:" | concat: newsTeaser | concat: "," %}
-
-      {% assign readMoreLocalized = 'read_more' | translate | json %}
-      {% assign data = data | concat: "readMoreMessage:" | concat: readMoreLocalized | concat: "," %}
-
-      {% assign pathToNews = path_to news | json %}
-      {% assign data = data | concat: "pathToNews:" | concat: pathToNews %}
-      {% unless news.last %}
-        {% assign data = data | concat: "},{" %}
-      {% endunless %}
-    {% endfor %}
-    {% assign data = data | concat "}]" %}
-
-    <div data-for-react="{{ data }}">
-
+    <div class="row news">
+      {% for news in contents.news %}
+        <div class="react-card-box news-listing col-sm-6 col-md-4" data-read-more="{{ 'read_more' | translate }}" data-teaser='{{ news.teaser | escape }}' data-id="card_{% increment i %}" data-btn-target="{% path_to news %}" data-image-src="{{ news.featured_image.url | resize: '400x200#' }}" data-card-title="{{ news.title | escape }}">
+        </div>
+        {% cycle  '', '<div class="clearfix visible-sm">&nbsp;</div>' %}
+        {% cycle '', '', '<div class="clearfix hidden-sm hidden-xs">&nbsp;</div>'  %}
+      {% endfor %}
     </div>
+
 
   {% endblock %}
