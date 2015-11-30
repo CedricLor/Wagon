@@ -51,8 +51,20 @@
 #   email: cedric.lor@gmail.com
 #   api_key: 07ba764472caae0d4a00abecfe73b124edd2878a
 
+# development:
+#   host: localhost:3000
+#   handle: placid-chasm-1296
+#   email: cedric.lor@gmail.com
+#   api_key: 07ba764472caae0d4a00abecfe73b124edd2878a
+
+# development:
+#   host: localhost:3000
+#   handle: screeching-cavern-7569
+#   email: cedric.lor@gmail.com
+#   api_key: 07ba764472caae0d4a00abecfe73b124edd2878a
+
 development:
   host: localhost:3000
-  handle: placid-chasm-1296
+  handle: warm-reserve-3936
   email: cedric.lor@gmail.com
   api_key: 07ba764472caae0d4a00abecfe73b124edd2878a

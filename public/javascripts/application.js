@@ -1,6 +1,8 @@
 function equalizeHeights(items) {
   var maxHeight = 0;
+  console.log("Hello JQuery")
   items.each(function() {
+    console.log($(this).height())
     if ($(this).height() > maxHeight) { maxHeight = $(this).height(); }
   });
   items.each(function() {
@@ -25,7 +27,7 @@ function formatPostListings() {
 
 $(document).ready(function() {
 
-  // $(window).on('load', formatPostListings);
-  // $(window).on('resize', formatPostListings);
+  $(window).on('load', formatPostListings);
+  $(window).on('resize', formatPostListings);
 
 });

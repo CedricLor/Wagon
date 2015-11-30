@@ -6923,3 +6923,1103 @@ Unable to resize on the fly: nil
   [0;32;49mCompleted 200 OK in 338.8ms
 
 [0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 14:50:50 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 758.3ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-11-30 14:52:01 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-30 14:52:01 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 14:53:02 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 370.4ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 14:53:13 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 368.7ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-11-30 14:55:25 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-30 14:55:25 +0100
+service=listen action=reload resource=pages timestamp=2015-11-30 14:56:01 +0100
+service=listen action=reload resource=snippets timestamp=2015-11-30 14:56:01 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 14:57:07 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 363.3ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 14:59:48 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 325.8ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:00:01 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 333.0ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:02:24 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 322.5ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:02:42 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 326.0ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:03:42 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 349.4ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:05:18 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 336.2ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:06:41 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 325.1ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:08:00 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 349.0ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:09:16 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 379.3ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:27:06 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 342.1ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:28:52 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 333.6ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:31:07 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 312.5ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:31:34 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 277.5ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:52:21 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 334.7ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:52:31 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 333.2ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:52:59 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 327.8ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:54:26 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 343.1ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:54:46 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 333.7ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:55:31 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 333.4ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:55:47 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 383.4ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:56:59 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 327.4ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:57:32 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 333.6ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 15:58:20 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 334.1ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:03:52 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 328.4ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:09:52 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 313.8ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:11:49 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 312.4ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:12:23 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 330.0ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:12:38 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 330.6ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:14:08 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 333.7ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:14:27 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 318.4ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:20:13 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 329.1ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:20:51 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 333.0ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:21:21 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 346.6ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:22:27 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 328.1ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:23:08 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 314.2ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:24:02 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 336.5ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:24:29 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 348.1ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:26:02 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 334.5ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:27:29 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 322.6ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:32:46 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 325.7ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:34:40 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 325.3ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:35:09 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 330.9ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:35:52 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 329.7ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:36:46 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 317.2ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:37:24 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 338.3ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:37:43 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 338.5ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:42:27 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 322.4ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:43:06 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 333.7ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:55:10 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 321.4ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:56:14 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 325.9ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:57:30 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 334.2ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:57:58 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 341.8ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 16:59:47 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 332.9ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:00:25 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 333.8ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:03:05 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 326.1ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:09:32 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 334.8ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:09:43 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 325.0ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:12:44 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 329.2ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:13:41 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 344.7ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:14:17 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 320.8ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:15:02 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 338.4ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:15:17 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 351.4ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:17:05 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 328.5ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:17:50 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 335.8ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:19:20 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 330.8ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:20:18 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 337.9ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:20:38 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 337.2ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:21:17 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 338.3ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:21:34 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 425.7ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:22:28 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 348.1ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:23:07 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 331.9ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:23:36 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 337.5ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 17:23:48 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 356.0ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-11-30 23:50:52 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 1205.6ms
+
+[0m

@@ -1,5 +1,8 @@
 DOM = React.DOM
 
+rawMarkup= (raw) ->
+  { __html: raw }
+
 ########################################
 ## ClearFixSm Component
 ########################################
@@ -9,16 +12,19 @@ ClearFixSm = React.createClass
   render: ->
     DOM.div
       className: "clearfix visible-sm"
+      dangerouslySetInnerHTML: rawMarkup("&nbsp;")
 
 ########################################
 ## ClearFixLg Component
 ########################################
-ClearFixSm = React.createClass
+ClearFixLg = React.createClass
   displayName: "Card"
 
   render: ->
     DOM.div
       className: "clearfix hidden-sm hidden-xs"
+      dangerouslySetInnerHTML: rawMarkup("&nbsp;")
+
 ########################################
 ## Image Component
 ########################################
@@ -37,18 +43,8 @@ Card = React.createClass
   displayName: "Card"
 
   componentDidMount: ->
-    # console.log("hello")
-    height = @refs[@props.cardNumber].offsetHeight
-    console.log(@refs[@props.cardNumber].offsetHeight)
-    @equalizerSwitcher()
-    # console.log(@refs[@props.cardNumber].style.height)
-    # @props.iGiveYouMyNaturalHeight(height)
-
-  equalizeByThree: ->
-    console.log("toto")
-
-  equalizeByTwo: ->
-    console.log("tata")
+    height = @refs[@props.cardNumber].clientHeight
+    @props.myHeightIs(height, @props.id, @props.rowIndexInRowOfTwo, @props.rowIndexInRowOfThree)
 
   equalizerSwitcher: ->
     if $(window).width() >= 992 then @equalizeByThree() else if $(window).width() >= 768 then @equalizeByTwo()
@@ -58,76 +54,109 @@ Card = React.createClass
 
   render: ->
     DOM.div
-      className: "thumbnail outer-wrapper-news-div"
-      ref: @props.cardNumber
-      style:
-        minHeight: "0px"
+      className: "news-listing col-sm-6 col-md-4"
       DOM.div
-        className: "inner-wrapper-news-div"
-        React.createElement Image,
-          cardImageSource: @props.cardImageSource
-          newsTitle: @props.newsTitle
+        className: "thumbnail outer-wrapper-news-div"
+        style:
+          minHeight: "0px"
         DOM.div
-          className: "legend"
-          DOM.h3 null, @props.newsTitle
+          className: "inner-wrapper-news-div"
+          ref: @props.cardNumber
+          style:
+            minHeight: @props.minHeight
+          React.createElement Image,
+            cardImageSource: @props.cardImageSource
+            newsTitle: @props.newsTitle
           DOM.div
-            className: "teaser"
-            dangerouslySetInnerHTML: @rawMarkup(@props.newsTeaser)
-        DOM.p
-          className: "btn-container"
-          DOM.a
-            href: @props.cardBtnTarget
-            className: "btn btn-primary"
-            @props.localizedReadMore
-
-  # if( $(window).width() >= 992 ) {
-  #   for(var i = 0; i < news.length; i+=3) { equalizeHeights( news.slice(i, i+3) ); }
-  # } else if ( $(window).width() >= 768 ) {
-  #   for(var i = 0; i < news.length; i+=2) { equalizeHeights( news.slice(i, i+2) ); }
-  # }
-
+            className: "legend"
+            DOM.h3 null, @props.newsTitle
+            DOM.div
+              className: "teaser"
+              dangerouslySetInnerHTML: @rawMarkup(@props.newsTeaser)
+          DOM.p
+            className: "btn-container"
+            DOM.a
+              href: @props.cardBtnTarget
+              className: "btn btn-primary"
+              @props.localizedReadMore
 
 ########################################
 ## CardContainer Component
 ########################################
-# CardContainer = React.createClass
-#   displayName: "CardContainer"
+CardContainer = React.createClass
+  displayName: "CardContainer"
 
-#   getInitialState: ->
-#     heightsOfRowsOfTwo: {}
-#     heightsOfRowsOfThree: {}
+  arrayBuilder: (chunk_size) ->
+    empty_div_height_array = []
+    j = 1
+    for card, i in @props.domElements by chunk_size
+      empty_div_height_array[ j ] = 0
+      j++
 
-#   howHighAreYou: (height, index) ->
-#     naturalHeight_of_card_number[index] = height
-#     @passToEqualizer(naturalHeight_of_card_number)
+  getInitialState: ->
+    heightOfRowsOfTwo: @arrayBuilder(2)
+    heightOfRowsOfThree: @arrayBuilder(3)
 
-#   passToEqualizer: (naturalHeight_of_card_number) ->
-#     maxHeight = 0;
-#     items.each ->
-#       if $(this).height() > maxHeight
-#         maxHeight = $(this).height()
-#       return
+  howHighAreYou: (height, index, row_index_by_two, row_index_by_three) ->
+    @setHeightOfRowByTwo(height, index, row_index_by_two)
+    # @setHeightOfRowByThree(height, index, row_index_by_three)
 
-#   createCards: ->
-#     for card, i in @props.cards
-#       React.createElement Card,
-#         key: i + 1
-#         imageSource: card.imageSource
-#         imageAlt: card.imageAlt
-#         teaser: card.teaser
-#         newsHRef: card.newsHRef
-#         readMoreMessage: card.readMoreMessage
-#         rowIndexInRowOfTwo: card.indexInRowOfTwo
-#         rowIndexInRowOfThree: card.indexInRowOfThree
-#         minHeightOfInnerWrapper: @state.heightForRow(@state.numberOfCardsInRow)
-#         iGiveYouMyNaturalHeight: @howHighAreYou()
-#       React.createElement ClearFixSm if i %% 2 == 0
-#       React.createElement ClearFixLg if i %% 3 == 0
+  setHeightOfRowByTwo: (height, index, row_index_by_two) ->
+    heightOfRowsOfTwo = @state.heightOfRowsOfTwo
+    console.log("in set height")
+    console.log(height > heightOfRowsOfTwo[row_index_by_two])
+    heightOfRowsOfTwo[row_index_by_two] = height if height > @state.heightOfRowsOfTwo[row_index_by_two]
+    @setState heightOfRowsOfTwo : heightOfRowsOfTwo
 
-#   render: ->
-#     DOM.div
-#       className: "row"
-#       @createCards()
+  # setHeightOfRowByThree: (height, index, row_index_by_three) ->
+  #   heightOfRowsOfThree = @state.heightOfRowsOfThree
+  #   heightOfRowsOfThree[row_index_by_three] = height if height > @state.heightOfRowsOfThree[row_index_by_three]
+  #   @setState heightOfRowsOfThree : heightOfRowsOfThree[row_index_by_three]
+
+  passToEqualizer: (naturalHeight_of_card_number) ->
+    maxHeight = 0;
+    items.each ->
+      if $(this).height() > maxHeight
+        maxHeight = $(this).height()
+      return
+
+  createClearFix: (i) ->
+    if i %% 2 == 0
+      clearFixSm = React.createElement ClearFixSm,
+        key: "clear-fix-sm-#{i}"
+    if i %% 3 == 0
+      clearFixLg = React.createElement ClearFixLg,
+        key: "clear-fix-lg-#{i}"
+    [clearFixSm, clearFixLg]
+
+  createCards: ->
+    indexRowOfTwo = 1
+    indexRowOfThree = 1
+    for card, i in @props.domElements
+      element = React.createElement Card,
+        id: i + 1
+        key: i + 1
+        cardImageSource: card.dataset.imageSrc
+        newsTitle: card.dataset.cardTitle
+        newsTeaser: card.dataset.teaser
+        localizedReadMore: card.dataset.readMore
+        cardBtnTarget: card.dataset.btnTarget
+        cardNumber: card.dataset.id
+        rowIndexInRowOfTwo: indexRowOfTwo
+        rowIndexInRowOfThree: indexRowOfThree
+        myHeightIs: @howHighAreYou
+        # minHeight: @state.heightForRow(@state.numberOfCardsInRow)
+        # minHeightOfInnerWrapper: @state.heightForRow(@state.numberOfCardsInRow)
+      clearfix = @createClearFix(i + 1, indexRowOfTwo, indexRowOfThree)
+      if (i+1) %% 2 == 0 then indexRowOfTwo++
+      if (i+1) %% 3 == 0 then indexRowOfThree++
+      [element, clearfix]
+
+  render: ->
+    console.log(@state.heightOfRowsOfTwo)
+    DOM.div
+      className: "row"
+      @createCards()
 
 ########################################
 ## ReactDOM.render function
@@ -156,4 +185,10 @@ create_card_with = (dom_element) ->
 ########################################
 $ ->
   dom_elements = document.getElementsByClassName("react-card-box")
-  create_card_with dom_element for dom_element in dom_elements
+  target_dom_element = document.getElementById("react-box-container-target-element")
+  created_card_container = React.createElement CardContainer,
+    domElements: dom_elements
+  ReactDOM.render(
+    created_card_container
+    target_dom_element
+  )
