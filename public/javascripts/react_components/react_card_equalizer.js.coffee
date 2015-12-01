@@ -46,9 +46,6 @@ Card = React.createClass
     height = @refs[@props.cardNumber].clientHeight
     @props.myHeightIs(height, @props.id, @props.rowIndexInRowOfTwo, @props.rowIndexInRowOfThree)
 
-  equalizerSwitcher: ->
-    if $(window).width() >= 992 then @equalizeByThree() else if $(window).width() >= 768 then @equalizeByTwo()
-
   rawMarkup: (raw) ->
     { __html: raw }
 
@@ -63,22 +60,26 @@ Card = React.createClass
           className: "inner-wrapper-news-div"
           ref: @props.cardNumber
           style:
-            minHeight: @props.minHeight
-          React.createElement Image,
-            cardImageSource: @props.cardImageSource
-            newsTitle: @props.newsTitle
+            minHeight: @props.minHeightOfInnerWrapper
+          if @props.cardImageSource != ""
+            React.createElement Image,
+              cardImageSource: @props.cardImageSource
+              newsTitle: @props.newsTitle
           DOM.div
             className: "legend"
-            DOM.h3 null, @props.newsTitle
+            DOM.h3
+              style:
+                marginTop: 0 if @props.cardImageSource == ""
+              @props.newsTitle
             DOM.div
               className: "teaser"
               dangerouslySetInnerHTML: @rawMarkup(@props.newsTeaser)
-          DOM.p
-            className: "btn-container"
-            DOM.a
-              href: @props.cardBtnTarget
-              className: "btn btn-primary"
-              @props.localizedReadMore
+        DOM.p
+          className: "btn-container"
+          DOM.a
+            href: @props.cardBtnTarget
+            className: "btn btn-primary"
+            @props.localizedReadMore
 
 ########################################
 ## CardContainer Component
@@ -88,37 +89,41 @@ CardContainer = React.createClass
 
   arrayBuilder: (chunk_size) ->
     empty_div_height_array = []
-    j = 1
-    for card, i in @props.domElements by chunk_size
-      empty_div_height_array[ j ] = 0
-      j++
+    for i in [1..@props.domElements.length] by chunk_size
+      empty_div_height_array.push(0)
+    empty_div_height_array
+
+  numberOfCardsByRow: ->
+    if window.innerWidth >= 992 then 3 else if window.innerWidth >= 768 then 2
 
   getInitialState: ->
-    heightOfRowsOfTwo: @arrayBuilder(2)
-    heightOfRowsOfThree: @arrayBuilder(3)
+    cardByRows: @numberOfCardsByRow()
+    heightOfRowsByChunksOf:
+      2: @arrayBuilder(2)
+      3: @arrayBuilder(3)
 
-  howHighAreYou: (height, index, row_index_by_two, row_index_by_three) ->
-    @setHeightOfRowByTwo(height, index, row_index_by_two)
-    # @setHeightOfRowByThree(height, index, row_index_by_three)
+  handleResize: ->
+    @setState cardByRows: @numberOfCardsByRow()
 
-  setHeightOfRowByTwo: (height, index, row_index_by_two) ->
-    heightOfRowsOfTwo = @state.heightOfRowsOfTwo
-    console.log("in set height")
-    console.log(height > heightOfRowsOfTwo[row_index_by_two])
-    heightOfRowsOfTwo[row_index_by_two] = height if height > @state.heightOfRowsOfTwo[row_index_by_two]
-    @setState heightOfRowsOfTwo : heightOfRowsOfTwo
+  componentDidMount: ->
+    window.addEventListener('resize', @handleResize)
 
-  # setHeightOfRowByThree: (height, index, row_index_by_three) ->
-  #   heightOfRowsOfThree = @state.heightOfRowsOfThree
-  #   heightOfRowsOfThree[row_index_by_three] = height if height > @state.heightOfRowsOfThree[row_index_by_three]
-  #   @setState heightOfRowsOfThree : heightOfRowsOfThree[row_index_by_three]
+  componentWillUnmount: ->
+    window.removeEventListener('resize', @handleResize);
 
-  passToEqualizer: (naturalHeight_of_card_number) ->
-    maxHeight = 0;
-    items.each ->
-      if $(this).height() > maxHeight
-        maxHeight = $(this).height()
-      return
+  inWhichRowIsTheCardByRowOf: (number_of_cards_by_row, index) ->
+    index = index + 1
+    if index % number_of_cards_by_row == 0 then index / number_of_cards_by_row else Math.ceil(index / number_of_cards_by_row)
+
+  setRequiredHeightsOfRowsForThisCard: (heightOfRowsByChunksOf, i, height, card_index) ->
+    row_index = @inWhichRowIsTheCardByRowOf(i, card_index)
+    heightOfRowsByChunksOf[i][row_index] = height if height > heightOfRowsByChunksOf[i][row_index]
+
+  setRequiredHeightsOfRows: (height, card_index) ->
+    heightOfRowsByChunksOf = @state.heightOfRowsByChunksOf
+    for i in [2..3]
+      @setRequiredHeightsOfRowsForThisCard(heightOfRowsByChunksOf, i, height, card_index)
+    @setState heightOfRowsByChunksOf : heightOfRowsByChunksOf
 
   createClearFix: (i) ->
     if i %% 2 == 0
@@ -130,65 +135,32 @@ CardContainer = React.createClass
     [clearFixSm, clearFixLg]
 
   createCards: ->
-    indexRowOfTwo = 1
-    indexRowOfThree = 1
     for card, i in @props.domElements
       element = React.createElement Card,
-        id: i + 1
-        key: i + 1
+        id: i
+        key: i
         cardImageSource: card.dataset.imageSrc
         newsTitle: card.dataset.cardTitle
         newsTeaser: card.dataset.teaser
         localizedReadMore: card.dataset.readMore
         cardBtnTarget: card.dataset.btnTarget
         cardNumber: card.dataset.id
-        rowIndexInRowOfTwo: indexRowOfTwo
-        rowIndexInRowOfThree: indexRowOfThree
-        myHeightIs: @howHighAreYou
-        # minHeight: @state.heightForRow(@state.numberOfCardsInRow)
-        # minHeightOfInnerWrapper: @state.heightForRow(@state.numberOfCardsInRow)
-      clearfix = @createClearFix(i + 1, indexRowOfTwo, indexRowOfThree)
-      if (i+1) %% 2 == 0 then indexRowOfTwo++
-      if (i+1) %% 3 == 0 then indexRowOfThree++
+        myHeightIs: @setRequiredHeightsOfRows
+        minHeightOfInnerWrapper: @state.heightOfRowsByChunksOf[@state.cardByRows][@inWhichRowIsTheCardByRowOf(@state.cardByRows, i)]
+      clearfix = @createClearFix(i + 1)
       [element, clearfix]
 
   render: ->
-    console.log(@state.heightOfRowsOfTwo)
     DOM.div
       className: "row"
       @createCards()
 
 ########################################
-## ReactDOM.render function
-########################################
-create_card_with = (dom_element) ->
-  # json_parsed_content = JSON.parse( source.dataset.imagesource )
-  cardImageSource = dom_element.dataset.imageSrc
-  newsTitle = dom_element.dataset.cardTitle
-  newsTeaser = dom_element.dataset.teaser
-  localizedReadMore = dom_element.dataset.readMore
-  cardBtnTarget = dom_element.dataset.btnTarget
-  cardNumber = dom_element.dataset.id
-  ReactDOM.render(
-    React.createElement Card,
-      cardImageSource: cardImageSource
-      newsTitle: newsTitle
-      newsTeaser: newsTeaser
-      localizedReadMore: localizedReadMore
-      cardBtnTarget: cardBtnTarget
-      cardNumber: cardNumber
-    dom_element
-  )
-
-########################################
-# Init and loop over various React tags
+# Init and ReactDOM.render function
 ########################################
 $ ->
-  dom_elements = document.getElementsByClassName("react-card-box")
-  target_dom_element = document.getElementById("react-box-container-target-element")
-  created_card_container = React.createElement CardContainer,
-    domElements: dom_elements
   ReactDOM.render(
-    created_card_container
-    target_dom_element
+    React.createElement CardContainer,
+      domElements: document.getElementsByClassName("react-card-box")
+    document.getElementById("react-box-container-target-element")
   )
