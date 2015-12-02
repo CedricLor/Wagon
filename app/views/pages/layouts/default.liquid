@@ -58,7 +58,8 @@ is_layout: true
       {% assign parent_slug = "" %}
     {% endif %}
 
-
+    {% include 'main_header' %}
+    {% comment %} parent_slug is passed to the nav to build the localized url in the language switcher {% endcomment %}
     {% include 'nav', parent_slug: parent_slug %}
 
     {% block content %}

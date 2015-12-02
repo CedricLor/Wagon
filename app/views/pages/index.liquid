@@ -47,19 +47,19 @@ editable_elements:
     {% endeditable_text %}
   {% endcapture %}
 
-<div class="row header-bg-image-row">
-  <div class="col-xs-12">
-    <img src="" alt="">
+<div class="row header-bg-image-row header-row">
+  <div class="col-xs-12 text-center">
+    <img src="{{ 'chinese_great_wall.jpg' | theme_image_url | resize: '2500x>' }}" alt="">
   </div>
 </div>
 
-<div class="row header-text-row">
+<div class="row header-text-row header-row">
   <div class="table vertical-positionner-wrapper-table">
     <div class="table-cell vertical-positionner-wrapper-table-cell">
       <h1 class="text-center">{{ page.editable_elements.content.header.main_title | escape }}</h1>
       <h2 class="text-center">{{ page.editable_elements.content.header.subtitle | escape }}</h2>
       <p class="text-center">
-        <a href="{% path_to news_index %}" class="btn btn-primary btn-lg">
+        <a href="{% path_to news_index %}" class="btn btn-lg black-square-btn">
           {{ page.editable_elements.content.header.call_to_action_button | escape }}
         </a>
       </p>

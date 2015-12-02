@@ -4,21 +4,79 @@
   box-sizing: border-box;
 }
 
+////////////////////////////
+// Main page header formatting
+////////////////////////////
 body {
-  padding-top: 70px;
+
+}
+
+////////////////////////////
+// Top navbar formatting
+////////////////////////////
+body {
+  div.Nav {
+    display: none;
+    div.Nav__wrapper {
+      display: none;
+    }
+  }
+  @media (min-width: 1023px) {
+    div.Nav {
+      display: block;
+      height: 68px;
+      background: black;
+      nav.Nav-wrapper {
+        display: block;
+        top: 0;
+        width: 100%;
+        position: relative;
+        min-height: 69px;
+        line-height: 68px;
+        text-align: center;
+        background-color: #000;
+        z-index: 3;
+        -webkit-font-smoothing: subpixel-antialiased;
+        ul.Nav__list {
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+          background: black;
+          z-index: 2;
+          .nav-list-item {
+            position: relative;
+            display: inline-block;
+            a {
+              display: block;
+              padding: 0 7px;
+              font-size: 16px;
+              color: #999;
+              @media (min-width: 1280px) {
+                padding: 0 18px;
+                font-size: 17px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+////////////////////////////
+// Header and main content formating
+////////////////////////////
+body {
   /* home page */
   &.page-index {
     section.header-section {
-      height: 90vh;
+      height: 70vh;
       position: relative;
       .header-content {
         height: 100%;
         width: 100%;
-        .header-bg-image-row {
-          height: 100%;
-          width: 100%;
-        }
-        .header-text-row {
+        .header-row {
           /* FIXME - INSERT INTO A MEDIA QUERY */
           position: absolute;
           top: 0;
@@ -27,6 +85,16 @@ body {
           bottom: 0;
           height: 100%;
           /* UNTIL HERE */
+        }
+        .header-bg-image-row {
+          overflow: hidden;
+          img {
+            height: 100%;
+            width: 100%;
+          }
+        }
+        .header-text-row {
+          color: white;
           opacity: 1;
           z-index: 1;
           .vertical-positionner-wrapper-table {
@@ -35,6 +103,15 @@ body {
             .vertical-positionner-wrapper-table-cell {
               display: table-cell;
               vertical-align: middle;
+              .black-square-btn {
+                color: white;
+                background-color: black;
+                border-radius: 0px;
+                &:hover {
+                  color: black;
+                  background-color: grey;
+                }
+              }
             }
           }
         }
