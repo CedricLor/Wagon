@@ -47,7 +47,11 @@ is_layout: true
   </head>
   <body class="page-{{ page.slug }}">
 
-    {% comment %} helper for the language switcher {% endcomment %}
+    {% comment %}
+    Helper for the language switcher:
+    - retrieves the parent_slug to pass it to the snippets
+    - passes it to the various snippets which include a language switcher
+    {% endcomment %}
     {% if page.depth > 1 %}
       {% assign parent_page = page.parent %}
       {% for depth in (page.depth..2) %}
@@ -58,9 +62,9 @@ is_layout: true
       {% assign parent_slug = "" %}
     {% endif %}
 
-    {% include 'main_header' %}
-    {% comment %} parent_slug is passed to the nav to build the localized url in the language switcher {% endcomment %}
-    {% include 'nav', parent_slug: parent_slug %}
+    {% comment %}Rendered blocks and snippets{% endcomment %}
+
+    {% include 'header_side_nav_stuffs', parent_slug: parent_slug %}
 
     {% block content %}
     {% endblock %}

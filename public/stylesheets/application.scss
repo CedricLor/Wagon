@@ -5,28 +5,254 @@
 }
 
 ////////////////////////////
+// COMMON LOGO CLASSES FOR HEADER AND SIDNAV
+////////////////////////////
+.icon-logo {
+  display: inline-block;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.icon-lg-logo {
+  // FIXME - HEIGHT TO BE SET DEPENDING ON LOGO SIZE AND MAKE SIZE A SASS VARIABLE
+  width: 131px;
+  height: 66px;
+  // SET DIFFERENT RESIZED IMAGES DEPENDING ON THE SCREEN SIZE
+  // background-image: url('../images/..');
+}
+.icon-sm-log {
+  // FIXME - HEIGHT TO BE SET DEPENDING ON LOGO SIZE AND MAKE SIZE A SASS VARIABLE
+  width: 105px;
+  height: 53px;
+  // SET DIFFERENT RESIZED IMAGES DEPENDING ON THE SCREEN SIZE
+  // background-image: url('../images/..');
+}
+
+////////////////////////////
+// Side nav
+////////////////////////////
+body {
+  div.side-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    @media (max-width: 767px) {
+      // GIVE SOME ROOM TO THE LOGO IN THE HEADER
+      top: 60px;
+    }
+    // FIXME: CHECK THAT THIS REALLY APPLIES
+    // WHY DO YOU NEED THE TRANSLATEX
+    div.side-nav-open {
+      z-index: 1000;
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+    div.side-nav-close {
+    }
+    .side-nav-wrapper {
+      position: relative;
+      height: 100%;
+      -webkit-transition: 240ms cubic-bezier(.25,.46,.45,.94) -webkit-transform;
+      transition: 240ms cubic-bezier(.25,.46,.45,.94) transform;
+      -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+      transform: translateX(-100%);
+      background-color: #fff;
+      font-size: 17px;
+      -webkit-font-smoothing: subpixel-antialiased;
+      @media (max-width: 1279px) {
+        font-size: 16px;
+      }
+      @media (min-width: 768px) {
+        max-width: 250px;
+      }
+      .side-nav-scrollable {
+        border-right: 1px solid #e6e6e6;
+        height: -webkit-calc(100% - 49px);
+        height: calc(100% - 49px);
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+        .side-nav-logo {
+          // FIXME: THIS TEXT DECORATION SHOULD APPLY TO ALL THE LINK ANCHORS
+          text-decoration: none;
+          text-align: center;
+          @media (max-width: 1023px) and (min-width: 768px) {
+            padding: 14px 0 13px;
+            width: 105px;
+          }
+          @media (max-width: 767px) {
+            display: none;
+          }
+          display: block;
+          margin: 0 auto;
+          width: 135px;
+          padding: 17px 0 18px;
+        }
+        .side-nav-list {
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+          margin-top: 11px;
+          > li > a {
+            // FIXME - TEXT DECORATION TO APPLY SITE WIDE
+            text-decoration: none;
+            display: block;
+            padding: 0 25px;
+            line-height: 35px;
+            color: rgba(0,0,0,.9);
+          }
+        }
+      }
+    }
+  }
+}
+
+
+////////////////////////////
 // Main page header formatting
 ////////////////////////////
 body {
-
+  header.header {
+    background-color: black;
+    color: white;
+    @media (max-width: 767px) {
+      height: 60px;
+    }
+    @media (max-width: 1023px) and (min-width: 768px) {
+      height: 85px;
+    }
+    .header-wrapper {
+      width: 100%;
+      position: relative;
+      top: 0;
+      background-color: black;
+      z-index: 10;
+      @media (max-width: 1023px) {
+        position: fixed;
+      }
+      .header-inner {
+        position: relative;
+        .header-logo {
+          display: block;
+          width: 100%;
+          // FIXME - HEIGHT TO BE SET DEPENDING ON LOGO SIZE AND MAKE SIZE A SASS VARIABLE
+          min-height: 106px;
+          text-align: center;
+          border-bottom: 1px solid #262626;
+          @media (max-width: 767px) {
+            height: 60px;
+            min-height: 60px;
+          }
+          @media (max-width: 1023px) and (min-width: 768px) {
+            min-height: 85px;
+          }
+          .header-logo-title {
+            display: block;
+          }
+          // FIXME - SIMILAR TO A IN NAVBAR - REFACTOR AS A COMMON CLASS OR ADJUST
+          a.header-logo-title {
+            text-decoration: none;
+            display: block;
+            font-size: 16px;
+            color: #999;
+            &:hover {
+              color: white;
+            }
+            @media (min-width: 1280px) {
+              font-size: 17px;
+            }
+            .header-icon-logo {
+              margin: auto;
+              // FIXME - HEIGHT TO BE SET DEPENDING ON LOGO SIZE AND MAKE SIZE A SASS VARIABLE
+              min-height: 106px;
+              @media (max-width: 1023px) and (min-width: 768px) {
+                min-height: 85px;
+              }
+              @media (max-width: 767px) {
+                min-height: 60px;
+              }
+            }
+          }
+        }
+        .header-menu {
+          position: absolute;
+          top: 0;
+          left: 0;
+          .menu-btn {
+            text-decoration: none;
+            display: inline-block;
+            color: #999;
+            &:hover {
+              color: white;
+              .min-menu-icon .min-menu-icon-bar {
+                background-color: white;
+              }
+            }
+            line-height: 106px;
+            border-right: 1px solid #262626;
+            font-size: 16px;
+            @media (max-width: 767px) {
+              line-height: 60px;
+              border: 0;
+            }
+            @media (max-width: 1023px) and (min-width: 768px) {
+              width: 72px;
+              line-height: 85px;
+            }
+            @media (min-width: 1024px) {
+              width: 129px;
+            }
+            @media (min-width: 1279px) {
+              font-size: 17px;
+            }
+            .min-menu-icon {
+              display: inline-block;
+              margin: 0 14px 0 26px;
+              height: 18px;
+              width: 22px;
+              line-height: initial;
+              background-repeat: no-repeat;
+              .min-menu-icon-bar {
+                background-color: #888;
+                display: block;
+                width: 22px;
+                height: 2px;
+                border-radius: 1px;
+                margin-top: 4px;
+              }
+            }
+            span {
+              display: none;
+              @media (min-width: 1023px) {
+                display: initial;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 ////////////////////////////
 // Top navbar formatting
 ////////////////////////////
 body {
-  div.Nav {
+  div.nav {
     display: none;
-    div.Nav__wrapper {
+    div.nav-wrapper {
       display: none;
     }
   }
   @media (min-width: 1023px) {
-    div.Nav {
+    div.nav {
       display: block;
       height: 68px;
       background: black;
-      nav.Nav-wrapper {
+      nav.nav-wrapper {
         display: block;
         top: 0;
         width: 100%;
@@ -37,7 +263,7 @@ body {
         background-color: #000;
         z-index: 3;
         -webkit-font-smoothing: subpixel-antialiased;
-        ul.Nav__list {
+        ul.nav-list {
           margin: 0;
           padding: 0;
           list-style-type: none;
@@ -47,15 +273,22 @@ body {
             position: relative;
             display: inline-block;
             a {
+              text-decoration: none;
               display: block;
               padding: 0 7px;
               font-size: 16px;
               color: #999;
+              &:hover {
+                color: white;
+              }
               @media (min-width: 1280px) {
                 padding: 0 18px;
                 font-size: 17px;
               }
             }
+          }
+          .active-nav-list-item a {
+            color: white;
           }
         }
       }

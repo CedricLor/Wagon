@@ -25,9 +25,34 @@
 //   }
 // }
 
-// $(document).ready(function() {
+function nav_bar_handle() {
+  // if they click on then button, render the navbar
+  $('#menuBtn').click(function(event) {
+    event.preventDefault();
+    $('.side-nav').css("z-index",999);
+    $('.side-nav-wrapper').addClass("side-nav-open").removeClass("side-nav-close");
+  });
+
+  // if they click anywhere, close it
+  $('.side-nav-wrapper').on('click', function(event) {
+    console.log("hello")
+    $('.side-nav').css("z-index","");
+    $('.side-nav-wrapper').removeClass("side-nav-open").addClass("side-nav-close");
+    event.stopPropagation();
+  });
+
+  // if they click anywhere, close it
+  // $('.side-nav').on('click', function(event) {
+  //   $('.side-nav').css("z-index","");
+  //   $('.side-nav-wrapper').removeClass("side-nav-open").addClass("side-nav-close");
+  // });
+}
+
+$(document).ready(function() {
+
+  nav_bar_handle();
 
 //   $(window).on('load', formatPostListings);
 //   $(window).on('resize', formatPostListings);
 
-// });
+});

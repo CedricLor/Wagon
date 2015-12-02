@@ -32,10 +32,10 @@ fr:
   zh-CN: "Français"
 
 ru:
-  en: "Русе"
-  fr: "Русе"
-  ru: "Русе"
-  zh-CN: "Русе"
+  en: "Русский"
+  fr: "Русский"
+  ru: "Русский"
+  zh-CN: "Русский"
 
 zh_CN:
   en: "中文"
@@ -62,7 +62,7 @@ posted_at_format:
 locale:
   en: 'English'
   fr: 'Français'
-  ru: 'Русе'
+  ru: 'Русский'
   zh_CN: '中文'
 
 the_following_errors_occured:
@@ -86,3 +86,9 @@ Submit_btn_text:
   fr: "Envoyer"
   ru:  "Отправить"
   zh-CN: "提交"
+
+Menu:
+  en: "Menu"
+  fr: "Menu"
+  ru: "меню"
+  zh-CN: "导航菜单"

@@ -1,0 +1,12 @@
+{% comment %} Variables definitions {% endcomment %}
+{% assign icon_logo_url = 'samples/placeholders/1280x960.png' %}
+{% assign logo_alt = 'Exemple Logo' %}
+{% assign large_resize = '131x66' %}
+{% assign small_resize = '105x53' %}
+
+
+{% include 'side_nav', icon_logo_url: icon_logo_url, large_resize: large_resize, small_resize: small_resize, logo_alt: logo_alt %}
+
+{% include 'main_header', icon_logo_url: icon_logo_url, large_resize: large_resize, small_resize: small_resize, logo_alt: logo_alt  %}
+
+{% include 'nav', parent_slug: parent_slug %}

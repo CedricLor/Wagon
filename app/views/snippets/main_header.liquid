@@ -1,3 +1,32 @@
 <header class="header">
+  <div class="header-wrapper">
+    <div class="header-inner">
+      <div class="header-logo">
+        <a class="header-logo-title" href="{% path_to home %}">
+          <div class="header-icon-logo icon-logo icon-lg-logo visible-lg-block">
 
+            <img src="{{ icon_logo_url | resize: large_resize }}" alt="{{ logo_alt }}"/>
+
+          </div>
+          <div class="header-icon-logo icon-logo icon-sm-logo hidden-lg">
+
+            <img src="{{ icon_logo_url | resize: small_resize }}" alt="{{ logo_alt }}"/>
+
+          </div>
+        </a>
+      </div>
+      <div class="header-menu">
+        <a href="#" class="menu-btn" id="menuBtn">
+          <div class="min-menu-icon">
+            <span class="min-menu-icon-bar"></span>
+            <span class="min-menu-icon-bar"></span>
+            <span class="min-menu-icon-bar"></span>
+          </div>
+          <span>
+            {{ "Menu" | translate }}
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
 </header>

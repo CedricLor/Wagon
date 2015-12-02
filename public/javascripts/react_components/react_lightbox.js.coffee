@@ -82,7 +82,7 @@ LightBox = React.createClass
         imageAlt: "#{@state.imageAlt} #{@props.imageAltAddition[@state.clicked]}"
 
 ########################################
-## React Render function
+## ReactDOM Render function
 ########################################
 create_light_box_with = (dom_element) ->
   # json_parsed_content = JSON.parse( source.dataset.imagesource )

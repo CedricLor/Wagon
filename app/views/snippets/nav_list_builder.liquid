@@ -1,0 +1,8 @@
+{% for page_in_nav in site.pages %}
+  {% if page_in_nav.depth == 1 or page_in_nav.depth == null %}
+  {% comment %} depth == 0 catches index, depth == 1 catches about, depth == null catches news {% endcomment %}
+    <li class="{{ nav_list_item_class }} {% if page.slug == page_in_nav.slug %} {{ active_nav_list_item_class }} {% endif %}">
+      {% link_to page_in_nav %}
+    </li>
+  {% endif %}
+{% endfor %}

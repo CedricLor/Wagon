@@ -1,0 +1,33 @@
+<div class="side-nav">
+  <div class="side-nav-wrapper side-nav-close">
+    <div class="side-nav-scrollable">
+      <a class="side-nav-logo" href="{% path_to home %}">
+        <div class="icon-logo icon-lg-logo visible-lg-block">
+
+          <img src="{{ icon_logo_url | resize: large_resize }}" alt="{{ logo_alt }}"/>
+
+        </div>
+        <div class="icon-logo icon-sm-logo hidden-lg">
+
+          <img src="{{ icon_logo_url | resize: small_resize }}" alt="{{ logo_alt }}"/>
+
+        </div>
+      </a>
+      <ul class="side-nav-list">
+
+        <hr>
+
+        {% include 'nav_list_builder' %}
+
+        <hr>
+
+        {% include 'language_switcher_helper', parent_slug: parent_slug %}
+
+        </li>
+
+        <hr>
+
+      </ul>
+    </div>
+  </div>
+</div>
