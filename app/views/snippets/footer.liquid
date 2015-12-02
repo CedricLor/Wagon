@@ -1,8 +1,14 @@
-<div class="container">
-  <footer class="footer">
-    <p>&copy; {{ "site_published_title" | translate }} {{ now | localized_date: '%Y' }} </p>
-    <p>
-      {% include 'language_switcher_helper', parent_slug: parent_slug, tabulator: " | " %}
-    </p>
-  </footer>
-</div>
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <p>&copy; {{ "site_published_title" | translate }} {{ now | localized_date: '%Y' }} </p>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <p>
+          {% include 'language_switcher_helper', parent_slug: parent_slug, tabulator: " | " %}
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>

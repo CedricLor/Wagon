@@ -7,8 +7,8 @@ meta_description: "Home page of the website of the Centre for the Franco-russian
 seo_title: "Home page of the website of the Centre for the Franco-russian and Franco-chinese friendships"
 position: 0
 editable_elements:
-  'content/header/Jumbotron title': "Enforce peace by friendship"
-  'content/header/Jumbotron subtitle': "Discover what we do for transcontinental friendship."
+  'content/header/main_title': "Enforce peace by friendship"
+  'content/header/subtitle': "Discover what we do for transcontinental friendship."
   'content/header/Call to action button': "Browse our news"
   'content/header/first_column':
       "
@@ -34,16 +34,18 @@ editable_elements:
 {% extends 'layouts/simple' %}
 
 {% block content/header %}
-
-  {% editable_text 'Jumbotron title', format: "raw", rows: 1, priority: 3 %}
-  {% endeditable_text %}
-
-  {% editable_text 'Jumbotron subtitle', format: "raw", rows: 2, priority: 2 %}
-  {% endeditable_text %}
-
-  {% editable_text 'Call to action button', format: "raw", rows: 1, priority: 1 %}
-  {% endeditable_text %}
-
+  {% capture main_title %}
+    {% editable_text 'Main title', format: "raw", rows: 1, priority: 3 %}
+    {% endeditable_text %}
+  {% endcapture %}
+  {% capture subtitle %}
+    {% editable_text 'Subtitle', format: "raw", rows: 2, priority: 2 %}
+    {% endeditable_text %}
+  {% endcapture %}
+  {% capture call_to_action %}
+    {% editable_text 'Call to action button', format: "raw", rows: 1, priority: 1 %}
+    {% endeditable_text %}
+  {% endcapture %}
 
   <div class="row">
     <div class="xs-12">
@@ -51,12 +53,12 @@ editable_elements:
         <div class="container">
           <div class="row">
             <div class="xs-12">
-              <h1>{{ page.editable_elements.content.header.jumbotron_title | escape }}</h1>
+              <h1 class="text-center">{{ page.editable_elements.content.header.main_title | escape }}</h1>
             </div>
           </div>
           <div class="row">
             <div class="xs-12">
-              <h2>{{ page.editable_elements.content.header.jumbotron_subtitle | escape }}</h2>
+              <h2>{{ page.editable_elements.content.header.subtitle | escape }}</h2>
             </div>
           </div>
           <div class="row">

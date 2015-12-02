@@ -1,3 +1,5 @@
+ReactCSSTransitionGroup = React.addons.CSSTransitionGroup
+
 DOM = React.DOM
 
 rawMarkup= (raw) ->
@@ -137,30 +139,46 @@ CardContainer = React.createClass
   createCards: ->
     for card, i in @props.domElements
       element = React.createElement Card,
-        id: i
-        key: i
-        cardImageSource: card.dataset.imageSrc
-        newsTitle: card.dataset.cardTitle
-        newsTeaser: card.dataset.teaser
-        localizedReadMore: card.dataset.readMore
-        cardBtnTarget: card.dataset.btnTarget
-        cardNumber: card.dataset.id
-        myHeightIs: @setRequiredHeightsOfRows
-        minHeightOfInnerWrapper: @state.heightOfRowsByChunksOf[@state.cardByRows][@inWhichRowIsTheCardByRowOf(@state.cardByRows, i)]
+              id: i
+              key: i
+              cardImageSource: card.dataset.imageSrc
+              newsTitle: card.dataset.cardTitle
+              newsTeaser: card.dataset.teaser
+              localizedReadMore: @props.localizedReadMore
+              cardBtnTarget: card.dataset.btnTarget
+              cardNumber: card.dataset.id
+              myHeightIs: @setRequiredHeightsOfRows
+              minHeightOfInnerWrapper: @state.heightOfRowsByChunksOf[@state.cardByRows][@inWhichRowIsTheCardByRowOf(@state.cardByRows, i)]
       clearfix = @createClearFix(i + 1)
       [element, clearfix]
 
   render: ->
+    cards = @createCards()
     DOM.div
       className: "row"
-      @createCards()
-
+      cards
 ########################################
 # Init and ReactDOM.render function
 ########################################
 $ ->
+  react_target = document.getElementById("react-box-container-target-element")
+  localizedReadMore = react_target.dataset.readMore
+
+  card_container = React.createElement CardContainer,
+    domElements: document.getElementsByClassName("react-card-box")
+    localizedReadMore: localizedReadMore
+
+  card_container_with_transition = React.createElement(
+    ReactCSSTransitionGroup
+    transitionName: "react-news-container"
+    transitionEnterTimeout: 300
+    transitionLeaveTimeout: 300
+    transitionAppear: true
+    transitionAppearTimeout: 4000
+    card_container
+  )
+
   ReactDOM.render(
-    React.createElement CardContainer,
-      domElements: document.getElementsByClassName("react-card-box")
-    document.getElementById("react-box-container-target-element")
+    card_container_with_transition
+    react_target
   )
