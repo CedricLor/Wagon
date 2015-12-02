@@ -7,9 +7,9 @@ meta_description: "Home page of the website of the Centre for the Franco-russian
 seo_title: "Home page of the website of the Centre for the Franco-russian and Franco-chinese friendships"
 position: 0
 editable_elements:
-  'content/header/main_title': "Enforce peace by friendship"
-  'content/header/subtitle': "Discover what we do for transcontinental friendship."
-  'content/header/Call to action button': "Browse our news"
+  'content/header/main_title': "5th edition of the Standard Ideal Festival"
+  'content/header/subtitle': "From May 5 to May 25, 2016"
+  'content/header/Call to action button': "Discover the Program"
   'content/header/first_column':
       "
       <h2>China</h2>
@@ -47,31 +47,30 @@ editable_elements:
     {% endeditable_text %}
   {% endcapture %}
 
-  <div class="row">
-    <div class="xs-12">
-      <div class="jumbotron">
-        <div class="container">
-          <div class="row">
-            <div class="xs-12">
-              <h1 class="text-center">{{ page.editable_elements.content.header.main_title | escape }}</h1>
-            </div>
-          </div>
-          <div class="row">
-            <div class="xs-12">
-              <h2>{{ page.editable_elements.content.header.subtitle | escape }}</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="xs-12">
-              <a href="{% path_to news_index %}" class="btn btn-primary btn-lg">
-                {{ page.editable_elements.content.header.call_to_action_button | escape }}
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+<div class="row header-bg-image-row">
+  <div class="col-xs-12">
+    <img src="" alt="">
+  </div>
+</div>
+
+<div class="row header-text-row">
+  <div class="table vertical-positionner-wrapper-table">
+    <div class="table-cell vertical-positionner-wrapper-table-cell">
+      <h1 class="text-center">{{ page.editable_elements.content.header.main_title | escape }}</h1>
+      <h2 class="text-center">{{ page.editable_elements.content.header.subtitle | escape }}</h2>
+      <p class="text-center">
+        <a href="{% path_to news_index %}" class="btn btn-primary btn-lg">
+          {{ page.editable_elements.content.header.call_to_action_button | escape }}
+        </a>
+      </p>
     </div>
   </div>
+</div>
+
+
+{% endblock %}
+
+{% block content/main %}
 
   {% capture first_column %}
     {% editable_text "first_column" %}
@@ -98,9 +97,6 @@ editable_elements:
     </div>
   </div>
 
-{% endblock %}
-
-{% block content/main %}
   <div class="row">
     <div class="col-xs-12">
 
