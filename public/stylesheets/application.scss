@@ -5,6 +5,44 @@
 }
 
 ////////////////////////////
+// SITE-WIDE TOOLSET
+////////////////////////////
+section.section-bottom-margin {
+  margin-bottom: 0px;
+  @media (max-width: 1023px) and (min-width: 768px) {
+    margin-bottom: 70px;
+  }
+  @media (max-width: 1023px) and (min-width: 768px) {
+    margin-bottom: 70px;
+  }
+  @media (max-width: 1279px) and (min-width: 1024px) {
+    margin-bottom: 72px;
+  }
+  @media (min-width: 1280px) {
+    margin-bottom: 50px;
+  }
+}
+
+section {
+  .section-title {
+    @media (min-width: 768px) {
+      padding-top: 45px;
+      padding-bottom: 45px;
+    }
+  }
+}
+
+.black-square-btn {
+  color: white;
+  background-color: black;
+  border-radius: 0px;
+  &:hover {
+    color: black;
+    background-color: grey;
+  }
+}
+
+////////////////////////////
 // COMMON LOGO CLASSES FOR HEADER AND SIDNAV
 ////////////////////////////
 .icon-logo {
@@ -296,12 +334,13 @@ body {
   }
 }
 
-
 ////////////////////////////
 // Header and main content formating
 ////////////////////////////
 body {
+  ///////////////
   /* home page */
+  ///////////////
   &.page-index {
     section.header-section {
       height: 70vh;
@@ -310,14 +349,12 @@ body {
         height: 100%;
         width: 100%;
         .header-row {
-          /* FIXME - INSERT INTO A MEDIA QUERY */
           position: absolute;
           top: 0;
           left: 0;
           right: 0;
           bottom: 0;
           height: 100%;
-          /* UNTIL HERE */
         }
         .header-bg-image-row {
           overflow: hidden;
@@ -336,35 +373,49 @@ body {
             .vertical-positionner-wrapper-table-cell {
               display: table-cell;
               vertical-align: middle;
-              .black-square-btn {
-                color: white;
-                background-color: black;
-                border-radius: 0px;
-                &:hover {
-                  color: black;
-                  background-color: grey;
-                }
-              }
             }
           }
         }
       }
     }
   }
+  /////////////////
   /* news.liquid */
-  &.page-news div.news-listing {
+  /////////////////
+  div.news-listing {
     margin-bottom: 20px;
     .outer-wrapper-news-div {
       padding: 10px;
-    }
-    img {
-      display: block;
-      max-width: 100%;
-      height: auto;
-      margin-left: auto;
-      margin-right: auto;
+      border-style: none;
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .read-more-news-btn-container {
+        text-align: right;
+      }
+      .news-anchor-link-wrapper {
+        .news-picture-overlay {
+          z-index: 20;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          &:hover {
+            background-color: black;
+            opacity: 0.05;
+          }
+        }
+      }
     }
   }
+  //////////////
+  // React Transition Class - NO NOT TOUCH
+  //////////////
   .react-news-container-enter {
     opacity: 0.01;
   }

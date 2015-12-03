@@ -8,7 +8,7 @@ is_layout: true
 
 <!-- ------------------------------------------------------------------ -->
 
-<section class="header-section">
+<section class="header-section section-bottom-margin">
   <div class="fluid-container header-content">
 
     {% block header, short_name: true, priority: 1 %}
@@ -20,10 +20,10 @@ is_layout: true
 
 <!-- ------------------------------------------------------------------ -->
 
-<section class="main-section">
+<section class="featured-news section-bottom-margin">
   <div class="container main-content">
 
-    {% block main, short_name: true %}
+    {% block featured_news, short_name: true %}
 
     {% endblock %}
 
@@ -31,5 +31,18 @@ is_layout: true
 </section>
 
 <!-- ------------------------------------------------------------------ -->
+
+<section class="featured-news section-bottom-margin">
+  <div class="container main-content">
+
+    {% block older_news, short_name: true %}
+
+    {% endblock %}
+
+  </div>
+</section>
+
+<!-- ------------------------------------------------------------------ -->
+
 
 {% endblock %}

@@ -7,6 +7,7 @@ meta_description: "Home page of the website of the Centre for the Franco-russian
 seo_title: "Home page of the website of the Centre for the Franco-russian and Franco-chinese friendships"
 position: 0
 editable_elements:
+  'content/header/photo_legend': "Great Chinese Wall"
   'content/header/main_title': "5th edition of the Standard Ideal Festival"
   'content/header/subtitle': "From May 5 to May 25, 2016"
   'content/header/Call to action button': "Discover the Program"
@@ -31,46 +32,147 @@ editable_elements:
 # Update the editable_elements keys in the liquid part to display user friendly text
 # Update the editablle_elements keys in the header parts of the other languages files
 ---
-{% extends 'layouts/simple' %}
+{% extends 'layouts/forindex' %}
+
+<!-- ------------------------------------ -->
 
 {% block content/header %}
-  {% capture main_title %}
-    {% editable_text 'Main title', format: "raw", rows: 1, priority: 3 %}
-    {% endeditable_text %}
-  {% endcapture %}
-  {% capture subtitle %}
-    {% editable_text 'Subtitle', format: "raw", rows: 2, priority: 2 %}
-    {% endeditable_text %}
-  {% endcapture %}
-  {% capture call_to_action %}
-    {% editable_text 'Call to action button', format: "raw", rows: 1, priority: 1 %}
-    {% endeditable_text %}
-  {% endcapture %}
 
-<div class="row header-bg-image-row header-row">
-  <div class="col-xs-12 text-center">
-    <img src="{{ 'chinese_great_wall.jpg' | theme_image_url | resize: '2500x>' }}" alt="">
-  </div>
-</div>
+    <!-- -------------------------------- -->
 
-<div class="row header-text-row header-row">
-  <div class="table vertical-positionner-wrapper-table">
-    <div class="table-cell vertical-positionner-wrapper-table-cell">
-      <h1 class="text-center">{{ page.editable_elements.content.header.main_title | escape }}</h1>
-      <h2 class="text-center">{{ page.editable_elements.content.header.subtitle | escape }}</h2>
-      <p class="text-center">
-        <a href="{% path_to news_index %}" class="btn btn-lg black-square-btn">
-          {{ page.editable_elements.content.header.call_to_action_button | escape }}
-        </a>
-      </p>
+    {% comment %} Captured and editable legend for the featured photo {% endcomment %}
+    {% capture header_photo_legend %}
+      {% editable_text "legend", format: "raw", rows: 3, hint: "Text displayed below the photo and in the ALT attribute." %}
+      {% endeditable_text %}
+    {% endcapture %}
+
+    {% capture header_photo %}{% editable_file "photo" %}chinese_great_wall.jpg{% endeditable_file %}{% endcapture %}
+    {% if photo == '' or photo == 'chinese_great_wall.jpg' %}
+      {% assign photo = 'chinese_great_wall.jpg' | theme_image_url %}
+    {% endif %}
+
+    {% capture main_title %}
+      {% editable_text 'Main title', format: "raw", rows: 1, priority: 3 %}
+      {% endeditable_text %}
+    {% endcapture %}
+
+    {% capture subtitle %}
+      {% editable_text 'Subtitle', format: "raw", rows: 2, priority: 2 %}
+      {% endeditable_text %}
+    {% endcapture %}
+
+    {% capture call_to_action %}
+      {% editable_text 'Call to action button', format: "raw", rows: 1, priority: 1 %}
+      {% endeditable_text %}
+    {% endcapture %}
+
+    <!-- -------------------------------- -->
+
+    <div class="row header-bg-image-row header-row">
+      <div class="col-xs-12 text-center">
+        <img src="{{ 'chinese_great_wall.jpg' | theme_image_url | resize: '2500x>' }}" alt="{{ header_photo_legend }}">
+      </div>
     </div>
-  </div>
-</div>
 
+    <div class="row header-text-row header-row">
+      <div class="table vertical-positionner-wrapper-table">
+        <div class="table-cell vertical-positionner-wrapper-table-cell">
+          <h1 class="text-center">{{ page.editable_elements.content.header.main_title | escape }}</h1>
+          <h2 class="text-center">{{ page.editable_elements.content.header.subtitle | escape }}</h2>
+          <p class="text-center">
+            <a href="{% path_to news_index %}" class="btn btn-lg black-square-btn">
+              {{ page.editable_elements.content.header.call_to_action_button | escape }}
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------------------- -->
 
 {% endblock %}
 
-{% block content/main %}
+<!-- ---------------------------------------------------------------- -->
+
+{% block content/featured_news %}
+
+    <!-- --------------------------------------------- -->
+
+  {% capture featured_news_section_title %}
+    {% editable_text "featured news section title" %}
+      Currently
+    {% endeditable_text %}
+  {% endcapture %}
+
+    <!-- --------------------------------------------- -->
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="section-title">
+        {{ featured_news_section_title }}
+      </h3>
+    </div>
+  </div>
+
+    <!-- --------------------------- -->
+
+  {% for news in contents.news %}
+    {% if forloop.index > 2 %}
+      {% break %}
+    {% else %}
+
+        <div class="react-card-boxes-hero-news hidden" data-read-more="{{ 'read_more' | translate }}" data-teaser='{{ news.teaser | escape }}' data-btn-target="{% path_to news %}" data-image-src="{{ news.featured_image.url | resize: '600x200#' }}" data-card-title="{{ news.title | escape }}">
+        </div>
+
+    {% endif %}
+  {% endfor %}
+
+    <!-- --------------------------- -->
+
+  <div id="react-box-container-hero-news-target-element" class="row news" data-read-more="{{ 'read_more' | translate }}" data-col-class="col-xs-12 col-sm-6 col-md-6" data-clear-fix-classes-for-two-cards="visible-sm" data-clear-fix-classes-for-three-cards="hidden-sm hidden-xs">
+  </div>
+
+{% endblock %}
+
+<!-- ---------------------------------------------------------------- -->
+
+{% block content/older_news %}
+
+    <!-- --------------------------------------------- -->
+
+  {% capture older_news_section_title %}
+    {% editable_text "older news section title" %}
+      But still and also
+    {% endeditable_text %}
+  {% endcapture %}
+
+    <!-- --------------------------------------------- -->
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="section-title">
+        {{ older_news_section_title }}
+      </h3>
+    </div>
+  </div>
+
+    <!-- --------------------------- -->
+
+  {% for news in contents.news %}
+    {% if forloop.index > 2 and forloop.index < 9 %}
+
+        <div class="react-card-box-older-news hidden" data-read-more="{{ 'read_more' | translate }}" data-teaser='{{ news.teaser | escape }}' data-btn-target="{% path_to news %}" data-image-src="{{ news.featured_image.url | resize: '400x200#' }}" data-card-title="{{ news.title | escape }}">
+        </div>
+
+    {% endif %}
+  {% endfor %}
+
+    <!-- --------------------------- -->
+
+  <div id="react-box-container-older-news-target-element" class="row news" data-read-more="{{ 'read_more' | translate }}" data-col-class="col-xs-12 col-sm-6 col-md-4" data-clear-fix-classes-for-two-cards="visible-sm" data-clear-fix-classes-for-three-cards="hidden-sm hidden-xs">
+  </div>
+
+    <!-- --------------------------- -->
 
   {% capture first_column %}
     {% editable_text "first_column" %}
@@ -85,14 +187,15 @@ editable_elements:
     {% endeditable_text %}
   {% endcapture %}
 
+
   <div class="row">
-    <div class="col-lg-4">
+    <div class="col-lg-4 col-md-6 col-xs-12">
       {{ page.editable_elements.content.header.first_column }}
     </div>
-    <div class="col-lg-4">
+    <div class="col-lg-4 md-6 col-xs-12">
       {{ page.editable_elements.content.header.second_column }}
     </div>
-    <div class="col-lg-4">
+    <div class="col-lg-4 md-6 col-xs-12">
       {{ page.editable_elements.content.header.third_column }}
     </div>
   </div>
@@ -117,5 +220,9 @@ editable_elements:
 
     </div>
   </div>
+
+    <!-- -------------------------------- -->
+
+<!-- ------------------------------------ -->
 
 {% endblock %}
