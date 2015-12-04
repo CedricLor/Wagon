@@ -20,7 +20,6 @@ init_hero_news = ->
     )
 
 init_second_row_news = ->
-  console.log("init_second_row")
   react_target = document.getElementById("react-box-container-older-news-target-element")
   localizedReadMore = react_target.dataset.readMore
   colClasses = react_target.dataset.colClass

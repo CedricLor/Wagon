@@ -81,7 +81,7 @@ user_message:
   ru: "Сообщение"
   zh-CH: "信息"
 
-Submit_btn_text:
+submit_btn_text:
   en: "Submit"
   fr: "Envoyer"
   ru:  "Отправить"
@@ -92,3 +92,11 @@ Menu:
   fr: "Menu"
   ru: "меню"
   zh-CN: "导航菜单"
+
+from:
+  en: from
+  fr: de
+
+to:
+  en: to
+  fr: to

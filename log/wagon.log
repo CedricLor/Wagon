@@ -25295,3 +25295,2307 @@ Unable to resize on the fly: nil
   [0;32;49mCompleted 200 OK in 347.4ms
 
 [0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/" at 2015-12-03 19:57:37 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_text "legend" (content/header)
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "Main title" (content/header)
+[index] missing editable_text "Subtitle" (content/header)
+[index] missing editable_text "featured news section title" (content/featured_news)
+[index] missing editable_text "older news section title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_text "first_column" (content/older_news)
+[index] missing editable_text "second_column" (content/older_news)
+[index] missing editable_text "third_column" (content/older_news)
+[index] missing editable_text "legend" (content/older_news/featured_photo)
+[index] missing editable_file "photo" (content/older_news/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 973.1ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-12-03 19:57:41 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 349.4ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/" at 2015-12-03 19:57:59 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_text "legend" (content/header)
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "Main title" (content/header)
+[index] missing editable_text "Subtitle" (content/header)
+[index] missing editable_text "featured news section title" (content/featured_news)
+[index] missing editable_text "older news section title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_text "first_column" (content/older_news)
+[index] missing editable_text "second_column" (content/older_news)
+[index] missing editable_text "third_column" (content/older_news)
+[index] missing editable_text "legend" (content/older_news/featured_photo)
+[index] missing editable_file "photo" (content/older_news/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 331.2ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-12-03 19:59:17 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 157.6ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-12-03 19:59:54 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 192.6ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-12-03 20:00:01 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 163.8ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-12-03 20:00:58 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 178.9ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-12-03 20:01:26 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 160.3ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-12-03 20:01:42 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 176.6ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-12-03 20:01:49 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 185.7ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-12-03 20:02:07 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 183.8ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-12-03 20:02:53 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 224.5ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 20:03:26 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 270.6ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-03 20:04:41 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 20:04:41 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 20:08:26 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 20:09:43 +0100
+service=listen action=reload resource=pages timestamp=2015-12-03 20:10:42 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 20:10:42 +0100
+service=listen action=reload resource=pages timestamp=2015-12-03 20:13:43 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 20:13:43 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 20:13:47 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 126.1ms
+
+[0m
+service=listen action=reload resource=content_types timestamp=2015-12-03 20:56:18 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 20:56:18 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-03 20:57:17 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 20:57:17 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-03 20:57:40 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 20:57:40 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-03 20:58:03 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 20:58:03 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-03 20:58:17 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 20:58:17 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-03 20:58:41 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 20:58:41 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-03 20:59:16 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 20:59:16 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-03 20:59:34 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 20:59:34 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-03 21:05:56 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 21:05:56 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-03 21:06:32 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 21:06:32 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-03 21:06:45 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 21:06:45 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-03 21:07:56 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 21:07:56 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-03 21:09:27 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 21:09:27 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-03 21:09:34 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 21:09:34 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-03 21:10:09 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 21:10:09 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-03 21:10:19 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 21:10:19 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-03 21:10:24 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 21:10:24 +0100
+service=listen action=reload resource=pages timestamp=2015-12-03 21:13:43 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 21:13:43 +0100
+service=listen action=reload resource=pages timestamp=2015-12-03 21:14:24 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 21:14:24 +0100
+service=listen action=reload resource=pages timestamp=2015-12-03 21:14:36 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 21:14:36 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 21:14:50 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 294.4ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-03 21:16:06 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 21:16:06 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 21:16:10 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 143.0ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-03 21:17:09 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 21:17:09 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 21:17:11 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 117.5ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-03 21:18:48 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 21:18:48 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 21:18:50 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 134.8ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/" at 2015-12-03 21:18:59 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_text "legend" (content/header)
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "Main title" (content/header)
+[index] missing editable_text "Subtitle" (content/header)
+[index] missing editable_text "featured news section title" (content/featured_news)
+[index] missing editable_text "older news section title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_text "first_column" (content/older_news)
+[index] missing editable_text "second_column" (content/older_news)
+[index] missing editable_text "third_column" (content/older_news)
+[index] missing editable_text "legend" (content/older_news/featured_photo)
+[index] missing editable_file "photo" (content/older_news/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 294.2ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/" at 2015-12-03 21:19:40 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_text "legend" (content/header)
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "Main title" (content/header)
+[index] missing editable_text "Subtitle" (content/header)
+[index] missing editable_text "featured news section title" (content/featured_news)
+[index] missing editable_text "older news section title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_text "first_column" (content/older_news)
+[index] missing editable_text "second_column" (content/older_news)
+[index] missing editable_text "third_column" (content/older_news)
+[index] missing editable_text "legend" (content/older_news/featured_photo)
+[index] missing editable_file "photo" (content/older_news/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 103.8ms
+
+[0m
+service=listen action=reload resource=content_types timestamp=2015-12-03 21:21:20 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 21:21:20 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:04:03 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 373.4ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-03 23:05:10 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:05:10 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:05:12 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 127.4ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-03 23:06:59 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:06:59 +0100
+service=listen action=reload resource=pages timestamp=2015-12-03 23:08:06 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:08:06 +0100
+service=listen action=reload resource=pages timestamp=2015-12-03 23:10:06 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:10:06 +0100
+service=listen action=reload resource=pages timestamp=2015-12-03 23:15:39 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:15:39 +0100
+service=listen action=reload resource=pages timestamp=2015-12-03 23:17:40 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:17:40 +0100
+service=listen action=reload resource=pages timestamp=2015-12-03 23:18:16 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:18:16 +0100
+service=listen action=reload resource=pages timestamp=2015-12-03 23:20:19 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:20:19 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:20:26 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+  [0;31;49mError: Liquid syntax error: Unknown tag 'endfor'[0m
+  /Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:48:in `unknown_tag'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/if.rb:36:in `unknown_tag'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:73:in `block in parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:34:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:63:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/if.rb:24:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:63:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/for.rb:56:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:63:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/liquid/tags/editable/base.rb:26:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:63:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/inherited_block.rb:55:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/liquid/tags/inherited_block.rb:28:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/extends.rb:45:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/extends.rb:28:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:5:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/template.rb:124:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/liquid/template.rb:24:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/services/liquid_parser_service.rb:19:in `_parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/services/liquid_parser_service.rb:9:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/renderer.rb:33:in `parse_and_render_liquid'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/renderer.rb:22:in `render_page'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/renderer.rb:10:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/path.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/locale.rb:24:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/i18n-0.7.0/lib/i18n.rb:257:in `with_locale'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/locale.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/timezone.rb:16:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5/lib/active_support/core_ext/time/zones.rb:48:in `use_zone'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/timezone.rb:15:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/robots.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/logging.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/default_env.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_wagon-2.0.0.rc4/lib/locomotive/wagon/middlewares/error_page.rb:16:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/dragonfly-1.0.12/lib/dragonfly/middleware.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/dynamic_assets.rb:20:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/static.rb:124:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/favicon.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-rewrite-1.5.1/lib/rack/rewrite.rb:24:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/builder.rb:153:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:86:in `block in pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `catch'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `block in spawn_threadpool'
+service=listen action=reload resource=pages timestamp=2015-12-03 23:20:46 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:20:46 +0100
+service=listen action=reload resource=pages timestamp=2015-12-03 23:20:50 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:20:50 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:20:54 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 104.0ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-03 23:21:15 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:21:15 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:21:17 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 90.3ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-03 23:21:50 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:21:50 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:21:52 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+  [0;31;49mError: Liquid syntax error: Unknown tag 'endfor'[0m
+  /Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:48:in `unknown_tag'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/if.rb:36:in `unknown_tag'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:73:in `block in parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:34:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:63:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/if.rb:24:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:63:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/for.rb:56:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:63:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/liquid/tags/editable/base.rb:26:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:63:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/inherited_block.rb:55:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/liquid/tags/inherited_block.rb:28:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/extends.rb:45:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/extends.rb:28:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:5:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/template.rb:124:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/liquid/template.rb:24:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/services/liquid_parser_service.rb:19:in `_parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/services/liquid_parser_service.rb:9:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/renderer.rb:33:in `parse_and_render_liquid'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/renderer.rb:22:in `render_page'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/renderer.rb:10:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/path.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/locale.rb:24:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/i18n-0.7.0/lib/i18n.rb:257:in `with_locale'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/locale.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/timezone.rb:16:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5/lib/active_support/core_ext/time/zones.rb:48:in `use_zone'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/timezone.rb:15:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/robots.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/logging.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/default_env.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_wagon-2.0.0.rc4/lib/locomotive/wagon/middlewares/error_page.rb:16:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/dragonfly-1.0.12/lib/dragonfly/middleware.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/dynamic_assets.rb:20:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/static.rb:124:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/favicon.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-rewrite-1.5.1/lib/rack/rewrite.rb:24:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/builder.rb:153:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:86:in `block in pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `catch'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `block in spawn_threadpool'
+service=listen action=reload resource=pages timestamp=2015-12-03 23:22:06 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:22:06 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:22:13 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 109.8ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-03 23:22:33 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:22:33 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:22:35 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 106.6ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-03 23:23:01 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:23:01 +0100
+service=listen action=reload resource=pages timestamp=2015-12-03 23:23:14 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:23:14 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:23:15 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 93.2ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-03 23:23:44 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:23:44 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:23:46 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+  [0;31;49mError: Liquid syntax error: Unknown tag 'endfor'[0m
+  /Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:48:in `unknown_tag'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/if.rb:36:in `unknown_tag'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:73:in `block in parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:34:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:63:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/if.rb:24:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:63:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/for.rb:56:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:63:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/liquid/tags/editable/base.rb:26:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:63:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/inherited_block.rb:55:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/liquid/tags/inherited_block.rb:28:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/extends.rb:45:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/extends.rb:28:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:5:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/template.rb:124:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/liquid/template.rb:24:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/services/liquid_parser_service.rb:19:in `_parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/services/liquid_parser_service.rb:9:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/renderer.rb:33:in `parse_and_render_liquid'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/renderer.rb:22:in `render_page'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/renderer.rb:10:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/path.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/locale.rb:24:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/i18n-0.7.0/lib/i18n.rb:257:in `with_locale'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/locale.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/timezone.rb:16:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5/lib/active_support/core_ext/time/zones.rb:48:in `use_zone'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/timezone.rb:15:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/robots.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/logging.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/default_env.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_wagon-2.0.0.rc4/lib/locomotive/wagon/middlewares/error_page.rb:16:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/dragonfly-1.0.12/lib/dragonfly/middleware.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/dynamic_assets.rb:20:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/static.rb:124:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/favicon.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-rewrite-1.5.1/lib/rack/rewrite.rb:24:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/builder.rb:153:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:86:in `block in pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `catch'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `block in spawn_threadpool'
+service=listen action=reload resource=pages timestamp=2015-12-03 23:24:32 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:24:32 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:24:34 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+  [0;31;49mError: Liquid syntax error: Unknown tag 'ENDIF'[0m
+  /Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:48:in `unknown_tag'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/if.rb:36:in `unknown_tag'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:73:in `block in parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:34:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:63:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/if.rb:24:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:63:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/for.rb:56:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:63:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/liquid/tags/editable/base.rb:26:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:63:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/inherited_block.rb:55:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/liquid/tags/inherited_block.rb:28:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/extends.rb:45:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/extends.rb:28:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:5:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/template.rb:124:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/liquid/template.rb:24:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/services/liquid_parser_service.rb:19:in `_parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/services/liquid_parser_service.rb:9:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/renderer.rb:33:in `parse_and_render_liquid'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/renderer.rb:22:in `render_page'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/renderer.rb:10:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/path.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/locale.rb:24:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/i18n-0.7.0/lib/i18n.rb:257:in `with_locale'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/locale.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/timezone.rb:16:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5/lib/active_support/core_ext/time/zones.rb:48:in `use_zone'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/timezone.rb:15:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/robots.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/logging.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/default_env.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_wagon-2.0.0.rc4/lib/locomotive/wagon/middlewares/error_page.rb:16:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/dragonfly-1.0.12/lib/dragonfly/middleware.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/dynamic_assets.rb:20:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/static.rb:124:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/steam-f00506074dd3/lib/locomotive/steam/middlewares/favicon.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-rewrite-1.5.1/lib/rack/rewrite.rb:24:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/builder.rb:153:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:86:in `block in pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `catch'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `block in spawn_threadpool'
+service=listen action=reload resource=pages timestamp=2015-12-03 23:24:50 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:24:50 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:24:52 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 115.3ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-03 23:25:14 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:25:14 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:25:16 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 97.4ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-03 23:28:45 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:28:45 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:28:47 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 106.6ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-03 23:29:57 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:29:57 +0100
+service=listen action=reload resource=pages timestamp=2015-12-03 23:30:00 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:30:00 +0100
+service=listen action=reload resource=pages timestamp=2015-12-03 23:30:12 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:30:12 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:30:15 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 156.7ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-03 23:32:08 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:32:08 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:32:10 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 163.0ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-03 23:37:34 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:37:34 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:37:41 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 167.4ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-03 23:38:32 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:38:32 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:38:34 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 116.7ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-03 23:38:50 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:38:50 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:38:52 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 100.2ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-03 23:40:27 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-03 23:40:27 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 23:41:07 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 23:41:15 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 23:41:24 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 23:41:28 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 23:42:05 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 23:42:18 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 23:42:28 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 23:42:31 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 23:43:03 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 23:43:52 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-03 23:43:56 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-03 23:44:00 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 177.3ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 01:51:44 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 01:51:44 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 01:52:17 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 01:52:17 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 01:53:21 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 191.8ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 01:54:04 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 01:54:04 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 01:54:05 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 150.9ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 01:54:36 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 01:54:36 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 01:54:38 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 119.7ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 01:54:43 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 01:54:43 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 01:54:45 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 125.8ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 01:55:33 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 01:55:33 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 01:55:35 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 138.7ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 01:55:54 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 01:55:54 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 01:55:55 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 174.3ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 01:58:22 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 78.3ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 02:05:50 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 02:05:50 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 02:06:23 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 111.8ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 02:07:08 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 85.1ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 02:11:44 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 93.5ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 02:16:23 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 80.8ms
+
+[0m
+service=listen action=reload resource=content_types timestamp=2015-12-04 02:17:14 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-04 02:17:14 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-04 02:18:17 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-04 02:18:17 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-04 02:19:03 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-04 02:19:03 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-04 02:20:09 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-04 02:20:09 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-04 02:20:25 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-04 02:20:25 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-04 02:20:59 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-04 02:20:59 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-04 02:21:51 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-04 02:23:12 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-04 02:23:12 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 02:24:49 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 02:24:49 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 02:24:59 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 186.8ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 02:25:36 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 02:25:36 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 02:25:37 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 154.5ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 02:26:57 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 02:26:57 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 02:27:06 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 02:27:06 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 02:27:07 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 150.4ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 02:28:31 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 02:28:31 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 02:29:16 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 157.9ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 02:29:34 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 80.1ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 02:42:36 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 02:42:36 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 02:42:44 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 160.1ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 02:42:56 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 02:42:56 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 02:42:58 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 167.8ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 02:44:04 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 02:44:04 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 02:44:41 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 159.5ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 02:46:03 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 02:46:03 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 02:46:42 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 02:46:42 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 02:47:32 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 02:47:32 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 02:50:22 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 02:50:22 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 02:51:02 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 02:51:02 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 02:51:42 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 162.5ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 02:51:47 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 73.4ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 02:55:40 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 86.2ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 02:56:25 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 02:56:25 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 02:56:49 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 151.1ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 02:58:00 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 02:58:00 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 02:58:37 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 111.1ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 02:58:58 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 02:58:58 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-04 02:59:14 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-04 02:59:39 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-04 02:59:49 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 02:59:52 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 132.2ms
+
+[0m
+service=listen action=reload resource=content_types timestamp=2015-12-04 03:00:22 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-04 03:00:22 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-04 03:00:46 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-04 03:00:46 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-04 03:00:56 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-04 03:00:56 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-04 03:02:36 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-04 03:02:41 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-04 03:03:16 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:06:07 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:06:07 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:06:08 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:06:08 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:06:15 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 166.0ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 03:06:44 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:06:44 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:06:52 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 112.5ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 03:08:29 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:08:29 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:08:58 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:08:58 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:09:40 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:09:40 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:10:00 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:10:00 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:10:18 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:10:18 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:11:47 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:11:47 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:12:41 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:12:41 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:12:43 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 109.4ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 03:13:39 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:13:39 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:13:40 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 106.7ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 03:13:47 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:13:47 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:13:50 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 108.7ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 03:14:21 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:14:21 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:14:22 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:14:22 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:14:59 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:14:59 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:15:01 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 105.7ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 03:15:28 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:15:28 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:15:31 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 104.8ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 03:15:55 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:15:55 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:15:58 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 113.3ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 03:24:34 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:24:34 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:24:52 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:24:52 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:24:56 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 141.0ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:25:59 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 68.5ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 03:28:21 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:28:21 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:28:22 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 114.9ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 03:28:35 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:28:35 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:28:37 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 115.5ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 03:29:05 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:29:05 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:29:07 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 117.7ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:29:57 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 76.3ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 03:31:16 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:31:16 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:31:17 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 120.4ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:32:16 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 79.7ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:33:38 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 70.2ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:33:59 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 71.3ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:34:18 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 65.3ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:34:28 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 69.8ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 03:36:37 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:36:37 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:37:08 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 147.9ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:38:19 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 70.7ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-12-04 03:39:08 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 288.5ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 03:39:32 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:39:32 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-12-04 03:39:34 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 170.8ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:39:45 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 72.8ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-12-04 03:40:31 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 104.2ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:40:36 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 72.4ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 03:41:35 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:41:35 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:42:21 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:42:21 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:42:27 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:42:27 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:43:16 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 187.0ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:43:20 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 67.9ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-04 03:44:24 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:44:24 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:44:28 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:44:28 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:44:30 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:44:30 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:44:37 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:44:37 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:44:43 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 119.1ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-12-04 03:44:52 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 91.7ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/fr/news" at 2015-12-04 03:45:05 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Actualités" [news]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 146.3ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-12-04 03:45:13 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 153.6ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:46:48 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'from' for the 'en' locale[0m
+[0;33;49mMissing translation 'to' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 74.5ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/about" at 2015-12-04 03:46:51 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "About" [about]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[about] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[about] missing editable_file "photo" (content/header/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 404.4ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/contact" at 2015-12-04 03:46:57 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Contact" [contact]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[contact] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'Submit_btn_txt' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 294.7ms
+
+[0m
+service=listen action=reload resource=site timestamp=2015-12-04 03:47:34 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-04 03:47:34 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:47:34 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:47:34 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-04 03:47:34 +0100
+service=listen action=reload resource=translations timestamp=2015-12-04 03:47:34 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:48:03 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:48:03 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:48:15 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:48:15 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:48:50 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:48:50 +0100
+service=listen action=reload resource=site timestamp=2015-12-04 03:49:21 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-04 03:49:21 +0100
+service=listen action=reload resource=pages timestamp=2015-12-04 03:49:21 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-04 03:49:21 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-04 03:49:21 +0100
+service=listen action=reload resource=translations timestamp=2015-12-04 03:49:21 +0100
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/contact" at 2015-12-04 03:49:24 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Contact" [contact]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[contact] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'Submit_btn_txt' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 156.4ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/about" at 2015-12-04 03:49:28 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "About" [about]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[about] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[about] missing editable_file "photo" (content/header/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 55.8ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/contact" at 2015-12-04 03:49:29 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Contact" [contact]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[contact] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'Submit_btn_txt' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 46.3ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/events" at 2015-12-04 03:49:31 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 113.5ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/news" at 2015-12-04 03:49:43 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 120.1ms
+
+[0m
+[0;97;44mCentre for the Franco-Russian and Franco-Chinese Friendships[0m
+[0;97;49mStarted GET "/" at 2015-12-04 03:49:54 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_text "legend" (content/header)
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "Main title" (content/header)
+[index] missing editable_text "Subtitle" (content/header)
+[index] missing editable_text "featured news section title" (content/featured_news)
+[index] missing editable_text "older news section title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_text "first_column" (content/older_news)
+[index] missing editable_text "second_column" (content/older_news)
+[index] missing editable_text "third_column" (content/older_news)
+[index] missing editable_text "legend" (content/older_news/featured_photo)
+[index] missing editable_file "photo" (content/older_news/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 118.0ms
+
+[0m
