@@ -16,9 +16,9 @@ editable_elements:
           We truly hope that you like our project and you will join us dominating the world.
         </p>
       "
-    'content/main/first_category_heading': "Board Members"
-    'content/main/second_category_heading': "Executives"
-    'content/main/third_category_heading': "Contributors"
+    'content/main/first_group_heading': "Board Members"
+    'content/main/second_group_heading': "Executives"
+    'content/main/third_group_heading': "Contributors"
 ---
 {% extends 'layouts/simple' %}
 
@@ -57,20 +57,20 @@ editable_elements:
       {% endeditable_text %}
     {% endcapture %}
 
-    {% capture first_category_heading %}
-      {% editable_text 'first_category_heading', rows: 1, hint: "Please enter here the name of the first category of persons that will be displayed on the about page" %}
+    {% capture first_group_heading %}
+      {% editable_text 'first_group_heading', rows: 1, hint: "Please enter here the name of the first group of persons that will be displayed on the about page" %}
         ''
       {% endeditable_text %}
     {% endcapture %}
 
-    {% capture second_category_heading %}
-      {% editable_text 'second_category_heading', rows: 1, hint: "Please enter here the name of the first category of persons that will be displayed on the about page" %}
+    {% capture second_group_heading %}
+      {% editable_text 'second_group_heading', rows: 1, hint: "Please enter here the name of the second group of persons that will be displayed on the about page" %}
         ''
       {% endeditable_text %}
     {% endcapture %}
 
-    {% capture third_category_heading %}
-      {% editable_text 'third_category_heading', rows: 1, hint: "Please enter here the name of the first category of persons that will be displayed on the about page" %}
+    {% capture third_group_heading %}
+      {% editable_text 'third_group_heading', rows: 1, hint: "Please enter here the name of the first group of persons that will be displayed on the about page" %}
         ''
       {% endeditable_text %}
     {% endcapture %}
@@ -86,14 +86,70 @@ editable_elements:
     <div class="row">
       <div class="col-sm-12">
         <h1>
-          {{ first_category_heading }}
+          {{ first_group_heading }}
         </h1>
       </div>
     </div>
 
     {% editable_model members, hint: 'some text' %}
-      {% with_scope category: 'Board Member' %}
-      {% for member in contents.site_members %}
+      {% for member in contents.sitemembers %}
+        <div class="row">
+          <div class="col-sm-12">
+
+            <div class="member-outer-wrapper">
+              <div class="member-inner-wrapper">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-9 md-10">
+                      <div class="media">
+                        <div class="media-left">
+                          <a href="{% path_to member %}">
+                            <img class="media-object my-media-size" src="{{ member.member_index_photo.url | default: 'http://loremflickr.com/100/100' | resize: '200x200#' }}" alt="{{ member.full_name }}">
+                          </a>
+                        </div>
+                        <div class="media-body my-member-media-body">
+                          <h2 class="media-heading my-member-media-heading">{{ member.full_name }}</h2>
+                          <div class="my-member-bio">
+                           {{ member.bio }}
+                          </div>
+                          <div>
+                            {{ member.news.size }}
+                            {% for item in member.news %}
+                              {{ item.title }}
+                            {% endfor %}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 md-2">
+                      <p class="btn-container my-event-btn-container">
+                        <a href="{% path_to member %}" class="btn btn-lg black-square-btn my-member-btn">
+                          {{ 'read_more' | translate }}
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      {% endfor %}
+    <!--{% endeditable_model%}-->
+
+      <!-- Executives section -->
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>
+          {{ second_group_heading }}
+        </h1>
+      </div>
+    </div>
+
+    <!--{% editable_model members, hint: 'some text' %}-->
+      {% with_scope group: 'Executive' %}
+      {% for member in contents.sitemembers %}
         <div class="row">
           <div class="col-sm-12">
 
@@ -138,66 +194,14 @@ editable_elements:
     <div class="row">
       <div class="col-sm-12">
         <h1>
-          {{ second_category_heading }}
+          {{ third_group_heading }}
         </h1>
       </div>
     </div>
 
     <!--{% editable_model members, hint: 'some text' %}-->
-      {% with_scope category: 'Executive' %}
-      {% for member in contents.site_members %}
-        <div class="row">
-          <div class="col-sm-12">
-
-            <div class="member-outer-wrapper">
-              <div class="member-inner-wrapper">
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-9 md-10">
-                      <div class="media">
-                        <div class="media-left">
-                          <a href="{% path_to member %}">
-                            <img class="media-object my-media-size" src="{{ member.member_index_photo.url | default: 'http://loremflickr.com/100/100' | resize: '200x200#' }}" alt="{{ member.full_name }}">
-                          </a>
-                        </div>
-                        <div class="media-body my-member-media-body">
-                          <h2 class="media-heading my-member-media-heading">{{ member.full_name }}</h2>
-                          <div class="my-member-bio">
-                           {{ member.bio }}
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-3 md-2">
-                      <p class="btn-container my-event-btn-container">
-                        <a href="{% path_to member %}" class="btn btn-lg black-square-btn my-member-btn">
-                          {{ 'read_more' | translate }}
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      {% endfor %}
-      {% endwith_scope %}
-    <!--{% endeditable_model%}-->
-
-      <!-- Executives section -->
-    <div class="row">
-      <div class="col-sm-12">
-        <h1>
-          {{ third_category_heading }}
-        </h1>
-      </div>
-    </div>
-
-    <!--{% editable_model members, hint: 'some text' %}-->
-      {% with_scope category: 'Contributor' %}
-      {% for member in contents.site_members %}
+      {% with_scope group: 'Contributor' %}
+      {% for member in contents.sitemembers %}
         <div class="row">
           <div class="col-sm-12">
 

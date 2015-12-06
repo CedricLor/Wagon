@@ -62,9 +62,3 @@ fields:
     required: false
     localized: false
     class_name: events
-
-- event:
-    label: Event
-    hint: A description of the relationship for the editors
-    type: belongs_to
-    class_name: events
