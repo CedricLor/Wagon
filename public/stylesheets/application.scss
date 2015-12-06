@@ -1,31 +1,147 @@
 @import "viewport-units-ios";
+@import "bootstrap";
 
 * {
   box-sizing: border-box;
 }
 
 ////////////////////////////
+// SAS Custom-ariables
+////////////////////////////
+
+// Aide mémoire: bootstrap color variables
+// $gray-base:              #000 !default;
+// $gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+// $gray-dark:              lighten($gray-base, 20%) !default;   // #333
+// $gray:                   lighten($gray-base, 33.5%) !default; // #555
+// $gray-light:             lighten($gray-base, 46.7%) !default; // #777
+// $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+
+// Aide mémoire: bootstrap media queries breakpoints
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+// @media (min-width: @screen-sm-min) { ... }
+// /* Medium devices (desktops, 992px and up) */
+// @media (min-width: @screen-md-min) { ... }
+// /* Large devices (large desktops, 1200px and up) */
+// @media (min-width: @screen-lg-min) { ... }
+
+// Aide mémoire: bootstrap media queries variables
+// Extra small screen / phone
+//** Deprecated `$screen-xs` as of v3.0.1
+// $screen-xs:                  480px !default;
+// //** Deprecated `$screen-xs-min` as of v3.2.0
+// $screen-xs-min:              $screen-xs !default;
+// //** Deprecated `$screen-phone` as of v3.0.1
+// $screen-phone:               $screen-xs-min !default;
+
+// // Small screen / tablet
+// //** Deprecated `$screen-sm` as of v3.0.1
+// $screen-sm:                  768px !default;
+// $screen-sm-min:              $screen-sm !default;
+// //** Deprecated `$screen-tablet` as of v3.0.1
+// $screen-tablet:              $screen-sm-min !default;
+
+// // Medium screen / desktop
+// //** Deprecated `$screen-md` as of v3.0.1
+// $screen-md:                  992px !default;
+// $screen-md-min:              $screen-md !default;
+// //** Deprecated `$screen-desktop` as of v3.0.1
+// $screen-desktop:             $screen-md-min !default;
+
+// // Large screen / wide desktop
+// //** Deprecated `$screen-lg` as of v3.0.1
+// $screen-lg:                  1200px !default;
+// $screen-lg-min:              $screen-lg !default;
+// //** Deprecated `$screen-lg-desktop` as of v3.0.1
+// $screen-lg-desktop:          $screen-lg-min !default;
+
+// // So media queries don't overlap when required, provide a maximum
+// $screen-xs-max:              ($screen-sm-min - 1) !default;
+// $screen-sm-max:              ($screen-md-min - 1) !default;
+// $screen-md-max:              ($screen-lg-min - 1) !default;
+
+// My breakpoints for media queries
+$my-screen-sm-min: $screen-sm; // From bootstrap -> 768px
+$my-screen-md-min: 1024px;
+$my-screen-lg-min: 1280px;
+// Avoid overlapping with max-val
+$my-screen-xs-max: $my-screen-sm-min - 1; // 767px
+$my-screen-sm-max: $my-screen-md-min - 1; // 1023px
+$my-screen-md-max: $my-screen-lg-min - 1; // 1279px
+
+// Colors
+$lighter-gray: #e6e6e6; // non-websafe
+$light-gray: #ddd;
+$opacified-black: rgba(0,0,0,.9);
+$extreme-dark-gray: #262626;
+$darker-gray: #666;
+$dark-gray: #999;
+$very-dark-red-with-transparency: rgba(27, 26, 26, 0.43);
+
+// Tools colors
+$button-bg-color: black;
+$button-color: white;
+$button-hover-color: black;
+$button-bg-hover-color: grey;
+
+$menu-button-hover-color: white;
+$menu-button-color: $darker-gray;
+$menu-button-icon-color: $dark-gray;
+
+$side-nav-bg-color: white;
+$side-nav-border-color: $lighter-gray;
+$side-nav-item-color: $opacified-black;
+
+$top-site-wide-header-bg-color: black;
+$top-site-wide-header-border-color: $extreme-dark-gray;
+$top-site-wide-header-logo-hover-color: white;
+$top-site-wide-header-logo-color: $dark-gray;
+
+$nav-bg-color: black;
+$nav-item-color: $dark-gray;
+$nav-item-hover-color: white;
+$nav-item-active-color: white;
+
+$index-page-header-color: white;
+
+$event-border-color: $light-gray;
+$event-hover-bg-color: $light-gray;
+$event-category-color: $darker-gray;
+$event-location-color: $darker-gray;
+
+$language-switcher-footer-visited-color: $gray-dark; // From Bootstrap
+
+$individual-news-heading-color: $dark-gray;
+
+$light-box-bg-color: $very-dark-red-with-transparency;
+$light-box-legend-color: white;
+
+////////////////////////////
 // SITE-WIDE TOOLSET
 ////////////////////////////
+a {
+  text-decoration: none;
+}
+
 section.section-bottom-margin {
   margin-bottom: 0px;
-  @media (max-width: 1023px) and (min-width: 768px) {
+  @media (max-width: $my-screen-sm-max) and (min-width: $my-screen-sm-min) {
     margin-bottom: 70px;
   }
-  @media (max-width: 1023px) and (min-width: 768px) {
-    margin-bottom: 70px;
-  }
-  @media (max-width: 1279px) and (min-width: 1024px) {
+  @media (max-width: $my-screen-md-max) and (min-width: $my-screen-md-min) {
     margin-bottom: 72px;
   }
-  @media (min-width: 1280px) {
+  @media (min-width: $my-screen-lg-min) {
     margin-bottom: 50px;
   }
 }
 
 section {
   .section-title {
-    @media (min-width: 768px) {
+    margin-left: -15px;
+    @media (min-width: $my-screen-sm-min) {
       padding-top: 45px;
       padding-bottom: 45px;
     }
@@ -33,12 +149,12 @@ section {
 }
 
 .black-square-btn {
-  color: white;
-  background-color: black;
+  color: $button-color;
+  background-color: $button-bg-color;
   border-radius: 0px;
   &:hover {
-    color: black;
-    background-color: grey;
+    color: $button-hover-color;
+    background-color: $button-bg-hover-color;
   }
 }
 div.spacer-for-content-header-of-sec-pages {
@@ -73,63 +189,59 @@ div.spacer-for-content-header-of-sec-pages {
 body {
   div.side-nav {
     position: fixed;
-    top: 0;
+    top: 60px;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: -1;
-    @media (max-width: 767px) {
-      // GIVE SOME ROOM TO THE LOGO IN THE HEADER
-      top: 60px;
+    @media (min-width: $my-screen-sm-min) {
+      // GIVE SOME ROOM TO THE LOGO IN THE HEADER ON SMALL SCREENS
+      top: 0px;
     }
-    // FIXME: CHECK THAT THIS REALLY APPLIES
-    // WHY DO YOU NEED THE TRANSLATEX
-    div.side-nav-open {
+    div.side-nav-wrapper-open {
       z-index: 1000;
       -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
       transform: translateX(0);
     }
-    div.side-nav-close {
+    div.side-nav-wrapper-close {
+      -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+      transform: translateX(-100%);
     }
     .side-nav-wrapper {
       position: relative;
       height: 100%;
       -webkit-transition: 240ms cubic-bezier(.25,.46,.45,.94) -webkit-transform;
       transition: 240ms cubic-bezier(.25,.46,.45,.94) transform;
-      -webkit-transform: translateX(-100%);
-      -ms-transform: translateX(-100%);
-      transform: translateX(-100%);
-      background-color: #fff;
-      font-size: 17px;
+      background-color: $side-nav-bg-color;
+      font-size: 16px;
       -webkit-font-smoothing: subpixel-antialiased;
-      @media (max-width: 1279px) {
-        font-size: 16px;
+      @media (min-width: $my-screen-lg-min) {
+        font-size: 17px;
       }
-      @media (min-width: 768px) {
+      @media (min-width: $my-screen-sm-min) {
         max-width: 250px;
       }
       .side-nav-scrollable {
-        border-right: 1px solid #e6e6e6;
+        border-right: 1px solid $light-gray;
         height: -webkit-calc(100% - 49px);
         height: calc(100% - 49px);
         overflow: auto;
         -webkit-overflow-scrolling: touch;
         .side-nav-logo {
-          // FIXME: THIS TEXT DECORATION SHOULD APPLY TO ALL THE LINK ANCHORS
-          text-decoration: none;
           text-align: center;
-          @media (max-width: 1023px) and (min-width: 768px) {
-            padding: 14px 0 13px;
-            width: 105px;
+          display: none;
+          @media (min-width: $my-screen-sm-min) {
+            display: block;
           }
-          @media (max-width: 767px) {
-            display: none;
-          }
-          display: block;
           margin: 0 auto;
           width: 135px;
           padding: 17px 0 18px;
+          @media (max-width: $my-screen-sm-max) and (min-width: $my-screen-sm-min) {
+            padding: 14px 0 13px;
+            width: 105px;
+          }
         }
         .side-nav-list {
           margin: 0;
@@ -137,12 +249,10 @@ body {
           list-style-type: none;
           margin-top: 11px;
           > li > a {
-            // FIXME - TEXT DECORATION TO APPLY SITE WIDE
-            text-decoration: none;
             display: block;
             padding: 0 25px;
             line-height: 35px;
-            color: rgba(0,0,0,.9);
+            color: $side-nav-item-color;
           }
         }
       }
@@ -154,21 +264,21 @@ body {
 ////////////////////////////
 body {
   header.header {
-    background-color: black;
+    background-color: $top-site-wide-header-bg-color;
     color: white;
-    @media (max-width: 767px) {
+    @media (max-width: $my-screen-xs-max) {
       height: 60px;
     }
-    @media (max-width: 1023px) and (min-width: 768px) {
+    @media (max-width: $my-screen-sm-max) and (min-width: $my-screen-sm-min) {
       height: 85px;
     }
     .header-wrapper {
       width: 100%;
-      position: relative;
       top: 0;
-      background-color: black;
+      background-color: $top-site-wide-header-bg-color;
       z-index: 10;
-      @media (max-width: 1023px) {
+      position: relative;
+      @media (max-width: $my-screen-sm-max) {
         position: fixed;
       }
       .header-inner {
@@ -179,12 +289,12 @@ body {
           // FIXME - HEIGHT TO BE SET DEPENDING ON LOGO SIZE AND MAKE SIZE A SASS VARIABLE
           min-height: 106px;
           text-align: center;
-          border-bottom: 1px solid #262626;
-          @media (max-width: 767px) {
+          border-bottom: 1px solid $top-site-wide-header-border-color;
+          @media (max-width: $my-screen-xs-max) {
             height: 60px;
             min-height: 60px;
           }
-          @media (max-width: 1023px) and (min-width: 768px) {
+          @media (max-width: $my-screen-sm-max) and (min-width: $my-screen-sm-min) {
             min-height: 85px;
           }
           .header-logo-title {
@@ -192,25 +302,26 @@ body {
           }
           // FIXME - SIMILAR TO A IN NAVBAR - REFACTOR AS A COMMON CLASS OR ADJUST
           a.header-logo-title {
-            text-decoration: none;
-            display: block;
-            font-size: 16px;
-            color: #999;
             &:hover {
-              color: white;
+              color: $top-site-wide-header-logo-hover-color;
             }
-            @media (min-width: 1280px) {
+            display: block;
+            color: $top-site-wide-header-logo-color;
+            font-size: 16px;
+            @media (min-width: $my-screen-lg-min) {
               font-size: 17px;
             }
             .header-icon-logo {
               margin: auto;
               // FIXME - HEIGHT TO BE SET DEPENDING ON LOGO SIZE AND MAKE SIZE A SASS VARIABLE
-              min-height: 106px;
-              @media (max-width: 1023px) and (min-width: 768px) {
-                min-height: 85px;
+              min-height: 60px;
+              // min-height: 106px;
+              @media (min-width: $my-screen-sm-min) {
+                // min-height: 60px;
+                min-height: 106px;
               }
-              @media (max-width: 767px) {
-                min-height: 60px;
+              @media (max-width: $my-screen-sm-max) and (min-width: $my-screen-sm-min) {
+                min-height: 85px;
               }
             }
           }
@@ -220,30 +331,49 @@ body {
           top: 0;
           left: 0;
           .menu-btn {
-            text-decoration: none;
-            display: inline-block;
-            color: #999;
-            &:hover {
-              color: white;
-              .min-menu-icon .min-menu-icon-bar {
-                background-color: white;
+            text-decoration: none !important;
+            .min-menu-icon {
+              display: inline-block;
+              margin: 0 14px 0 26px;
+              width: 22px;
+              line-height: initial;
+              height: 18px;
+              background-repeat: no-repeat;
+              svg {
+                  -webkit-transform: translateY(3px);
+                  -ms-transform: translateY(3px);
+                  transform: translateY(3px);
+                path {
+                    fill: $menu-button-color;
+                }
+                &:not(:root) {
+                    overflow: hidden;
+                }
               }
             }
-            line-height: 106px;
-            border-right: 1px solid #262626;
-            font-size: 16px;
-            @media (max-width: 767px) {
-              line-height: 60px;
-              border: 0;
+            &:hover {
+              color: $menu-button-hover-color;
+              svg path {
+                fill: $menu-button-hover-color;
+              }
             }
-            @media (max-width: 1023px) and (min-width: 768px) {
+            display: inline-block;
+            color: $menu-button-icon-color;
+            border: 0;
+            @media (min-width: $my-screen-sm-min) {
+              border-right: 1px solid $extreme-dark-gray;
+            }
+            line-height: 60px;
+            @media (max-width: $my-screen-sm-max) and (min-width: $my-screen-sm-min) {
               width: 72px;
               line-height: 85px;
             }
-            @media (min-width: 1024px) {
+            @media (min-width: $my-screen-md-min) {
               width: 129px;
+              line-height: 106px;
             }
-            @media (min-width: 1279px) {
+            font-size: 16px;
+            @media (min-width: $my-screen-lg-min) {
               font-size: 17px;
             }
             .min-menu-icon {
@@ -253,18 +383,10 @@ body {
               width: 22px;
               line-height: initial;
               background-repeat: no-repeat;
-              .min-menu-icon-bar {
-                background-color: #888;
-                display: block;
-                width: 22px;
-                height: 2px;
-                border-radius: 1px;
-                margin-top: 4px;
-              }
             }
             span {
               display: none;
-              @media (min-width: 1023px) {
+              @media (min-width: $my-screen-md-min) {
                 display: initial;
               }
             }
@@ -278,6 +400,10 @@ body {
 ////////////////////////////
 // Top navbar formatting
 ////////////////////////////
+// For the scrollspy
+body {
+  position: relative;
+}
 body {
   div.nav {
     display: none;
@@ -285,7 +411,7 @@ body {
       display: none;
     }
   }
-  @media (min-width: 1023px) {
+  @media (min-width: $my-screen-md-min) {
     div.nav {
       display: block;
       height: 68px;
@@ -293,14 +419,56 @@ body {
       nav.nav-wrapper {
         display: block;
         top: 0;
+        &.affix-top {
+          position: relative;
+        }
+        &.affix div.nav-menu-container {
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0);
+        }
         width: 100%;
-        position: relative;
         min-height: 69px;
         line-height: 68px;
         text-align: center;
-        background-color: #000;
+        background-color: $nav-bg-color;
         z-index: 3;
         -webkit-font-smoothing: subpixel-antialiased;
+        .nav-menu-container {
+          position: absolute;
+          top: 0;
+          -webkit-transform: translateX(-71px);
+          -ms-transform: translateX(-71px);
+          transform: translateX(-71px);
+          border-right: 1px solid #262626;
+          -webkit-transition: 100ms ease-in-out -webkit-transform;
+          transition: 100ms ease-in-out transform;
+          .nav-menu-button {
+            display: block;
+            width: 70px;
+            height: 69px;
+            .icon-menu {
+              display: inline-block;
+              width: 20px;
+              height: 18px;
+              background-repeat: no-repeat;
+              svg {
+                -webkit-transform: translateY(3px);
+                -ms-transform: translateY(3px);
+                transform: translateY(3px);
+                path {
+                  fill: #666;
+                }
+                &:not(:root) {
+                  overflow: hidden;
+                }
+              }
+            }
+            &:hover svg path {
+              fill: white;
+            }
+          }
+        }
         ul.nav-list {
           margin: 0;
           padding: 0;
@@ -315,18 +483,18 @@ body {
               display: block;
               padding: 0 7px;
               font-size: 16px;
-              color: #999;
+              color: $nav-item-color;
               &:hover {
-                color: white;
+                color: $nav-item-hover-color;
               }
-              @media (min-width: 1280px) {
+              @media (min-width: $my-screen-lg-min) {
                 padding: 0 18px;
                 font-size: 17px;
               }
             }
           }
           .active-nav-list-item a {
-            color: white;
+            color: $nav-item-active-color;
           }
         }
       }
@@ -364,7 +532,7 @@ body {
           }
         }
         .header-text-row {
-          color: white;
+          color: $index-page-header-color;
           opacity: 1;
           z-index: 1;
           .vertical-positionner-wrapper-table {
@@ -379,14 +547,26 @@ body {
       }
     }
   }
-  /////////////////
-  /* news.liquid */
-  /////////////////
+  ///////////////////////////////////////////
+  /* news.liquid & news on the index page */
+  ///////////////////////////////////////////
   div.news-listing {
     margin-bottom: 20px;
     .outer-wrapper-news-div {
-      padding: 10px;
+      // position: relative;
+      padding: 0px;
       border-style: none;
+      .inner-wrapper-news-div {
+        .news-teaser-wrapper {
+          a {
+            text-decoration: none;
+            color: black;
+            &:hover {
+              color: #999;
+            }
+          }
+        }
+      }
       img {
         display: block;
         max-width: 100%;
@@ -396,20 +576,6 @@ body {
       }
       .read-more-news-btn-container {
         text-align: right;
-      }
-      .news-anchor-link-wrapper {
-        .news-picture-overlay {
-          z-index: 20;
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          &:hover {
-            background-color: black;
-            opacity: 0.05;
-          }
-        }
       }
     }
   }
@@ -422,9 +588,9 @@ body {
       padding-bottom: 70px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom-color: #ddd;
+      border-bottom-color: $event-border-color;
       &:hover {
-        background-color: #ddd;
+        background-color: $event-hover-bg-color;
       }
       img.my-media-size {
         width: 200px;
@@ -434,19 +600,22 @@ body {
         padding-left: 55px;
         .my-event-media-heading {
           text-transform: uppercase;
-          .my-event-category {
-            font-color: #ddd;
-          }
+        }
+        .my-event-category {
+          color: $event-category-color;
+        }
+        .my-event-location {
+          color: $event-location-color;
         }
       }
       .my-event-btn-container {
         margin-top: 10px;
-        @media (min-width: 768px) {
+        @media (min-width: $my-screen-sm-min) {
           margin-top: 55px;
           text-align: right;
         }
         .my-event-btn {
-          @media (max-width: 768px) {
+          @media (max-width: $my-screen-sm-min) {
             display: block;
             width: 100%;
           }
@@ -499,10 +668,12 @@ body {
       text-align: center;
     }
     a, a:visited {
-      color: #333;
+      color: $language-switcher-footer-visited-color;
     }
   }
+  ///////////////
   /* news/content_type_template.liquid */
+  ///////////////
   article.news {
     p.tags span {
       margin-left: 10px;
@@ -510,7 +681,7 @@ body {
     h3.posted-at {
       font-size: 20px;
       margin-top: 0px;
-      color: #999;
+      color: $individual-news-heading-color;
     }
   }
 }
@@ -536,14 +707,14 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
-  background-color: rgba(27, 26, 26, 0.43);
+  background-color: $light-box-bg-color;
   z-index: 1050;
   cursor: pointer;
   .img-enlarged {
      width: 800px;
   }
   p {
-    color: white;
+    color: $light-box-legend-color;
     font-weight: bold;
   }
 }

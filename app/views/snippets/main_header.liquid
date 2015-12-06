@@ -16,15 +16,12 @@
         </a>
       </div>
       <div class="header-menu">
-        <a href="#" class="menu-btn" id="menuBtn">
+        <a href="#" class="menu-btn menu-btn-js-handle">
           <div class="min-menu-icon">
-            <span class="min-menu-icon-bar"></span>
-            <span class="min-menu-icon-bar"></span>
-            <span class="min-menu-icon-bar"></span>
-          </div>
-          <span>
-            {{ "Menu" | translate }}
-          </span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16">
+              <path fill="#CCC" d="M0 0h20v2H0zM0 7h20v2H0zM0 14h20v2H0z"></path>
+            </svg>
+          </div><span>{{'Menu' | translate | strip }}</span>
         </a>
       </div>
     </div>

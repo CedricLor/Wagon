@@ -1,0 +1,16 @@
+- "Sample 1":
+    description: "Dolor sed vitae assumenda nobis. Consequatur amet quam officia doloribus ullam. Debitis amet sed omnis sint. Deserunt commodi quas laudantium."
+    category: null # Use the value of a select option defined in the app/content_types/Members.rb file.
+
+- "Sample 2":
+    description: "Sint eligendi hic est voluptatem necessitatibus omnis. Occaecati ratione ab perspiciatis qui. Nobis tempore quia autem dolor. Nobis sit repudiandae."
+    category: null # Use the value of a select option defined in the app/content_types/Members.rb file.
+
+- "Sample 3":
+    description: "Quo ab veritatis dignissimos qui voluptatum ut. Et totam vel perspiciatis. Inventore expedita similique possimus animi nisi adipisci veritatis. Ducimus debitis nam unde. Magni consequatur ut et velit aliquid quae."
+    category: null # Use the value of a select option defined in the app/content_types/Members.rb file.
+
+- "Sample 4":
+    description: "Non perspiciatis non aut illo. Consequatur eligendi enim et unde accusantium dolores. Molestiae repudiandae doloremque dolor accusamus provident rerum voluptatem."
+    category: null # Use the value of a select option defined in the app/content_types/Members.rb file.
+

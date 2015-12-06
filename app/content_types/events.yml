@@ -134,3 +134,9 @@ fields:
     class_name: photos
     inverse_of: event
     ui_enabled: true
+
+- member:
+    label: Member
+    hint: A description of the relationship for the editors
+    type: belongs_to
+    class_name: members

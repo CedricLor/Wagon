@@ -1,5 +1,16 @@
 <div class="nav">
-  <nav class="nav-wrapper">
+  <nav class="nav-wrapper" id="affixedNavWrapper" data-spy="affix" data-offset-top="107">
+    <!-- Replacement menu hamburger button after a scroll -->
+    <div class="nav-menu-container">
+      <a href="#" class="nav-menu-button menu-btn-js-handle">
+        <i class="icon-menu" style="background-image: none;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16">
+            <path fill="#CCC" d="M0 0h20v2H0zM0 7h20v2H0zM0 14h20v2H0z"></path>
+          </svg>
+        </i>
+      </a>
+    </div>
+    <!-- -->
     <ul class="nav-list">
 
       {% include 'nav_list_builder', nav_list_item_class: "nav-list-item", active_nav_list_item_class: "active-nav-list-item" %}

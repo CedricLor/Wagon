@@ -89,11 +89,13 @@ class window.ReactCardEqualizer
               DOM.div
                 className: "news-picture-overlay"
             DOM.div
-              className: "legend"
-              DOM.h3
-                style:
-                  marginTop: 0 if @props.cardImageSource == ""
-                @props.newsTitle
+              className: "news-teaser-wrapper"
+              DOM.a
+                href: @props.cardBtnTarget
+                DOM.h3
+                  style:
+                    marginTop: 0 if @props.cardImageSource == ""
+                  @props.newsTitle
               DOM.div
                 className: "teaser"
                 dangerouslySetInnerHTML: @rawMarkup(@props.newsTeaser)

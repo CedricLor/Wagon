@@ -17,6 +17,7 @@ meta_description: "News page of the website of the Centre for the Franco-russian
     {% editable_model news, hint: 'some text' %}
 
       {% for news in contents.news %}
+
         <div class="react-card-box hidden" data-read-more="{{ 'read_more' | translate }}" data-teaser='{{ news.teaser | escape }}' data-btn-target="{% path_to news %}" data-image-src="{{ news.featured_image.url | resize: '400x200#' }}" data-card-title="{{ news.title | escape }}">
         </div>
       {% endfor %}

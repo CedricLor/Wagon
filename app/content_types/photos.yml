@@ -68,3 +68,9 @@ fields:
     hint: A description of the relationship for the editors
     type: belongs_to
     class_name: events
+
+- member:
+    label: Member
+    hint: A description of the relationship for the editors
+    type: belongs_to
+    class_name: members

@@ -29,8 +29,8 @@ meta_description: "Events page of the website of the Centre for the Franco-russi
                     <div class="col-xs-12 col-sm-9 md-10">
                       <div class="media">
                         <div class="media-left">
-                          <a href="{{ path_to event }}">
-                            <img class="media-object my-media-size" src="{{ project.image.url | default: 'http://loremflickr.com/100/100' | resize: '200x100#' }}" alt="{{ project.name }}">
+                          <a href="{% path_to event %}">
+                            <img class="media-object my-media-size" src="{{ event.featured_image.url | default: 'http://loremflickr.com/100/100' | resize: '200x100#' }}" alt="{{ event.title }}">
                           </a>
                         </div>
                         <div class="media-body my-event-media-body">
@@ -38,7 +38,7 @@ meta_description: "Events page of the website of the Centre for the Franco-russi
                           <p><span class="my-event-category">{{ event.category }}</span>&nbsp;-&nbsp;<span>{{ event.main_star }}</span></p>
                           <br>
                           <p>
-                            <span class="my-event-category">{{ event.location }}</span>
+                            <span class="my-event-location">{{ event.location }}</span>
                              -
                             {% if event.event_start_date != "" %}
                               {{ 'from' | translate }}<span class="my-event-start-date">&nbsp;{{ event.event_start_date }}&nbsp;{{ 'to' | translate }}&nbsp;{{ event.event_end_date }}<span class="my-event-end-date"></span></p>
@@ -50,7 +50,7 @@ meta_description: "Events page of the website of the Centre for the Franco-russi
                     </div>
                     <div class="col-xs-12 col-sm-3 md-2">
                       <p class="btn-container my-event-btn-container">
-                        <a href="" class="btn btn-lg black-square-btn my-event-btn">
+                        <a href="{% path_to event %}" class="btn btn-lg black-square-btn my-event-btn">
                           {{ 'read_more' | translate }}
                         </a>
                       </p>

@@ -6,11 +6,14 @@ published: true
 
 content_type: news
 ---
-{% extends parent %}
+{% extends 'layouts/for-ct-default' %}
 
   {% block content/main %}
 
     <article class="news">
+
+      <h1>{{ news.title }}</h1>
+
       <h3 class="posted-at">
         {% assign posted_at_format = 'posted_at_format' | translate %}
         {{ news.posted_at | localized_date: posted_at_format }}

@@ -7,7 +7,6 @@ init_hero_news = ->
   clearFixClassesForThreeCards = react_target.dataset.clearFixClassesForThreeCards
   clearFixClassesForFourCards = react_target.dataset.clearFixClassesForFourCards
   source_dom_elements = document.getElementsByClassName("react-card-boxes-hero-news")
-  console.log(source_dom_elements)
 
   r = new ReactCardEqualizer(
     react_target,

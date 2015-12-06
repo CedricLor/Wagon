@@ -3,7 +3,7 @@ title: About
 listed: true
 published: true
 position: 2
-meta_description: "About page for the Centre for the Franco-russian and Franco-chinese friendships"
+meta_description: "About page for Art des Nations - General text and listing of the members of Art des Nations"
 
 editable_elements:
     'content/header/featured_photo/legend': "Dali and Lijiang"
@@ -16,6 +16,7 @@ editable_elements:
           We truly hope that you like our project and you will join us dominating the world.
         </p>
       "
+    'content/main/first_category_heading': "Contributors"
 ---
 {% extends 'layouts/simple' %}
 
@@ -46,17 +47,78 @@ editable_elements:
 
 
   {% block content/main %}
+
+    {% capture about_body %}
+      {% comment %} Editable text for the description (about_body) {% endcomment %}
+      {% editable_text "about_body", rows: 20, hint: "Please enter here any text describing your organization." %}
+        ''
+      {% endeditable_text %}
+    {% endcapture %}
+
+    {% capture first_category_heading %}
+      {% editable_text 'first_category_heading', rows: 1, hint: "Please enter here the name of the first category of persons that will be displayed on the about page" %}
+        ''
+      {% endeditable_text %}
+    {% endcapture %}
+
     <div class="row">
       <div class="col-sm-12">
-        {% capture about_body %}
-          {% comment %} Editable text for the description (about_body) {% endcomment %}
-          {% editable_text "about_body", rows: 20, hint: "Please enter here any text describing your organization." %}
-            ''
-          {% endeditable_text %}
-        {% endcapture %}
         {{ about_body }}
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>
+          {{ first_category_heading }}
+        </h1>
+      </div>
+    </div>
+
+    {% editable_model members, hint: 'some text' %}
+
+    {{ contents.news }}
+
+{% comment %}      {% for member in contents.members %}
+        <div class="row">
+          <div class="col-sm-12">
+
+            <div class="member-outer-wrapper">
+              <div class="member-inner-wrapper">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-9 md-10">
+                      <div class="media">
+                        <div class="media-left">
+                          <a href="{% path_to member %}">
+                            <img class="media-object my-media-size" src="{{ member.member_index_photo.url | default: 'http://loremflickr.com/100/100' | resize: '200x200#' }}" alt="{{ member.full_name }}">
+                          </a>
+                        </div>
+                        <div class="media-body my-member-media-body">
+                          <h2 class="media-heading my-member-media-heading">{{ member.full_name }}</h2>
+                          <div class="my-member-description">
+                           {{ member.description }}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 md-2">
+                      <p class="btn-container my-event-btn-container">
+                        <a href="{% path_to member %}" class="btn btn-lg black-square-btn my-member-btn">
+                          {{ 'read_more' | translate }}
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      {% endfor %}
+{% endcomment %}
+    {% endeditable_model%}
 
   {% endblock %}
 
