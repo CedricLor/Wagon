@@ -73,13 +73,6 @@ fields:
     localized: true
     text_formatting: html # html (uses rich text editor), markdown or text (uses plain text editor)
 
-- event_date: # The lowercase, underscored name of the field
-    label: Event date # Human readable name of the field
-    type: date
-    required: false
-    hint: Explanatory text displayed in the back office
-    localized: false
-
 - location: # The lowercase, underscored name of the field
     label: Location of your event # Human readable name of the field
     type: string

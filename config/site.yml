@@ -1,7 +1,7 @@
 # The name of this site
 # This text displays in the back-office and
 # can be used in templates through the site.name global variable
-name: "Centre for the Franco-Russian and Franco-Chinese Friendships"
+name: "Art des Nations"
 
 # An array of domain aliases for the site
 # This option is for sites on multi-site engines
@@ -23,14 +23,14 @@ timezone: Paris
 # And include <meta type="keywords"> and <meta type="description">
 # For this purpose you can set values for these variables here
 # They can be accessed in templates through the site.seo_title, site.meta_keywords, and site.meta_description variables
-seo_title: "Centre for the Franco-Russian and Franco-Chinese friendships"
+seo_title: "Art des Nations"
   # fr: "Centre pour l'amitié franco-russe et franco-chinoise"
   # ru: "Центр Франко-русский и франко-китайские дружеские"
   # zh-CN: "中心法俄和法 - 中国友谊"
 meta_keywords:
   en: "Franco-Russian friendship, Franco-Chinese friendship"
   fr: "Amitié franco-russe, amitié franco-chinoise"
-meta_description: "Website of the Franco-Russian and Franco-Chinese friendships"
+meta_description: "Website of Art des Nations"
   # fr: "Site internet de l'amiété franco-russe et franco-chinoise"
   # ru: "Центр веб-сайт для дружбы Франко - русской и Франко - китайский"
   # zh-CN: "中心网站为法俄友谊和法国 - 中国"
