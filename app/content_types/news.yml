@@ -69,9 +69,3 @@ fields:
     class_name: events # Define the slug of the target content type (eg. comments)
     inverse_of: news  # Define the name of the field referring to news in the target content type
     ui_enabled: true # If you want to manage the entries of the relationship directly from the source entry
-
-# - member:
-#     label: Member
-#     hint: A description of the relationship for the editors
-#     type: belongs_to
-#     class_name: members
