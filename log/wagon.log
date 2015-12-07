@@ -45037,3 +45037,234 @@ service=listen action=reload resource=content_entries timestamp=2015-12-07 03:06
 /Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `call'
 /Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `block in spawn_threadpool'
 service=listen action=reload resource=content_entries timestamp=2015-12-07 03:07:37 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/about" at 2015-12-07 14:18:13 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "About" [about]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[about] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[about] missing editable_file "photo" (content/header/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 893.7ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/news" at 2015-12-07 14:18:21 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 102.2ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/events" at 2015-12-07 14:18:26 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 107.5ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/events/sample-1" at 2015-12-07 14:18:34 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events template" [events/content_type_template]
+  Found content entry: Sample 1
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events/content_type_template] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 240.7ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/events/sample-1" at 2015-12-07 14:18:42 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events template" [events/content_type_template]
+  Found content entry: Sample 1
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events/content_type_template] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 60.9ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/news" at 2015-12-07 14:18:46 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 163.2ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/news/my-english-news-post" at 2015-12-07 14:18:50 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News template" [news/content_type_template]
+  Found content entry: My English News Post
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news/content_type_template] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 1537.1ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-07 14:18:58 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_text "legend" (content/header)
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "Main title" (content/header)
+[index] missing editable_text "Subtitle" (content/header)
+[index] missing editable_text "featured news section title" (content/featured_news)
+[index] missing editable_text "older news section title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_text "first_column" (content/older_news)
+[index] missing editable_text "second_column" (content/older_news)
+[index] missing editable_text "third_column" (content/older_news)
+[index] missing editable_text "legend" (content/older_news/featured_photo)
+[index] missing editable_file "photo" (content/older_news/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 153.0ms
+
+[0m
+service=listen action=reload resource=content_entries timestamp=2015-12-07 14:20:35 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-07 14:20:46 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-07 14:20:50 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_text "legend" (content/header)
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "Main title" (content/header)
+[index] missing editable_text "Subtitle" (content/header)
+[index] missing editable_text "featured news section title" (content/featured_news)
+[index] missing editable_text "older news section title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_text "first_column" (content/older_news)
+[index] missing editable_text "second_column" (content/older_news)
+[index] missing editable_text "third_column" (content/older_news)
+[index] missing editable_text "legend" (content/older_news/featured_photo)
+[index] missing editable_file "photo" (content/older_news/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 483.5ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/about" at 2015-12-07 14:20:54 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "About" [about]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[about] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[about] missing editable_file "photo" (content/header/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 86.9ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/events" at 2015-12-07 14:20:58 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 83.2ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/news" at 2015-12-07 14:21:00 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 220.8ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/news/my-english-news-post" at 2015-12-07 14:21:04 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News template" [news/content_type_template]
+  Found content entry: My English News Post
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news/content_type_template] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 89.9ms
+
+[0m
+service=listen action=reload resource=content_entries timestamp=2015-12-07 14:21:46 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-07 14:22:01 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-07 14:22:01 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-07 14:22:06 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-07 14:22:06 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/news/my-english-news-post" at 2015-12-07 14:22:08 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News template" [news/content_type_template]
+  Found content entry: My English News Post
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news/content_type_template] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 233.3ms
+
+[0m
+service=listen action=reload resource=content_types timestamp=2015-12-07 14:23:10 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-07 14:23:10 +0100

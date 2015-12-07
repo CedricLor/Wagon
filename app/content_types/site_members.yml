@@ -51,12 +51,20 @@ fields:
     localized: false
     # text_formatting: html # html (uses rich text editor), markdown or text (uses plain text editor)
 
-- category: # The lowercase, underscored name of the field
-    label: Category # Human readable name of the field
+- group: # The lowercase, underscored name of the field
+    label: Group # Human readable name of the field
     type: select
     required: true
-    hint: Explanatory text displayed in the back office
+    hint: Please insert here the name of the group to which the site member belongs
     localized: false    # if localized, use
     #   en: ['option1_en', 'option2_en']
     #   fr: ['option1_fr', 'option2_fr']
     select_options: ['Contributor', 'Board Member', 'Executive']
+
+- news:
+    label: News
+    hint: A description of the relationship for the editors
+    type: has_many
+    class_name: news
+    inverse_of: site_member
+    ui_enabled: true

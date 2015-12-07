@@ -51,6 +51,12 @@ fields:
     localized: true
     text_formatting: html # html (uses rich text editor), markdown or text (uses plain text editor)
 
+- site_member:
+    label: Author
+    hint: Full name of the author of the article
+    type: belongs_to
+    class_name: site_members
+
 - photos:
     label: Photos
     type: has_many
