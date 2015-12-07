@@ -45525,3 +45525,64 @@ Unable to resize on the fly: nil
   [0;32;49mCompleted 200 OK in 203.5ms
 
 [0m
+service=listen action=reload resource=site timestamp=2015-12-07 15:49:15 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-07 15:49:15 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 15:49:15 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 15:49:15 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-07 15:49:15 +0100
+service=listen action=reload resource=translations timestamp=2015-12-07 15:49:15 +0100
+service=listen action=reload resource=site timestamp=2015-12-07 15:53:11 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-07 15:53:11 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 15:53:11 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 15:53:11 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-07 15:53:11 +0100
+service=listen action=reload resource=translations timestamp=2015-12-07 15:53:11 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/events" at 2015-12-07 16:06:16 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  [0;35;49mPage not found, rendering the 404 page.[0m
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[404] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+[404] missing editable_text "jumbotron" (content)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 404 Not Found in 364.9ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/events" at 2015-12-07 16:06:28 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 129.9ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-07 16:16:47 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 16:16:47 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 16:17:52 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 16:17:52 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 16:18:40 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 16:18:40 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 16:19:26 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 16:19:26 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 16:19:42 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 16:19:42 +0100
+service=listen action=reload resource=site timestamp=2015-12-07 16:27:48 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-07 16:27:48 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 16:27:48 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 16:27:48 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-07 16:27:48 +0100
+service=listen action=reload resource=translations timestamp=2015-12-07 16:27:48 +0100
+service=listen action=reload resource=site timestamp=2015-12-07 16:28:10 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-07 16:28:10 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 16:28:10 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 16:28:10 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-07 16:28:10 +0100
+service=listen action=reload resource=translations timestamp=2015-12-07 16:28:10 +0100

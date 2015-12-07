@@ -14,8 +14,9 @@
 #   password: apassword
 #   # api_key: <your api key here>
 
-production:
-  host: localhost:3000
-  handle: breezy-sanctuary-9549
+
+local:
+  host: 0.0.0.0:3000
+  handle: screeching-silence-8251
   email: cedric.lor@gmail.com
   api_key: 07ba764472caae0d4a00abecfe73b124edd2878a
