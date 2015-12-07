@@ -65,7 +65,7 @@ fields:
     hint: A news post may relate to many events and vice versa
     type: has_many
     required: false
-    localized: true
+    localized: false
     class_name: events # Define the slug of the target content type (eg. comments)
     inverse_of: news  # Define the name of the field referring to news in the target content type
     ui_enabled: true # If you want to manage the entries of the relationship directly from the source entry
