@@ -7,26 +7,26 @@ meta_description: "Home page of the website of the Centre for the Franco-russian
 seo_title: "Home page of the website of the Centre for the Franco-russian and Franco-chinese friendships"
 position: 0
 editable_elements:
-  'content/header/photo_legend': "Great Chinese Wall"
+  'content/header/header_photo_legend': "Great Chinese Wall"
   'content/header/main_title': "5th edition of the Standard Ideal Festival"
   'content/header/subtitle': "From May 5 to May 25, 2016"
-  'content/header/Call to action button': "Discover the Program"
-  'content/header/first_column':
+  'content/header/call_to_action_button': "Discover the Program"
+  'content/test/first_column':
       "
       <h2>China</h2>
       <p>A multibillion people with multithousand years old history and a diverse and rich culinary culture, China has become in the recent years one of the major players in the world economy. And his military is catching up to overcome the Eastern empire.</p>
       "
-  'content/header/second_column':
+  'content/test/second_column':
       "
       <h2>France</h2>
       <p>A small once-big country, that keeps a large scope of influence over African and European matters, French people love wine and sausages as well as the legendary café culture.</p>
       "
-  'content/header/third_column':
+  'content/test/third_column':
       "
       <h2>Russia</h2>
       <p>Deeply rooted in the cold lands, Russia is famous for its revolutionaries, its vodka, its women, its chessplayers and its weaponry which is easily available in any part of the world for affordable prices.</p>
       "
-  'content/main/featured_photo/legend': "Hermitage Museum, Saint Petersburg"
+  'content/test/featured_photo/legend': "Hermitage Museum, Saint Petersburg"
 # FIXME:
 # Remove all the captures, no longer needed
 # Update the editable_elements keys in the liquid part to display user friendly text
@@ -42,7 +42,7 @@ editable_elements:
 
     {% comment %} Captured and editable legend for the featured photo {% endcomment %}
     {% capture header_photo_legend %}
-      {% editable_text "legend", format: "raw", rows: 3, hint: "Text displayed below the photo and in the ALT attribute." %}
+      {% editable_text "header_photo_legend", format: "raw", rows: 3, hint: "Text displayed below the photo and in the ALT attribute." %}
       {% endeditable_text %}
     {% endcapture %}
 
@@ -52,17 +52,17 @@ editable_elements:
     {% endif %}
 
     {% capture main_title %}
-      {% editable_text 'Main title', format: "raw", rows: 1, priority: 3 %}
+      {% editable_text 'main_title', format: "raw", rows: 1, priority: 3 %}
       {% endeditable_text %}
     {% endcapture %}
 
     {% capture subtitle %}
-      {% editable_text 'Subtitle', format: "raw", rows: 2, priority: 2 %}
+      {% editable_text 'subtitle', format: "raw", rows: 2, priority: 2 %}
       {% endeditable_text %}
     {% endcapture %}
 
-    {% capture call_to_action %}
-      {% editable_text 'Call to action button', format: "raw", rows: 1, priority: 1 %}
+    {% capture call_to_action_button %}
+      {% editable_text 'call_to_action_button', format: "raw", rows: 1, priority: 1 %}
       {% endeditable_text %}
     {% endcapture %}
 
@@ -172,7 +172,11 @@ editable_elements:
   <div id="react-box-container-older-news-target-element" class="row news" data-read-more="{{ 'read_more' | translate }}" data-col-class="col-xs-12 col-sm-6 col-md-4" data-clear-fix-classes-for-two-cards="visible-sm" data-clear-fix-classes-for-three-cards="hidden-sm hidden-xs">
   </div>
 
-    <!-- --------------------------- -->
+{% endblock %}
+
+<!-- ---------------------------------------------------------------- -->
+
+{% block content/test %}
 
   {% capture first_column %}
     {% editable_text "first_column" %}
@@ -190,13 +194,13 @@ editable_elements:
 
   <div class="row">
     <div class="col-lg-4 col-md-6 col-xs-12">
-      {{ page.editable_elements.content.header.first_column }}
+      {{ page.editable_elements.content.test.first_column }}
     </div>
     <div class="col-lg-4 md-6 col-xs-12">
-      {{ page.editable_elements.content.header.second_column }}
+      {{ page.editable_elements.content.test.second_column }}
     </div>
     <div class="col-lg-4 md-6 col-xs-12">
-      {{ page.editable_elements.content.header.third_column }}
+      {{ page.editable_elements.content.test.third_column }}
     </div>
   </div>
 
@@ -215,7 +219,7 @@ editable_elements:
           {% assign photo = 'saint_petersburgh_ermitage.jpg' | theme_image_url %}
         {% endif %}
         {% comment %} Including img_box liquid components (find it in snippets) {% endcomment %}
-        {% include 'img_box' with legend: page.editable_elements.content.main.featured_photo.legend, photo: photo, size: "800x>" %}
+        {% include 'img_box' with legend: page.editable_elements.content.test.featured_photo.legend, photo: photo, size: "800x>" %}
       {% endblock %}
 
     </div>

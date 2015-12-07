@@ -45268,3 +45268,260 @@ service=listen action=reload resource=content_entries timestamp=2015-12-07 14:22
 [0m
 service=listen action=reload resource=content_types timestamp=2015-12-07 14:23:10 +0100
 service=listen action=reload resource=content_entries timestamp=2015-12-07 14:23:10 +0100
+service=listen action=reload resource=site timestamp=2015-12-07 14:36:25 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-07 14:36:25 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 14:36:25 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 14:36:25 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-07 14:36:25 +0100
+service=listen action=reload resource=translations timestamp=2015-12-07 14:36:25 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/news/my-english-news-post" at 2015-12-07 14:36:40 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News template" [news/content_type_template]
+  Found content entry: My English News Post
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news/content_type_template] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 341.7ms
+
+[0m
+service=listen action=reload resource=site timestamp=2015-12-07 14:37:28 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-07 14:37:28 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 14:37:28 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 14:37:28 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-07 14:37:28 +0100
+service=listen action=reload resource=translations timestamp=2015-12-07 14:37:28 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/news/my-english-news-post" at 2015-12-07 14:40:31 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Modèle pour les actualités" [news/content_type_template]
+  Found content entry: Mon actualité en anglais (traduite en français)
+  [0;31;49mError: Liquid error: Extending a missing page. Page/Layout with fullpath 'layouts/for-ct-default' was not found[0m
+  /Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/tags/extends.rb:20:in `parse_parent_template'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/extends.rb:30:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:5:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/template.rb:124:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/template.rb:24:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/services/liquid_parser_service.rb:19:in `_parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/services/liquid_parser_service.rb:9:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/renderer.rb:33:in `parse_and_render_liquid'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/renderer.rb:22:in `render_page'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/renderer.rb:10:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/path.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/locale.rb:24:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/i18n-0.7.0/lib/i18n.rb:257:in `with_locale'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/locale.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/timezone.rb:16:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5/lib/active_support/core_ext/time/zones.rb:48:in `use_zone'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/timezone.rb:15:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/robots.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/logging.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/default_env.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_wagon-2.0.0.rc5/lib/locomotive/wagon/middlewares/error_page.rb:16:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/dragonfly-1.0.12/lib/dragonfly/middleware.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/dynamic_assets.rb:20:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/static.rb:124:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/favicon.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-rewrite-1.5.1/lib/rack/rewrite.rb:24:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/builder.rb:153:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:86:in `block in pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `catch'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `block in spawn_threadpool'
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/news/my-english-news-post" at 2015-12-07 14:41:25 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Modèle pour les actualités" [news/content_type_template]
+  Found content entry: Mon actualité en anglais (traduite en français)
+  [0;31;49mError: Liquid error: Extending a missing page. Page/Layout with fullpath 'layouts/for-ct-default' was not found[0m
+  /Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/tags/extends.rb:20:in `parse_parent_template'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/extends.rb:30:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:5:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/template.rb:124:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/template.rb:24:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/services/liquid_parser_service.rb:19:in `_parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/services/liquid_parser_service.rb:9:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/renderer.rb:33:in `parse_and_render_liquid'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/renderer.rb:22:in `render_page'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/renderer.rb:10:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/path.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/locale.rb:24:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/i18n-0.7.0/lib/i18n.rb:257:in `with_locale'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/locale.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/timezone.rb:16:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5/lib/active_support/core_ext/time/zones.rb:48:in `use_zone'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/timezone.rb:15:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/robots.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/logging.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/default_env.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_wagon-2.0.0.rc5/lib/locomotive/wagon/middlewares/error_page.rb:16:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/dragonfly-1.0.12/lib/dragonfly/middleware.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/dynamic_assets.rb:20:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/static.rb:124:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/favicon.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-rewrite-1.5.1/lib/rack/rewrite.rb:24:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/builder.rb:153:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:86:in `block in pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `catch'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `block in spawn_threadpool'
+service=listen action=reload resource=pages timestamp=2015-12-07 14:42:24 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 14:42:24 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 14:42:36 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 14:42:36 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 14:43:02 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 14:43:02 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/news/my-english-news-post" at 2015-12-07 14:43:05 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Modèle pour les actualités" [news/content_type_template]
+  Found content entry: Mon actualité en anglais (traduite en français)
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[news/content_type_template] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 255.8ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-07 15:01:09 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 15:01:09 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 15:02:08 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 15:02:08 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 15:04:16 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 15:04:16 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 15:04:55 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 15:04:55 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 15:05:29 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 15:05:29 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 15:05:59 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 15:05:59 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 15:06:10 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 15:06:10 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 15:07:19 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 15:07:19 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 15:07:23 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 15:07:23 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 15:07:53 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 15:07:53 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 15:08:16 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 15:08:16 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 15:08:38 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 15:08:38 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 15:09:14 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 15:09:14 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 15:09:41 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 15:09:41 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 15:09:50 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 15:09:50 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 15:10:07 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 15:10:07 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-07 15:10:13 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "featured news section title" (content/featured_news)
+[index] missing editable_text "older news section title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_text "older news section title" (content/older_news)
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 334.9ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-07 15:10:42 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 15:10:42 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-07 15:10:44 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "featured news section title" (content/featured_news)
+[index] missing editable_text "older news section title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 203.5ms
+
+[0m
