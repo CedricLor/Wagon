@@ -3,14 +3,19 @@ title: Home
 published: true
 listed: true
 handle: home
-meta_description: "Home page of the website of the Centre for the Franco-russian and Franco-chinese friendships"
-seo_title: "Home page of the website of the Centre for the Franco-russian and Franco-chinese friendships"
+meta_description: "Home page of the website of Art des Nations"
+seo_title: "Home page of the website of Art des Nations"
 position: 0
 editable_elements:
   'content/header/header_photo_legend': "Great Chinese Wall"
-  'content/header/main_title': "5th edition of the Standard Ideal Festival"
+  'content/header/header_photo': "chinese_great_wall.jpg"
+  'content/header/main_title': "5th edition of the Ideal Standard Festival"
   'content/header/subtitle': "From May 5 to May 25, 2016"
-  'content/header/call_to_action_button': "Discover the Program"
+  'content/header/call_to_action_button': "Discover the program"
+
+  'content/featured_news/featured_news_section_title': "Actuellement"
+  'content/older_news/older_news_section_title': "Mais encore"
+
   'content/test/first_column':
       "
       <h2>China</h2>
@@ -27,60 +32,61 @@ editable_elements:
       <p>Deeply rooted in the cold lands, Russia is famous for its revolutionaries, its vodka, its women, its chessplayers and its weaponry which is easily available in any part of the world for affordable prices.</p>
       "
   'content/test/featured_photo/legend': "Hermitage Museum, Saint Petersburg"
-# FIXME:
-# Update the editable_elements keys in the liquid part to display user friendly text
-# Update the editablle_elements keys in the header parts of the other languages files
+  'content/test/featured_photo/featured_photo': "saint_petersburgh_ermitage.jpg"
 ---
-{% extends 'layouts/forindex' %}
+
+
+
+{% extends 'layouts/for-index' %}
 
 <!-- ------------------------------------ -->
+
+
+
 
 {% block content/header %}
 
     <!-- -------------------------------- -->
 
-    {% comment %} Captured and editable legend for the featured photo {% endcomment %}
-    {% capture header_photo_legend %}
-      {% editable_text "header_photo_legend", format: "raw", rows: 3, hint: "Text displayed below the photo and in the ALT attribute." %}
-      {% endeditable_text %}
-    {% endcapture %}
+    {% comment %} Editable legend for the featured photo {% endcomment %}
+    {% editable_text "Header photo legend", slug: "header_photo_legend", format: "raw", rows: 1, hint: "Text displayed in the ALT attribute." %}
+    {% endeditable_text %}
 
-    {% capture header_photo %}{% editable_file "photo" %}chinese_great_wall.jpg{% endeditable_file %}{% endcapture %}
-    {% if photo == '' or photo == 'chinese_great_wall.jpg' %}
-      {% assign photo = 'chinese_great_wall.jpg' | theme_image_url %}
-    {% endif %}
+    {% capture header_photo_url %}{% editable_file 'header_photo' %}{% endeditable_file %}{% endcapture %}
 
-    {% capture main_title %}
-      {% editable_text 'main_title', format: "raw", rows: 1, priority: 3 %}
-      {% endeditable_text %}
-    {% endcapture %}
+    {% editable_text 'Main title for the header section', slug: "main_title", format: "raw", rows: 1, priority: 3 %}
+    {% endeditable_text %}
 
-    {% capture subtitle %}
-      {% editable_text 'subtitle', format: "raw", rows: 2, priority: 2 %}
-      {% endeditable_text %}
-    {% endcapture %}
+    {% editable_text 'Subtitle for the header section',  slug: "subtitle", format: "raw", rows: 2, priority: 2 %}
+    {% endeditable_text %}
 
-    {% capture call_to_action_button %}
-      {% editable_text 'call_to_action_button', format: "raw", rows: 1, priority: 1 %}
-      {% endeditable_text %}
-    {% endcapture %}
+    {% editable_text 'Text on the call to action button', slug: "call_to_action_button", format: "raw", rows: 1, priority: 1 %}
+    {% endeditable_text %}
 
     <!-- -------------------------------- -->
 
     <div class="row header-bg-image-row header-row">
       <div class="col-xs-12 text-center">
-        <img src="{{ 'chinese_great_wall.jpg' | theme_image_url | resize: '2500x>' }}" alt="{{ header_photo_legend }}">
+
+        {% assign header_photo_legend_for_alt = "alt: " | concat: page.editable_elements.content.header.header_photo_legend %}
+
+        {% if header_photo_url != '' %}
+          {{ header_photo_url | resize: '2500x>' | image_tag: header_photo_legend_for_alt }}
+        {% else %}
+          {{ 'chinese_great_wall.jpg' | theme_image_url | resize: '2500x>' | image_tag: header_photo_legend_for_alt }}
+        {% endif %}
+
       </div>
     </div>
 
     <div class="row header-text-row header-row">
       <div class="table vertical-positionner-wrapper-table">
         <div class="table-cell vertical-positionner-wrapper-table-cell">
-          <h1 class="text-center">{{ page.editable_elements.content.header.main_title | escape }}</h1>
-          <h2 class="text-center">{{ page.editable_elements.content.header.subtitle | escape }}</h2>
+          <h1 class="text-center">{{ page.editable_elements.content.header.main_title }}</h1>
+          <h2 class="text-center">{{ page.editable_elements.content.header.subtitle }}</h2>
           <p class="text-center">
             <a href="{% path_to news_index %}" class="btn btn-lg black-square-btn">
-              {{ page.editable_elements.content.header.call_to_action_button | escape }}
+              {{ page.editable_elements.content.header.call_to_action_button }}
             </a>
           </p>
         </div>
@@ -91,24 +97,24 @@ editable_elements:
 
 {% endblock %}
 
+
+
 <!-- ---------------------------------------------------------------- -->
 
 {% block content/featured_news %}
 
     <!-- --------------------------------------------- -->
 
-  {% capture featured_news_section_title %}
-    {% editable_text "featured_news_section_title", format: "raw", rows: 1 %}
-      Currently
-    {% endeditable_text %}
-  {% endcapture %}
+  {% editable_text "Featured news section title", slug: "featured_news_section_title", format: "raw", rows: 1 %}
+  {% endeditable_text %}
+
 
     <!-- --------------------------------------------- -->
 
   <div class="row">
     <div class="col-xs-12">
       <h1 class="section-title">
-        {{ featured_news_section_title }}
+        {{ page.editable_elements.content.featured_news.featured_news_section_title }}
       </h1>
     </div>
   </div>
@@ -120,8 +126,8 @@ editable_elements:
       {% break %}
     {% else %}
 
-        <div class="react-card-boxes-hero-news hidden" data-read-more="{{ 'read_more' | translate }}" data-teaser='{{ news.teaser | escape }}' data-btn-target="{% path_to news %}" data-image-src="{{ news.featured_image.url | resize: '600x200#' }}" data-card-title="{{ news.title | escape }}">
-        </div>
+      <div class="react-card-boxes-hero-news hidden" data-read-more="{{ 'read_more' | translate }}" data-teaser='{{ news.teaser | escape }}' data-btn-target="{% path_to news %}" data-image-src="{{ news.featured_image.url | resize: '600x200#' }}" data-card-title="{{ news.title | escape }}">
+      </div>
 
     {% endif %}
   {% endfor %}
@@ -133,24 +139,25 @@ editable_elements:
 
 {% endblock %}
 
+
+
+
+
 <!-- ---------------------------------------------------------------- -->
 
 {% block content/older_news %}
 
     <!-- --------------------------------------------- -->
 
-  {% capture older_news_section_title %}
-    {% editable_text "older_news_section_title", format: "raw", rows: 1 %}
-      But still and also
-    {% endeditable_text %}
-  {% endcapture %}
+  {% editable_text "Older news section title", slug: "older_news_section_title", format: "raw", rows: 1 %}
+  {% endeditable_text %}
 
     <!-- --------------------------------------------- -->
 
   <div class="row">
     <div class="col-xs-12">
       <h1 class="section-title">
-        {{ older_news_section_title }}
+        {{ page.editable_elements.content.older_news.older_news_section_title }}
       </h1>
     </div>
   </div>
@@ -160,7 +167,7 @@ editable_elements:
   {% for news in contents.news %}
     {% if forloop.index > 2 and forloop.index < 9 %}
 
-        <div class="react-card-box-older-news hidden" data-read-more="{{ 'read_more' | translate }}" data-teaser='{{ news.teaser | escape }}' data-btn-target="{% path_to news %}" data-image-src="{{ news.featured_image.url | resize: '400x200#' }}" data-card-title="{{ news.title | escape }}">
+      <div class="react-card-box-older-news hidden" data-read-more="{{ 'read_more' | translate }}" data-teaser='{{ news.teaser | escape }}' data-btn-target="{% path_to news %}" data-image-src="{{ news.featured_image.url | resize: '400x200#' }}" data-card-title="{{ news.title | escape }}">
         </div>
 
     {% endif %}
@@ -173,22 +180,20 @@ editable_elements:
 
 {% endblock %}
 
+
+
+
+
 <!-- ---------------------------------------------------------------- -->
 
 {% block content/test %}
 
-  {% capture first_column %}
-    {% editable_text "first_column" %}
-    {% endeditable_text %}
-  {% endcapture %}
-  {% capture second_column %}
-    {% editable_text "second_column" %}
-    {% endeditable_text %}
-  {% endcapture %}
-  {% capture third_column %}
-    {% editable_text "third_column" %}
-    {% endeditable_text %}
-  {% endcapture %}
+  {% editable_text "First colum bottom section", slug: "first_column" %}
+  {% endeditable_text %}
+  {% editable_text "Second column bottom section", slug: "second_column" %}
+  {% endeditable_text %}
+  {% editable_text "Third column bottom section", slug: "third_column" %}
+  {% endeditable_text %}
 
 
   <div class="row">
@@ -206,18 +211,22 @@ editable_elements:
   <div class="row">
     <div class="col-xs-12">
 
+
       {% block 'featured_photo' %}
-        {% comment %} Captured and editable legend for the featured photo {% endcomment %}
-        {% capture legend %}
-          {% editable_text "legend", format: "raw", rows: 1, hint: "Text displayed below the photo and in the ALT attribute." %}
-          {% endeditable_text %}
-        {% endcapture %}
-        {% comment %} Captured and editable file for the featured photo {% endcomment %}
-        {% capture photo %}{% editable_file "photo" %}saint_petersburgh_ermitage.jpg{% endeditable_file %}{% endcapture %}
-        {% if photo == '' or photo == 'saint_petersburgh_ermitage.jpg' %}
+
+        {% editable_text "Featured photo legend", slug: "legend", format: "raw", rows: 1, hint: "Text displayed below the photo and in the ALT attribute." %}
+        {% endeditable_text %}
+
+        {% capture featured_photo_url %}{% editable_file 'featured_photo' %}{% endeditable_file %}{% endcapture %}
+
+        {% if featured_photo_url != '' %}
+          {% assign photo = featured_photo_url %}
+        {% else %}
+          {% comment %}{% assign photo = '/samples/index/saint_petersburgh_ermitage.jpg' %}{% endcomment %}
           {% assign photo = 'saint_petersburgh_ermitage.jpg' | theme_image_url %}
         {% endif %}
-        {% comment %} Including img_box liquid components (find it in snippets) {% endcomment %}
+
+        {% comment %} Including img_box.liquid React components (find it in snippets) {% endcomment %}
         {% include 'img_box' with legend: page.editable_elements.content.test.featured_photo.legend, photo: photo, size: "800x>" %}
       {% endblock %}
 

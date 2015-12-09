@@ -45586,3 +45586,2675 @@ service=listen action=reload resource=pages timestamp=2015-12-07 16:28:10 +0100
 service=listen action=reload resource=snippets timestamp=2015-12-07 16:28:10 +0100
 service=listen action=reload resource=content_entries timestamp=2015-12-07 16:28:10 +0100
 service=listen action=reload resource=translations timestamp=2015-12-07 16:28:10 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 16:38:51 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 16:38:51 +0100
+service=listen action=reload resource=site timestamp=2015-12-07 16:39:52 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-07 16:39:52 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 16:39:52 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 16:39:52 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-07 16:39:52 +0100
+service=listen action=reload resource=translations timestamp=2015-12-07 16:39:52 +0100
+service=listen action=reload resource=site timestamp=2015-12-07 16:40:00 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-07 16:40:00 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 16:40:00 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 16:40:00 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-07 16:40:00 +0100
+service=listen action=reload resource=translations timestamp=2015-12-07 16:40:00 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-07 16:44:43 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "featured_news_section_title" (content/featured_news)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 764.6ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-07 16:56:22 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 16:56:22 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 17:03:05 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 17:03:05 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 17:03:12 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 17:03:12 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-07 17:13:20 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-07 17:13:20 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/events" at 2015-12-07 17:13:24 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 192.9ms
+
+[0m
+service=listen action=reload resource=content_types timestamp=2015-12-07 17:14:42 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-07 17:14:42 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/events" at 2015-12-07 17:15:19 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 129.9ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-07 17:24:03 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 17:24:03 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 17:29:47 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 17:29:47 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 17:35:30 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 17:35:30 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 17:51:35 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 17:51:35 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 18:10:35 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 18:10:35 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 20:12:52 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:12:52 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 20:13:04 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:13:04 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 20:13:23 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:13:23 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 20:13:39 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:13:39 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 20:13:52 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:13:52 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 20:13:58 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:13:58 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 20:14:28 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:14:28 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 20:15:09 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:15:09 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 20:15:39 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:15:39 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 20:16:50 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:16:50 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-07 20:16:58 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_text "featured_photo_legend" (content/test/featured_photo)
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 321.0ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-07 20:17:18 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:17:18 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 20:19:23 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:19:23 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-07 20:19:26 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 158.3ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-07 20:19:34 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:19:34 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-07 20:19:37 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 152.0ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-07 20:19:39 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 227.0ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-07 20:19:41 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 197.7ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-07 20:19:59 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:19:59 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-07 20:20:01 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 164.3ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/news" at 2015-12-07 20:20:07 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 91.7ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-07 20:20:14 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 258.0ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-07 20:20:27 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:20:27 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-07 20:20:30 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 163.8ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-07 20:20:52 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:20:52 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-07 20:20:53 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 142.7ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-07 20:21:46 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:21:46 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-07 20:22:04 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 144.2ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-07 20:30:04 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:30:04 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 20:30:12 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:30:12 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-07 20:30:16 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 199.7ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-07 20:30:26 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:30:26 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-07 20:30:29 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 167.1ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-07 20:30:38 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:30:38 +0100
+service=listen action=reload resource=pages timestamp=2015-12-07 20:41:37 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-07 20:41:37 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 00:50:01 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 259.5ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 00:50:25 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 00:50:25 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 00:50:27 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 153.3ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 00:50:48 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 00:50:48 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 00:50:50 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 158.0ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 00:51:00 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 00:51:00 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 00:51:02 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 146.6ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 00:52:43 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 00:52:43 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 00:53:01 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 00:53:01 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 00:53:04 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 158.1ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 00:53:10 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 00:53:10 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 00:53:18 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 00:53:18 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 00:53:19 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 157.1ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 00:53:24 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 00:53:24 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 08:15:10 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 783.6ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 08:15:35 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 08:15:35 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 08:15:38 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 225.4ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 08:15:51 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 08:15:51 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 08:15:53 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 141.0ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 08:15:59 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 08:15:59 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr" at 2015-12-08 10:44:51 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+  [0;31;49mError: Liquid error: Extending a missing page. Page/Layout with fullpath 'layouts/forindex' was not found[0m
+  /Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/tags/extends.rb:20:in `parse_parent_template'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/extends.rb:30:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:5:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/template.rb:124:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/template.rb:24:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/services/liquid_parser_service.rb:19:in `_parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/services/liquid_parser_service.rb:9:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/renderer.rb:33:in `parse_and_render_liquid'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/renderer.rb:22:in `render_page'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/renderer.rb:10:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/path.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/locale.rb:24:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/i18n-0.7.0/lib/i18n.rb:257:in `with_locale'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/locale.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/timezone.rb:16:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5/lib/active_support/core_ext/time/zones.rb:48:in `use_zone'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/timezone.rb:15:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/robots.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/logging.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/default_env.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_wagon-2.0.0.rc5/lib/locomotive/wagon/middlewares/error_page.rb:16:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/dragonfly-1.0.12/lib/dragonfly/middleware.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/dynamic_assets.rb:20:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/static.rb:124:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/favicon.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-rewrite-1.5.1/lib/rack/rewrite.rb:24:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/builder.rb:153:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:86:in `block in pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `catch'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `block in spawn_threadpool'
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 11:19:32 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 737.9ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 11:20:07 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 121.9ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 11:20:22 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 110.0ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 11:20:29 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 119.2ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 11:20:47 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:20:47 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 11:21:19 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:21:19 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 11:21:41 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:21:41 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 11:21:45 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 191.0ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 11:22:15 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:22:15 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 11:22:18 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:22:18 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 11:22:20 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 158.8ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 11:23:57 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:23:57 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 11:24:41 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:24:41 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 11:24:43 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 185.7ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 11:25:29 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:25:29 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 11:26:02 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:26:02 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 11:26:08 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:26:08 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 11:26:46 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:26:46 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 11:26:54 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:26:54 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 11:28:33 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:28:33 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 11:28:35 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:28:35 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 11:28:55 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:28:55 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 11:29:04 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:29:04 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 11:29:08 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:29:08 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 11:29:11 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 187.7ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 11:29:49 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:29:49 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 11:29:51 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+[index] missing editable_text "older_news_section_title" (content/older_news)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 146.0ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 11:30:06 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:30:06 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 11:30:08 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 161.2ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 11:31:33 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:31:33 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 11:31:36 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 260.6ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 11:32:44 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:32:44 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 11:33:43 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:33:43 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 11:33:45 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 463.1ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 11:34:27 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:34:27 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 11:34:28 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:34:28 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 11:34:34 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:34:34 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 11:35:12 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 11:35:12 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 13:20:12 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 190.6ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 13:20:20 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 154.1ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 13:24:13 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:24:13 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 13:25:30 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:25:30 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 13:25:36 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+  [0;31;49mError: Liquid syntax error: Unknown tag 'endcapture'[0m
+  /Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:48:in `unknown_tag'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:73:in `block in parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:34:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:63:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/tags/editable/base.rb:28:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:63:in `parse_body'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:5:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/template.rb:124:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/template.rb:24:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/services/liquid_parser_service.rb:19:in `_parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/tags/extends.rb:29:in `parse_parent_template'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/extends.rb:30:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:5:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/template.rb:124:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/template.rb:24:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/services/liquid_parser_service.rb:19:in `_parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/tags/extends.rb:29:in `parse_parent_template'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/extends.rb:30:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tag.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:27:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:10:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/document.rb:5:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/template.rb:124:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/template.rb:24:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/services/liquid_parser_service.rb:19:in `_parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/services/liquid_parser_service.rb:9:in `parse'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/renderer.rb:33:in `parse_and_render_liquid'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/renderer.rb:22:in `render_page'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/renderer.rb:10:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/path.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/locale.rb:24:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/i18n-0.7.0/lib/i18n.rb:257:in `with_locale'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/locale.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/timezone.rb:16:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5/lib/active_support/core_ext/time/zones.rb:48:in `use_zone'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/timezone.rb:15:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/robots.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/logging.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/default_env.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_wagon-2.0.0.rc5/lib/locomotive/wagon/middlewares/error_page.rb:16:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/dragonfly-1.0.12/lib/dragonfly/middleware.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/dynamic_assets.rb:20:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/static.rb:124:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/favicon.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-rewrite-1.5.1/lib/rack/rewrite.rb:24:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/builder.rb:153:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:86:in `block in pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `catch'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `block in spawn_threadpool'
+service=listen action=reload resource=pages timestamp=2015-12-08 13:26:22 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:26:22 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 13:26:28 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection" (css_injection)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 185.2ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 13:27:23 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:27:23 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 13:28:27 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:28:27 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 13:28:38 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:28:38 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 13:28:41 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:28:41 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 13:28:45 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  [0;31;49mError: undefined method `each' for "css_injection_block/css_injection_zone":String[0m
+  /Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem/yaml_loaders/page.rb:149:in `update_editable_elements'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem/yaml_loaders/page.rb:72:in `update'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem/yaml_loaders/page.rb:27:in `block (2 levels) in load_tree'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem/yaml_loaders/page.rb:108:in `block in each_file'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem/yaml_loaders/page.rb:99:in `each'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem/yaml_loaders/page.rb:99:in `each_file'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem/yaml_loaders/page.rb:24:in `block in load_tree'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem/yaml_loaders/page.rb:23:in `tap'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem/yaml_loaders/page.rb:23:in `load_tree'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem/yaml_loaders/page.rb:13:in `load'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem.rb:100:in `collection'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem.rb:88:in `block in populate_dataset'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem/sanitizer.rb:20:in `with'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem.rb:87:in `populate_dataset'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem.rb:82:in `block in dataset'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem.rb:81:in `tap'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem.rb:81:in `dataset'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem.rb:72:in `block in memoized_dataset'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem/simple_cache_store.rb:11:in `fetch'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem.rb:71:in `memoized_dataset'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem.rb:28:in `all'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem.rb:67:in `_query'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem.rb:32:in `query'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/models/repository.rb:44:in `query'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/repositories/page_repository.rb:16:in `all'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/repositories/page_repository.rb:45:in `matching_fullpath'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/services/page_finder_service.rb:18:in `block in match'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/services/concerns/decorator.rb:11:in `decorate'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/services/page_finder_service.rb:17:in `match'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/page.rb:28:in `fetch_page'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/page.rb:14:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/path.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/locale.rb:24:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/i18n-0.7.0/lib/i18n.rb:257:in `with_locale'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/locale.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/timezone.rb:16:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5/lib/active_support/core_ext/time/zones.rb:48:in `use_zone'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/timezone.rb:15:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/robots.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/logging.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/default_env.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_wagon-2.0.0.rc5/lib/locomotive/wagon/middlewares/error_page.rb:16:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/dragonfly-1.0.12/lib/dragonfly/middleware.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/dynamic_assets.rb:20:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/static.rb:124:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/favicon.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-rewrite-1.5.1/lib/rack/rewrite.rb:24:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/builder.rb:153:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:86:in `block in pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `catch'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `block in spawn_threadpool'
+service=listen action=reload resource=pages timestamp=2015-12-08 13:29:01 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:29:01 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 13:29:03 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 154.7ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 13:33:01 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:33:01 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 13:34:29 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:34:29 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 13:35:55 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:35:55 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 13:36:05 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:36:05 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 13:36:12 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:36:12 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 13:38:52 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:38:52 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 13:40:26 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:40:26 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 13:40:51 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:40:51 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 13:41:13 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:41:13 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 13:44:29 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:44:29 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 13:47:12 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:47:12 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 13:47:43 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:47:44 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 13:48:00 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:48:00 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 13:48:04 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[index] missing editable_file "photo" (content/header)
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 230.9ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 13:49:48 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:49:48 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 13:49:52 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 180.5ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 13:50:25 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:50:25 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 13:52:18 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:52:18 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 13:52:37 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:52:37 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 13:52:43 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:52:43 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 13:52:53 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 141.7ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 13:53:07 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:53:07 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 13:53:08 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 180.6ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 13:53:15 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 13:53:15 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 13:53:21 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 166.4ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:00:26 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:00:26 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:01:19 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 275.4ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:02:41 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:02:41 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:02:44 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:02:44 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:03:37 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:03:37 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:03:47 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:03:47 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:04:24 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:04:24 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:04:39 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:04:39 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:08:31 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:08:31 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:08:45 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:08:45 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:09:02 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:09:02 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:09:07 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 192.1ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:10:17 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:10:17 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:10:20 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 167.2ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:12:30 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:12:30 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:12:32 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:12:32 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:12:44 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:12:44 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:13:03 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:13:03 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:13:06 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 185.0ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:13:50 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:13:50 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:13:57 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 179.4ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:14:15 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:14:15 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:14:17 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 217.8ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:14:39 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:14:39 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:14:44 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:14:44 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:14:47 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 141.5ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:14:54 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:14:54 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:15:08 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:15:08 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:15:12 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 410.2ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:15:47 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:15:47 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:15:49 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 131.9ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:16:32 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:16:32 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:16:40 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[index] missing editable_file "photo" (content/test/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 135.0ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:18:39 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:18:39 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:19:09 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:19:09 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:19:18 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:19:18 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:20:13 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:20:13 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:23:34 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:23:34 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:23:43 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:23:43 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:25:56 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:25:56 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:26:06 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 141.6ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:27:42 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:27:42 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:27:47 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:27:47 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:28:54 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:28:54 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:30:27 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:30:27 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:32:07 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:32:07 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:32:10 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 186.9ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:32:42 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:32:42 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:33:45 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:33:45 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:33:47 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 160.7ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:34:04 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:34:04 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:35:25 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:35:25 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:35:29 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 172.7ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:36:06 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:36:06 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:36:15 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:36:15 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:36:20 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 165.0ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:37:21 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:37:21 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:37:24 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 196.9ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:38:07 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:38:07 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:38:08 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:38:08 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:38:11 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 182.9ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:40:48 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:40:48 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:40:52 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 197.3ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:41:30 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:41:30 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:41:30 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:41:30 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:41:34 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 164.0ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 14:42:37 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:42:37 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:42:42 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:42:42 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:42:54 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:42:54 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 14:48:07 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 14:48:07 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:48:07 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:48:07 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 14:48:07 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 14:48:07 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 14:48:24 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 14:48:24 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:48:24 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:48:24 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 14:48:24 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 14:48:24 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 14:49:41 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 14:49:41 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:49:41 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:49:41 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 14:49:41 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 14:49:41 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 14:49:57 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 14:49:57 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:49:57 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:49:57 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 14:49:57 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 14:49:57 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 14:50:45 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 14:50:45 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:50:45 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:50:45 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 14:50:45 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 14:50:45 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 14:51:52 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 14:52:00 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 14:52:00 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:52:52 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:52:52 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 14:52:53 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 200.4ms
+
+[0m
+service=listen action=reload resource=site timestamp=2015-12-08 14:53:13 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 14:53:13 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:53:13 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:53:13 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 14:53:13 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 14:53:13 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 14:53:25 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 14:53:25 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 14:53:25 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 14:53:25 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 14:53:25 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 14:53:25 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:00:46 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:00:46 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:11:03 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:11:03 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:13:17 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:13:30 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:13:30 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:14:40 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:14:47 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:15:50 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:15:50 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:16:05 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:16:05 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:16:28 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:16:28 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:18:06 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:18:06 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:19:17 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:19:17 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:19:37 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:23:59 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:25:25 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:25:40 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:29:12 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:29:12 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:31:17 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:31:17 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:34:24 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:34:24 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:37:10 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:37:15 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 15:37:27 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:37:27 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 15:37:27 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 15:37:27 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:37:27 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 15:37:27 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 15:37:38 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:37:38 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 15:37:38 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 15:37:38 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:37:38 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 15:37:38 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:38:13 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:38:13 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:38:36 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:38:36 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:39:09 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:39:09 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:39:29 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:39:29 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:39:50 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:39:50 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:40:13 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:40:13 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:41:12 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:41:12 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:41:53 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:41:53 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:41:55 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:41:55 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:42:15 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:42:15 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:43:01 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:43:01 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:43:43 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 15:44:26 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:44:26 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 15:44:26 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 15:44:26 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:44:26 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 15:44:26 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:48:26 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 15:49:38 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:49:38 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 15:49:38 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 15:49:38 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:49:38 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 15:49:38 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 15:50:02 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:50:02 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 15:50:02 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 15:50:02 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:50:02 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 15:50:02 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:50:44 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:50:44 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:51:22 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:51:22 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:51:27 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:51:27 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:51:46 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:51:46 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 15:53:18 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:53:18 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 15:53:18 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 15:53:18 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:53:18 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 15:53:18 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:53:33 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:53:33 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 15:53:46 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:53:46 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 15:53:46 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 15:53:46 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:53:46 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 15:53:46 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:57:05 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:57:05 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:57:40 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:57:40 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:58:17 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:58:17 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:58:22 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:58:22 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 15:59:46 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 15:59:46 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 15:59:46 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 15:59:46 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 15:59:46 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 15:59:46 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 16:00:00 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 16:00:00 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:00:00 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:00:00 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 16:00:00 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 16:00:00 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 16:00:12 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 16:00:12 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:00:12 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:00:12 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 16:00:12 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 16:00:12 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 16:01:17 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 2396.5ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/about" at 2015-12-08 16:01:28 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "About" [about]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[about] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[about] missing editable_file "photo" (content/header/featured_photo)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 811.3ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/news" at 2015-12-08 16:01:49 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News" [news]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 276.7ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/news/my-english-news-post" at 2015-12-08 16:01:54 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News template" [news/content_type_template]
+  Found content entry: My English News Post
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news/content_type_template] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 892.7ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 16:03:01 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:03:01 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:03:58 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:03:58 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:04:01 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:04:01 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:04:23 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:04:23 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:05:07 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:05:07 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:05:41 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:05:41 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:05:52 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:05:52 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:06:30 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:06:30 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:06:59 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:06:59 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:07:36 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:07:36 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:07:43 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:07:43 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:08:09 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:08:09 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:08:31 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:08:31 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/news/my-english-news-post" at 2015-12-08 16:08:45 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "News template" [news/content_type_template]
+  Found content entry: My English News Post
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[news/content_type_template] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 163.9ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-08 16:08:53 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 364.2ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/index" at 2015-12-08 16:08:58 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 335.3ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 16:09:28 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:09:28 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:09:43 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:09:43 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:09:54 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:09:54 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:10:02 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:10:02 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:10:04 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:10:04 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/index" at 2015-12-08 16:10:06 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 418.4ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 16:21:23 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:21:23 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:21:36 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:21:36 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:21:50 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:21:50 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:21:56 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:21:56 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:22:32 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:22:32 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:22:36 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:22:36 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:22:50 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:22:50 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:22:52 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:22:52 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:24:00 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:24:00 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:25:01 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:25:01 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:25:11 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:25:11 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:25:34 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:25:34 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:26:36 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:26:36 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:27:04 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:27:04 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:27:11 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:27:11 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:27:48 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:27:48 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:28:01 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:28:01 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:29:36 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:29:36 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:30:26 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:30:26 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:30:35 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:30:35 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:31:18 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:31:18 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:33:45 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:33:45 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:33:55 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:33:55 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 16:54:31 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:54:31 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/index" at 2015-12-08 16:54:35 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 447.3ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 16:55:10 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 16:55:10 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 17:00:58 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:00:58 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 17:01:12 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:01:12 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/index" at 2015-12-08 17:01:18 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 415.1ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 17:01:36 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:01:36 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/index" at 2015-12-08 17:01:39 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 441.2ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/index" at 2015-12-08 17:03:32 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 301.9ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/index" at 2015-12-08 17:04:37 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 325.2ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 17:05:30 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:05:30 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/index" at 2015-12-08 17:05:32 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 369.8ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 17:06:14 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:06:14 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/index" at 2015-12-08 17:06:16 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 340.3ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 17:06:25 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:06:25 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 17:06:25 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:06:25 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 17:07:19 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:07:19 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/index" at 2015-12-08 17:07:24 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 372.6ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 17:07:38 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:07:38 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/index" at 2015-12-08 17:07:40 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 340.6ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 17:07:53 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:07:53 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/index" at 2015-12-08 17:07:58 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 369.5ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 17:08:42 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:08:42 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/index" at 2015-12-08 17:08:44 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 333.6ms
+
+[0m
+service=listen action=reload resource=site timestamp=2015-12-08 17:09:17 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 17:09:17 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 17:09:17 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:09:17 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 17:09:17 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 17:09:17 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 17:10:57 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 17:10:57 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 17:10:57 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:10:57 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 17:10:57 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 17:10:57 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 17:11:56 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 17:11:56 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 17:11:56 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:11:56 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 17:11:56 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 17:11:56 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 17:12:10 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 17:12:10 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 17:12:10 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:12:10 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 17:12:10 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 17:12:10 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 17:16:46 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:16:46 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 17:17:08 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:17:08 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 17:17:16 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:17:16 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 17:17:24 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:17:24 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 17:17:58 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 17:17:58 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 17:17:58 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:17:58 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 17:17:58 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 17:17:58 +0100
+service=listen action=reload resource=site timestamp=2015-12-08 17:18:11 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-08 17:18:11 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 17:18:11 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:18:11 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-08 17:18:11 +0100
+service=listen action=reload resource=translations timestamp=2015-12-08 17:18:11 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 17:20:32 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:20:32 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 17:25:24 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:25:24 +0100
+service=listen action=reload resource=pages timestamp=2015-12-08 17:25:53 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:25:53 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/index" at 2015-12-08 17:25:58 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 343.1ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 17:26:05 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:26:05 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/index" at 2015-12-08 17:27:06 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 349.4ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 17:27:57 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:27:57 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/index" at 2015-12-08 17:28:02 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 397.8ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-08 17:28:16 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-08 17:28:16 +0100
+service=listen action=reload resource=pages timestamp=2015-12-09 00:42:38 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 00:42:38 +0100
+service=listen action=reload resource=pages timestamp=2015-12-09 00:42:56 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 00:42:56 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr" at 2015-12-09 00:43:08 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[0;33;49mMissing translation 'Amitié franco-russe, amitié franco-chinoise' for the 'fr' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 432.8ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-09 00:43:14 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home NEW" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 664.1ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-09 00:44:04 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 00:44:04 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-09 00:44:11 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home NEW" [index]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 389.3ms
+
+[0m
+service=listen action=reload resource=site timestamp=2015-12-09 00:44:29 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-09 00:44:29 +0100
+service=listen action=reload resource=pages timestamp=2015-12-09 00:44:29 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 00:44:29 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-09 00:44:29 +0100
+service=listen action=reload resource=translations timestamp=2015-12-09 00:44:29 +0100
+service=listen action=reload resource=site timestamp=2015-12-09 00:46:34 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-09 00:46:34 +0100
+service=listen action=reload resource=pages timestamp=2015-12-09 00:46:34 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 00:46:34 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-09 00:46:34 +0100
+service=listen action=reload resource=translations timestamp=2015-12-09 00:46:34 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/events" at 2015-12-09 01:01:03 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 425.9ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-09 01:29:29 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 01:29:29 +0100
+service=listen action=reload resource=pages timestamp=2015-12-09 01:31:29 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 01:31:29 +0100
+service=listen action=reload resource=pages timestamp=2015-12-09 01:32:35 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 01:32:35 +0100
+service=listen action=reload resource=pages timestamp=2015-12-09 01:34:14 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 01:34:14 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/events" at 2015-12-09 01:34:20 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 201.7ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-09 01:35:06 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 01:35:06 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/events" at 2015-12-09 01:35:08 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Events" [events]
+[0;33;49mMissing translation 'Franco-Russian friendship, Franco-Chinese friendship' for the 'en' locale[0m
+[events] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 168.4ms
+
+[0m
+service=listen action=reload resource=site timestamp=2015-12-09 01:39:06 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-09 01:39:06 +0100
+service=listen action=reload resource=pages timestamp=2015-12-09 01:39:06 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 01:39:06 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-09 01:39:06 +0100
+service=listen action=reload resource=translations timestamp=2015-12-09 01:39:06 +0100
+service=listen action=reload resource=site timestamp=2015-12-09 01:39:28 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-09 01:39:28 +0100
+service=listen action=reload resource=pages timestamp=2015-12-09 01:39:28 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 01:39:28 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-09 01:39:28 +0100
+service=listen action=reload resource=translations timestamp=2015-12-09 01:39:28 +0100
+service=listen action=reload resource=site timestamp=2015-12-09 01:42:58 +0100
+service=listen action=reload resource=content_types timestamp=2015-12-09 01:42:58 +0100
+service=listen action=reload resource=pages timestamp=2015-12-09 01:42:58 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 01:42:58 +0100
+service=listen action=reload resource=content_entries timestamp=2015-12-09 01:42:58 +0100
+service=listen action=reload resource=translations timestamp=2015-12-09 01:42:58 +0100
+service=listen action=reload resource=pages timestamp=2015-12-09 01:43:17 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 01:43:17 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-09 10:06:48 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home NEW" [index]
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 956.3ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-09 10:06:57 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home NEW" [index]
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 317.5ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-09 10:08:09 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 10:08:09 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/" at 2015-12-09 10:08:14 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 374.8ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr" at 2015-12-09 10:08:21 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 352.2ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-09 10:11:46 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 10:11:46 +0100
+service=listen action=reload resource=pages timestamp=2015-12-09 10:12:01 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 10:12:01 +0100
+service=listen action=reload resource=pages timestamp=2015-12-09 10:12:18 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 10:12:18 +0100
+service=listen action=reload resource=pages timestamp=2015-12-09 10:12:26 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 10:12:26 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr" at 2015-12-09 10:12:55 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 426.4ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/zh-CN/index" at 2015-12-09 10:13:11 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale ZH-CN
+  Found page "欢迎" [index]
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+Unable to resize on the fly: nil
+  [0;32;49mCompleted 200 OK in 385.8ms
+
+[0m
+service=listen action=reload resource=pages timestamp=2015-12-09 11:08:59 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 11:08:59 +0100
+service=listen action=reload resource=pages timestamp=2015-12-09 11:09:13 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 11:09:13 +0100
+service=listen action=reload resource=pages timestamp=2015-12-09 11:09:18 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 11:09:18 +0100
+service=listen action=reload resource=pages timestamp=2015-12-09 11:09:23 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 11:09:23 +0100
+service=listen action=reload resource=pages timestamp=2015-12-09 11:18:54 +0100
+service=listen action=reload resource=snippets timestamp=2015-12-09 11:18:54 +0100
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/fr/index" at 2015-12-09 11:19:11 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale FR
+  Found page "Accueil" [index]
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'fr' locale[0m
+  [0;32;49mCompleted 200 OK in 534.7ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/en/index" at 2015-12-09 11:19:23 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  [0;34;49mRedirected to /index[0m
+  [0;32;49mCompleted 301 Found in 0.8ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/index" at 2015-12-09 11:19:23 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "Home" [index]
+[index] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+Unable to resize on the fly: nil
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+  [0;32;49mCompleted 200 OK in 357.4ms
+
+[0m
+[0;97;44mArt des Nations[0m
+[0;97;49mStarted GET "/about" at 2015-12-09 11:19:26 +0100[0m
+  Params: {}
+  Timezone: Paris
+  Detecting locale EN
+  Found page "About" [about]
+[about] missing editable_text "css_injection_zone" (css_injection_block)
+[0;33;49mMissing translation 'zh-CN' for the 'en' locale[0m
+[about] missing editable_file "photo" (content/header/featured_photo)
+  [0;31;49mError: undefined method `group' for #<Locomotive::Steam::ContentEntry:0x007fb87f4da500>[0m
+  /Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/models/entity.rb:22:in `method_missing'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/entities/content_entry.rb:34:in `method_missing'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/memory/condition.rb:50:in `entry_value'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/memory/condition.rb:22:in `matches?'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/memory/query.rb:94:in `block (2 levels) in filtered'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/memory/query.rb:93:in `each'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/memory/query.rb:93:in `block in filtered'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/memory/query.rb:90:in `each'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/memory/query.rb:90:in `find_all'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/memory/query.rb:90:in `filtered'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/memory/query.rb:68:in `all'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/adapters/filesystem.rb:61:in `count'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/models/repository.rb:48:in `count'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/repositories/content_entry_repository.rb:52:in `count'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/drops/content_entry_collection.rb:26:in `count'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/drop.rb:37:in `invoke_drop'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/context.rb:197:in `lookup_and_evaluate'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/variable_lookup.rb:46:in `block in evaluate'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/variable_lookup.rb:36:in `each_index'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/variable_lookup.rb:36:in `evaluate'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/context.rb:164:in `evaluate'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/variable.rb:78:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:105:in `render_token'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:87:in `block in render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:74:in `each'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:74:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/for.rb:115:in `block (2 levels) in render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/for.rb:102:in `each'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/for.rb:102:in `each_with_index'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/for.rb:102:in `block in render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/context.rb:128:in `stack'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/for.rb:101:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:105:in `render_token'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:87:in `block in render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:74:in `each'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:74:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:15:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-solid-4.0.1/lib/solid/block.rb:8:in `block (2 levels) in render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/tags/with_scope.rb:36:in `block in display'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/context.rb:128:in `stack'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/tags/with_scope.rb:34:in `display'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-solid-4.0.1/lib/solid/block.rb:7:in `block in render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-solid-4.0.1/lib/solid/element.rb:20:in `with_context'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-solid-4.0.1/lib/solid/block.rb:6:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:105:in `render_token'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:87:in `block in render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:74:in `each'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:74:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:15:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/tags/editable/model.rb:9:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:105:in `render_token'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:87:in `block in render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:74:in `each'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:74:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:15:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/inherited_block.rb:71:in `block in render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/context.rb:128:in `stack'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/inherited_block.rb:64:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/tags/inherited_block.rb:42:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:105:in `render_token'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:87:in `block in render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:74:in `each'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:74:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:15:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/inherited_block.rb:71:in `block in render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/context.rb:128:in `stack'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/tags/inherited_block.rb:64:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/tags/inherited_block.rb:42:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:105:in `render_token'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:87:in `block in render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:74:in `each'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:74:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:15:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/tags/extends.rb:10:in `block in render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/context.rb:128:in `stack'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/tags/extends.rb:8:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:105:in `render_token'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:87:in `block in render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:74:in `each'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:74:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block.rb:15:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/tags/extends.rb:10:in `block in render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/context.rb:128:in `stack'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/tags/extends.rb:8:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:105:in `render_token'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:87:in `block in render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:74:in `each'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/block_body.rb:74:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/template.rb:215:in `block in render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/template.rb:269:in `with_profiling'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-liquid-4.0.0/lib/liquid/template.rb:214:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/liquid/template.rb:17:in `render'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/renderer.rb:34:in `parse_and_render_liquid'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/renderer.rb:22:in `render_page'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/renderer.rb:10:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/path.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/locale.rb:24:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/i18n-0.7.0/lib/i18n.rb:257:in `with_locale'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/locale.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/timezone.rb:16:in `block in _call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5/lib/active_support/core_ext/time/zones.rb:48:in `use_zone'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/timezone.rb:15:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/robots.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/logging.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:18:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/default_env.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:23:in `next'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_wagon-2.0.0.rc5/lib/locomotive/wagon/middlewares/error_page.rb:16:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/thread_safe.rb:13:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:23:in `_call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-livereload-0.3.16/lib/rack/livereload.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/dragonfly-1.0.12/lib/dragonfly/middleware.rb:14:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/dynamic_assets.rb:20:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/static.rb:124:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms_steam-1.0.0.rc8/lib/locomotive/steam/middlewares/favicon.rb:15:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-rewrite-1.5.1/lib/rack/rewrite.rb:24:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/builder.rb:153:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:86:in `block in pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `catch'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `pre_process'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `call'
+/Users/cedriclor/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:1062:in `block in spawn_threadpool'

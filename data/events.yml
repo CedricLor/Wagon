@@ -1,7 +1,11 @@
 - "Sample 1":
     description: "Odio ad eaque voluptate aut amet earum et. Nihil necessitatibus excepturi fugiat veritatis et ut. Atque blanditiis suscipit mollitia rerum voluptas id eum. Aliquid voluptas qui."
-    location: Paris, Théâtre National du Palais de Chaillot
-    category: Dance
+    location: "Paris, Théâtre National du Palais de Chaillot"
+    category:
+      en: 'Dance'
+      fr: 'Danse'
+      ru: 'танец'
+      zh_CN: "舞蹈"
     main_star: Alexeï Guerman
     event_date: 2015/12/03 # YYYY/MM/DD
     event_start_date: 2015/12/24
@@ -10,8 +14,12 @@
 
 - "Sample 2":
     description: "Aliquam eos modi labore est. Tenetur quo veniam. Libero consequatur qui occaecati dolorem dolor laboriosam. Id officiis molestiae iusto."
-    location: Paris, Opéra Garnier
-    category: Theater
+    location: "Paris, Opéra Garnier"
+    category:
+      en: 'Theater'
+      fr: 'Théatre'
+      ru: 'танец'
+      zh_CN: "剧院"
     main_star: Patrick Sommier
     event_date: 2015/12/03 # YYYY/MM/DD
     event_start_date: 2015/12/31
@@ -20,8 +28,12 @@
 
 - "Sample 3":
     description: "Aut aut vero ullam sunt ipsam mollitia. Saepe maxime consequuntur. Asperiores voluptas aut vel commodi ut quia ipsum. Sit quisquam a et veritatis quos."
-    location: Paris, Comédie Française
-    category: Performance
+    location: "Paris, Comédie Française"
+    category:
+      en: 'Performance'
+      fr: 'Performance'
+      ru: 'поэзия'
+      zh_CN: "性能"
     main_star: Axel Bauer
     event_date: 2015/12/03 # YYYY/MM/DD
     event_start_date: 2016/01/02
@@ -30,8 +42,12 @@
 
 - "Sample 4":
     description: "Repellendus quasi sapiente tenetur nemo dolorum. Nobis tempore omnis dolore ut labore quod. Animi inventore commodi omnis illo. Animi ex quis eos autem tempora consequatur in."
-    location: Paris, Théâtre National du Palais de Chaillot
-    category: Poetry
+    location: "Paris, Théâtre National du Palais de Chaillot"
+    category:
+      en: 'Poetry'
+      fr: 'Poésie'
+      ru: 'поэзия'
+      zh_CN: "诗"
     main_star: Emilie Brontë
     event_date: 2015/12/03 # YYYY/MM/DD
     event_start_date: 2016/02/12

@@ -1,22 +1,28 @@
-# development:
-#   host: dev.example.com
-#   email: john@doe.net
-#   password: apassword
-#   # api_key: <your api key here>
-# staging:
-#   host: staging.example.com
-#   email: john@doe.net
-#   password: apassword
-#   # api_key: <your api key here>
+# # development:
+# #   host: dev.example.com
+# #   email: john@doe.net
+# #   password: apassword
+# #   # api_key: <your api key here>
+# # staging:
+# #   host: staging.example.com
+# #   email: john@doe.net
+# #   password: apassword
+# #   # api_key: <your api key here>
+# # production:
+# #   host: www.example.com
+# #   email: john@doe.net
+# #   password: apassword
+# #   # api_key: <your api key here>
+
+
 # production:
-#   host: www.example.com
-#   email: john@doe.net
-#   password: apassword
-#   # api_key: <your api key here>
+#   host: localhost:3000
+#   handle: divine-summer-2948
+#   email: cedric.lor@gmail.com
+#   api_key: 07ba764472caae0d4a00abecfe73b124edd2878a
 
-
-local:
-  host: 0.0.0.0:3000
-  handle: screeching-silence-8251
+production:
+  host: localhost:3000
+  handle: thoughtless-snowflake-7490
   email: cedric.lor@gmail.com
   api_key: 07ba764472caae0d4a00abecfe73b124edd2878a

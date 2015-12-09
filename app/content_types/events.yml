@@ -49,7 +49,9 @@ fields:
     select_options:
       en: ["Dance", "Theater", "Poetry", "Performance"]
       fr: ["Danse", "Théatre", "Poésie", "Performance"]
-    required: true
+      ru: ["танец", "Театр", "поэзия", "Представление"]
+      zh_CN: ["舞蹈", "剧院", "诗", "性能"]
+    required: false
     localized: true
 
 - main_star: # The lowercase, underscored name of the field
@@ -106,7 +108,7 @@ fields:
 - featured_image: # The lowercase, underscored name of the field
     label: Featured image # Human readable name of the field
     type: file
-    required: true
+    required: false
     hint: The main image for the event
     localized: false
 

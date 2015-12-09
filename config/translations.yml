@@ -81,7 +81,7 @@ user_message:
   ru: "Сообщение"
   zh-CH: "信息"
 
-submit_btn_text:
+submit_btn_txt:
   en: "Submit"
   fr: "Envoyer"
   ru:  "Отправить"

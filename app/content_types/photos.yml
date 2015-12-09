@@ -56,12 +56,12 @@ fields:
     localized: false
     class_name: news
 
-- events: # The lowercase, underscored name of the field
-    label: Events # Human readable name of the field
-    type: belongs_to
-    required: false
-    localized: false
-    class_name: events
+# - events: # The lowercase, underscored name of the field
+#     label: Events # Human readable name of the field
+#     type: belongs_to
+#     required: false
+#     localized: false
+#     class_name: events
 
 - event:
     label: Event

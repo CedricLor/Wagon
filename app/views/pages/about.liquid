@@ -92,8 +92,10 @@ editable_elements:
     </div>
 
     {% editable_model members, hint: 'some text' %}
+
       {% with_scope group: 'Board Member' %}
       {% for member in contents.site_members %}
+
         <div class="row">
           <div class="col-sm-12">
 
@@ -114,12 +116,12 @@ editable_elements:
                            {{ member.bio }}
                           </div>
                           <div>
-                          {% with_scope %} <!-- reset with_scope -->
-                            {{ member.news.size }}
-                            {% for item in member.news %}
-                              {{ item.title }}
-                            {% endfor %}
-                          {% endwith_scope %}
+
+                          {{ member.news.size }}
+                          {% for item in member.news %}
+                            {{ item.title }}
+                          {% endfor %}
+
                           </div>
                         </div>
                       </div>
@@ -138,8 +140,10 @@ editable_elements:
 
           </div>
         </div>
+
       {% endfor %}
       {% endwith_scope %}
+
     <!--{% endeditable_model%}-->
 
       <!-- Executives section -->

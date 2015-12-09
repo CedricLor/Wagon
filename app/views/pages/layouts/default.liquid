@@ -1,6 +1,8 @@
 ---
 title: Default layout
 is_layout: true
+editable_elements:
+    'css_injection_block/css_injection_zone': ""
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +11,7 @@ is_layout: true
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="keywords" content="{{ site.meta_keywords | escape | translate }} {{ page.meta_keywords | escape }}">
+    <meta name="keywords" content="{{ site.meta_keywords | escape }} {{ page.meta_keywords | escape }}">
     {% if page.meta_description %}
       <meta name="description" content="{{ page.meta_description | escape }}">
     {% else %}
@@ -31,14 +33,12 @@ is_layout: true
     {{ 'application.css' | stylesheet_tag }}
     {{ 'font.css' | stylesheet_tag }}
 
-    {% block 'css_injection' %}
-      {% capture css_injection %}
-        {% editable_text "css_injection", format: "raw", rows: 20, priority: 5 %}
+    {% block 'css_injection_block' %}
+        {% editable_text "CSS Injection Zone", slug: "css_injection_zone", format: "raw", rows: 20, priority: 5 %}
         {% endeditable_text %}
-      {% endcapture %}
     {% endblock %}
     <style type="text/css">
-      {{ css_injection }}
+      {{ css_injection_block.css_injection_zone }}
     </style>
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
