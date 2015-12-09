@@ -54,10 +54,10 @@ editable_elements:
 
     {% capture header_photo_url %}{% editable_file 'header_photo' %}{% endeditable_file %}{% endcapture %}
 
-    {% editable_text 'Main title for the header section', slug: "main_title", format: "raw", rows: 1, priority: 3 %}
+    {% editable_text 'Main title over the big banner', slug: "main_title", format: "raw", rows: 1, priority: 3 %}
     {% endeditable_text %}
 
-    {% editable_text 'Subtitle for the header section',  slug: "subtitle", format: "raw", rows: 2, priority: 2 %}
+    {% editable_text 'Subtitle over the big banner',  slug: "subtitle", format: "raw", rows: 2, priority: 2 %}
     {% endeditable_text %}
 
     {% editable_text 'Text on the call to action button', slug: "call_to_action_button", format: "raw", rows: 1, priority: 1 %}

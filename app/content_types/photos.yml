@@ -39,6 +39,7 @@ order_by: manually
 fields:
 - legend: # The lowercase, underscored name of the field
     label: Legend # Human readable name of the field
+    hint: You enter a short legend for this photo. This legnd will be displayed below the photo on the news page to which you attach it in the NEWS field below.
     type: string
     required: true
     localized: true
@@ -51,20 +52,16 @@ fields:
 
 - news: # The lowercase, underscored name of the field
     label: News # Human readable name of the field
+    hint: You can attach this photo to one news. It will then be displayed at the bottom of the specific news page.
     type: belongs_to
+    class_name: news
     required: false
     localized: false
-    class_name: news
-
-# - events: # The lowercase, underscored name of the field
-#     label: Events # Human readable name of the field
-#     type: belongs_to
-#     required: false
-#     localized: false
-#     class_name: events
 
 - event:
     label: Event
-    hint: A description of the relationship for the editors
+    hint: You can attach this photo to one news. It will then be displayed at the bottom of the specific news page.
     type: belongs_to
     class_name: events
+    required: false
+    localized: false

@@ -58,6 +58,8 @@ site_published_title:
 posted_at_format:
   en: 'Posted at %-I:%M %p on %B, %-d %Y'
   fr: 'Publié à %-I:%M %p le %-d %B %Y'
+  ru: 'Отправленный в %-I:%M %p %-d %B %Y года'
+  zh-CN: '发表于 %-I:%M %p %Y 年 %-b 月 %-d 日'
 
 locale:
   en: 'English'
@@ -68,6 +70,8 @@ locale:
 the_following_errors_occured:
   en: "The following errors occured"
   fr: "Les erreurs suivantes sont intervenues :"
+  ru: "Следующие ошибки произошли"
+  zh-CN: '下面的错误发生'
 
 email_for_form:
   en: 'Email'
@@ -96,7 +100,53 @@ Menu:
 from:
   en: from
   fr: de
+  ru: "От"
+  zh-CN: "从"
 
 to:
   en: to
   fr: to
+  ru: "в"
+  zh-CN: "到"
+
+article_author:
+  en: "Author"
+  fr: "Auteur"
+  ru: "автор"
+  zh-CN: "作者"
+
+number_of_publications_published_by_this_member:
+  en: "Number of publications by this member: "
+  fr: "Nombre de publications par ce membre : "
+  ru: "Количество публикаций этого пользователя : "
+  zh-CN: "该会员的出版物数量： "
+
+access_the_last_publications_by_this_member:
+  en: "Access the last publications of this member:"
+  fr: "Accédez aux dernières publications de ce membre :"
+  ru: "Доступ к последним публикациям этого пользователя :"
+  zh-CN: "进入该成员的最后出版物："
+
+and_even_more_news_by_this_member:
+  en: "And even more news by this member"
+  fr: "Et encore d'autres publications par ce membre"
+  ru: "И даже больше новостей этого пользователя"
+  zh-CN: "而该会员甚至更多新闻"
+
+biogrpahy:
+  en: "Biography"
+  fr: "Biographie"
+  ru: "биография"
+  zh-CN: "传"
+
+position:
+  en: "Position in Art des Nations"
+  fr: "Rôle dans Art des Nations"
+  ru: "Позиция в искусстве Наций"
+  zh-CN: "在艺术的国地位"
+
+publications_by_this_site_member:
+  en: "Publications by this member on Art des Nations"
+  en: "Publications ce membre sur Art des Nations"
+  ru: "Публикации этого пользователя на искусство Наций"
+  zh-CN: "出版物通过在国家艺术这个会员"

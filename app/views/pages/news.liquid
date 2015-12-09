@@ -5,7 +5,7 @@ published: true
 position: 1
 handle: news_index
 slug: news
-meta_description: "News page of the website of the Centre for the Franco-russian and Franco-chinese friendships"
+meta_description: "News page of the website of Art des Nations"
 ---
 {% extends 'layouts/simple' %}
 
@@ -16,11 +16,27 @@ meta_description: "News page of the website of the Centre for the Franco-russian
   {% block content/main %}
     {% editable_model news, hint: 'some text' %}
 
-      {% for news in contents.news %}
+      {% unless params.selected_tag %}
 
-        <div class="react-card-box hidden" data-read-more="{{ 'read_more' | translate }}" data-teaser='{{ news.teaser | escape }}' data-btn-target="{% path_to news %}" data-image-src="{{ news.featured_image.url | resize: '400x200#' }}" data-card-title="{{ news.title | escape }}">
-        </div>
-      {% endfor %}
+        {% for news in contents.news %}
+
+          <div class="react-card-box hidden" data-read-more="{{ 'read_more' | translate }}" data-teaser='{{ news.teaser | escape }}' data-btn-target="{% path_to news %}" data-image-src="{{ news.featured_image.url | resize: '400x200#' }}" data-card-title="{{ news.title | escape }}">
+          </div>
+
+        {% endfor %}
+
+      {% else %}
+
+        {% with_scope tags.in: params.selected_tag %}
+        {% for news in contents.news %}
+
+          <div class="react-card-box hidden" data-read-more="{{ 'read_more' | translate }}" data-teaser='{{ news.teaser | escape }}' data-btn-target="{% path_to news %}" data-image-src="{{ news.featured_image.url | resize: '400x200#' }}" data-card-title="{{ news.title | escape }}">
+          </div>
+
+        {% endfor %}
+        {% endwith_scope %}
+
+      {% endunless %}
 
       <div id="react-box-container-target-element" class="row news" data-read-more="{{ 'read_more' | translate }}" data-col-class="col-xs-12 col-sm-6 col-md-4" data-clear-fix-classes-for-two-cards="visible-sm" data-clear-fix-classes-for-three-cards="hidden-sm hidden-xs">
       </div>

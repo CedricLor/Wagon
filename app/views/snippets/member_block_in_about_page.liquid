@@ -1,0 +1,76 @@
+<div class="row">
+  <div class="col-sm-12">
+
+    <div class="member-outer-wrapper">
+      <div class="member-inner-wrapper">
+        <div class="container-fluid">
+          <div class="row">
+
+          <!-- Member details block -->
+            <div class="col-xs-12 col-sm-9 md-10">
+              <div class="media">
+
+                <!-- Member photo block -->
+                <div class="media-left">
+                  <a href="{% path_to member %}">
+                    <img class="media-object my-media-size" src="{{ member.member_index_photo.url | default: 'http://loremflickr.com/100/100' | resize: '200x200#' }}" alt="{{ member.full_name }}">
+                  </a>
+                </div>
+
+                <!-- Member bio and publications block -->
+                <div class="media-body my-member-media-body">
+                  <!-- Member bio -->
+                  <h2 class="media-heading my-member-media-heading">{{ member.full_name }}</h2>
+                  <div class="my-member-bio">
+                   {{ member.bio }}
+                  </div>
+                  <!-- Member publications -->
+                  <div class="my-member-amount-of-publications">
+                    <span>{{ 'number_of_publications_published_by_this_member' | translate }}</span><span>{{ member.news.size }}</span>
+                  </div>
+
+                  <div class="my-member-last-three-publications">
+                    <div class="my-member-last-three-publications-heading">
+                      {{ 'access_the_last_publications_by_this_member' | translate }}
+                    </div>
+                    <ul>
+                      {% for item in member.news %}
+
+                        {% unless forloop.index > 3 %}
+                          <li>
+                            <a href="{% path_to item %}">{{ item.title }}</a>
+                          </li>
+                        {% else %}
+                          <li>
+                            <a href="{% path_to member %}">
+                              {{ 'and_even_more_news_by_this_member' | translate }}
+                            </a>
+                          </li>
+                          {% break %}
+                        {% endunless %}
+
+                      {% endfor %}
+                    </ul>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+          <!-- Member button -->
+            <div class="col-xs-12 col-sm-3 md-2">
+              <p class="btn-container my-event-btn-container">
+                <a href="{% path_to member %}" class="btn btn-lg black-square-btn my-member-btn">
+                  {{ 'read_more' | translate }}
+                </a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

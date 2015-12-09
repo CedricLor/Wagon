@@ -7,10 +7,11 @@ meta_description: "About page for Art des Nations - General text and listing of 
 
 editable_elements:
     'content/header/featured_photo/legend': "Dali and Lijiang"
+    'content/header/featured_photo/photo': "/images/china_bridge.jpg"
     'content/main/general_description_of_art_des_nations':
       "
         <p>
-          Thank you for visiting the page of the Centre for the Franco-russian and Franco-chinese friendships. Our centre aims at making the world a place dominated by a triad of super-powers that will enslave all the other people of the world to its common cultural ideology.
+          Thank you for visiting the page of Art des Nations. Our centre aims at making the world a place dominated by a triad of super-powers that will enslave all the other people of the world to its common cultural ideology.
         </p>
         <p>
           We truly hope that you like our project and you will join us dominating the world.
@@ -29,13 +30,10 @@ editable_elements:
 
       {% block 'featured_photo' %}
         {% comment %} Captured and editable legend for the featured photo {% endcomment %}
-        {% capture legend %}
-          {% editable_text "legend", format: "raw", rows: 3, hint: "Text displayed below the photo and in the ALT attribute." %}
-
-          {% endeditable_text %}
-        {% endcapture %}
+        {% editable_text 'Legend for the main photo', slug: 'legend', format: "raw", rows: 3, hint: "Text displayed below the photo and in the ALT attribute." %}
+        {% endeditable_text %}
         {% comment %} Captured and editable file for the featured photo {% endcomment %}
-        {% capture photo %}{% editable_file "photo" %}china_bridge.jpg{% endeditable_file %}{% endcapture %}
+        {% capture photo %}{% editable_file "photo" %}{% endeditable_file %}{% endcapture %}
         {% if photo == '' or photo == 'china_bridge.jpg' %}
           {% assign photo = 'china_bridge.jpg' | theme_image_url %}
         {% endif %}
@@ -47,208 +45,101 @@ editable_elements:
     </div>
   {% endblock %}
 
-
   {% block content/main %}
 
-    {% capture general_description_of_art_des_nations %}
-      {% comment %} Editable text for the description (about_body) {% endcomment %}
-      {% editable_text "general_description_of_art_des_nations", rows: 20, hint: "Please enter here any text describing your organization." %}
-        ''
-      {% endeditable_text %}
-    {% endcapture %}
+  <!------------------------------------------------------------------------------>
 
-    {% capture first_group_heading %}
-      {% editable_text 'first_group_heading', rows: 1, hint: "Please enter here the name of the first group of persons that will be displayed on the about page" %}
-        ''
-      {% endeditable_text %}
-    {% endcapture %}
+    {% comment %} Editable text for the description (about_body) {% endcomment %}
+    {% editable_text "General description of Art des Nations", slug: "general_description_of_art_des_nations", rows: 20 %}
+    {% endeditable_text %}
 
-    {% capture second_group_heading %}
-      {% editable_text 'second_group_heading', rows: 1, hint: "Please enter here the name of the second group of persons that will be displayed on the about page" %}
-        ''
-      {% endeditable_text %}
-    {% endcapture %}
+    {% editable_text "Heading for the first group of members", slug: 'first_group_heading', rows: 1, hint: "Please enter here the name of the first group of persons that will be displayed on the about page" %}
+    {% endeditable_text %}
 
-    {% capture third_group_heading %}
-      {% editable_text 'third_group_heading', rows: 1, hint: "Please enter here the name of the first group of persons that will be displayed on the about page" %}
-        ''
-      {% endeditable_text %}
-    {% endcapture %}
+    {% editable_text "Heading for the second group of members", slug: 'second_group_heading', rows: 1, hint: "Please enter here the name of the second group of persons that will be displayed on the about page" %}
+    {% endeditable_text %}
+
+    {% editable_text "Heading for the third group of members", slug:'third_group_heading', rows: 1, hint: "Please enter here the name of the first group of persons that will be displayed on the about page" %}
+    {% endeditable_text %}
+
+  <!------------------------------------------------------------------------------>
 
     <div class="row">
       <div class="col-sm-12">
-        {{ general_description_of_art_des_nations }}
+        {{ page.editable_elements.content.main.general_description_of_art_des_nations }}
       </div>
     </div>
 
-      <!-- Board Members section -->
+  <!------------------------------------------------------------------------------>
 
-    <div class="row">
-      <div class="col-sm-12">
-        <h1>
-          {{ first_group_heading }}
-        </h1>
+    {% editable_model site_members, hint: 'some text' %}
+
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>
+            {{ page.editable_elements.content.main.first_group_heading }}
+          </h1>
+        </div>
       </div>
-    </div>
-
-    {% editable_model members, hint: 'some text' %}
 
       {% with_scope group: 'Board Member' %}
       {% for member in contents.site_members %}
 
-        <div class="row">
-          <div class="col-sm-12">
-
-            <div class="member-outer-wrapper">
-              <div class="member-inner-wrapper">
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-9 md-10">
-                      <div class="media">
-                        <div class="media-left">
-                          <a href="{% path_to member %}">
-                            <img class="media-object my-media-size" src="{{ member.member_index_photo.url | default: 'http://loremflickr.com/100/100' | resize: '200x200#' }}" alt="{{ member.full_name }}">
-                          </a>
-                        </div>
-                        <div class="media-body my-member-media-body">
-                          <h2 class="media-heading my-member-media-heading">{{ member.full_name }}</h2>
-                          <div class="my-member-bio">
-                           {{ member.bio }}
-                          </div>
-                          <div>
-
-                          {{ member.news.size }}
-                          {% for item in member.news %}
-                            {{ item.title }}
-                          {% endfor %}
-
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-3 md-2">
-                      <p class="btn-container my-event-btn-container">
-                        <a href="{% path_to member %}" class="btn btn-lg black-square-btn my-member-btn">
-                          {{ 'read_more' | translate }}
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
+        {% include 'member_block_in_about_page' with member: member %}
 
       {% endfor %}
       {% endwith_scope %}
 
-    <!--{% endeditable_model%}-->
+    {% endeditable_model %}
+
+  <!------------------------------------------------------------------------------>
+
+    {% editable_model site_members, hint: 'some text' %}
 
       <!-- Executives section -->
-    <div class="row">
-      <div class="col-sm-12">
-        <h1>
-          {{ second_group_heading }}
-        </h1>
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>
+            {{ page.editable_elements.content.main.second_group_heading }}
+          </h1>
+        </div>
       </div>
-    </div>
 
-    <!--{% editable_model members, hint: 'some text' %}-->
       {% with_scope group: 'Executive' %}
       {% for member in contents.site_members %}
-        <div class="row">
-          <div class="col-sm-12">
 
-            <div class="member-outer-wrapper">
-              <div class="member-inner-wrapper">
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-9 md-10">
-                      <div class="media">
-                        <div class="media-left">
-                          <a href="{% path_to member %}">
-                            <img class="media-object my-media-size" src="{{ member.member_index_photo.url | default: 'http://loremflickr.com/100/100' | resize: '200x200#' }}" alt="{{ member.full_name }}">
-                          </a>
-                        </div>
-                        <div class="media-body my-member-media-body">
-                          <h2 class="media-heading my-member-media-heading">{{ member.full_name }}</h2>
-                          <div class="my-member-bio">
-                           {{ member.bio }}
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-3 md-2">
-                      <p class="btn-container my-event-btn-container">
-                        <a href="{% path_to member %}" class="btn btn-lg black-square-btn my-member-btn">
-                          {{ 'read_more' | translate }}
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        {% include 'member_block_in_about_page' with member: member %}
 
-          </div>
-        </div>
       {% endfor %}
       {% endwith_scope %}
-    <!--{% endeditable_model%}-->
+
+    {% endeditable_model %}
+
+  <!------------------------------------------------------------------------------>
+
+    {% editable_model site_members, hint: 'some text' %}
 
       <!-- Executives section -->
-    <div class="row">
-      <div class="col-sm-12">
-        <h1>
-          {{ third_group_heading }}
-        </h1>
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>
+            {{ page.editable_elements.content.main.third_group_heading }}
+          </h1>
+        </div>
       </div>
-    </div>
 
-    <!--{% editable_model members, hint: 'some text' %}-->
       {% with_scope group: 'Contributor' %}
       {% for member in contents.site_members %}
-        <div class="row">
-          <div class="col-sm-12">
 
-            <div class="member-outer-wrapper">
-              <div class="member-inner-wrapper">
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-9 md-10">
-                      <div class="media">
-                        <div class="media-left">
-                          <a href="{% path_to member %}">
-                            <img class="media-object my-media-size" src="{{ member.member_index_photo.url | default: 'http://loremflickr.com/100/100' | resize: '200x200#' }}" alt="{{ member.full_name }}">
-                          </a>
-                        </div>
-                        <div class="media-body my-member-media-body">
-                          <h2 class="media-heading my-member-media-heading">{{ member.full_name }}</h2>
-                          <div class="my-member-bio">
-                           {{ member.bio }}
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-3 md-2">
-                      <p class="btn-container my-event-btn-container">
-                        <a href="{% path_to member %}" class="btn btn-lg black-square-btn my-member-btn">
-                          {{ 'read_more' | translate }}
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        {% include 'member_block_in_about_page' with member: member %}
 
-          </div>
-        </div>
       {% endfor %}
       {% endwith_scope %}
-    {% endeditable_model%}
+
+    {% endeditable_model %}
 
   {% endblock %}
+
+
+
 

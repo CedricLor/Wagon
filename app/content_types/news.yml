@@ -20,7 +20,7 @@ fields:
     label: Posted at # Human readable name of the field
     type: date_time
     required: true
-    localized: false
+    localized: true
 
 - tags: # The lowercase, underscored name of the field
     label: Tags # Human readable name of the field
